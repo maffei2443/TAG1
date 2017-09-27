@@ -34,14 +34,14 @@ void clicks_maxi_node_debug(Graph* G, Nodes * no, set<int> el_clique, set<int> c
 void clicks_maxi_node(Graph* G, Nodes * no, set<int> el_clique, set<int> candidatos, set<int>& inutil);   // Requer ainda um parametro "secreto", que estah no proprio grafo
 void clicks_maxi_node(Graph * G, Nodes * no, set<int>candidatos);
 
-bool big_key(Nodes * a, Nodes * b);
-bool small_key(Nodes * a, Nodes * b);
+bool big_keyy(Nodes * a, Nodes * b);
+bool small_keyy(Nodes * a, Nodes * b);
 bool comp(Nodes * a, Nodes * b);
 bool comp_r(Nodes * a, Nodes * b);
 
-void sort_reach(Graph* G); 		// Ordena do menor ateh maior quanditade de amigos
-void sort_reach_r(Graph* G); // Ordena do maior ateh menor quanditade de amigos
-void sort_key(Graph* G); // Ordena do maior ateh menor quanditade de amigos
+void sort_reach(Graph* G); 		// Ordena do menor ateh maior quanditade de qtd_nxt
+void sort_reach_r(Graph* G); // Ordena do maior ateh menor quanditade de qtd_nxt
+void sort_keyy(Graph* G); // Ordena do maior ateh menor quanditade de qtd_nxt
 
 
 #endif

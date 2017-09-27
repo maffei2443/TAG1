@@ -43,7 +43,7 @@ Graph :: Graph(string, string){
 	this->node.resize(1);	// Assim os node se iniciam pelo numero 1, posicao 1
 	///Abrir o arquivo
 	ifstream arquivo;
-	arquivo.open("amigos");
+	arquivo.open("amigos_tag20172.txt");
 //	arquivo.open("minigrafo");
 	int aux, aux2;
 	string line, s_aux;
@@ -103,7 +103,7 @@ Graph :: Graph(string, string){
 	/// Efetivamente vai criar a list de adjacencia
 	char c;
 	for(int i =1; i < index; i++){
-		this->node[i]->amigos = 0;	// Inicializa o contador de amigos
+//		this->node[i]->amigos = 0;	// Inicializa o contador de amigos; BUG, pois ja estava atualizado :/
 		cout << "Inserindo vizinhos de " << i  << " (Graph(string))"<< endl;
 		for(j=0; (c = friend_list[i][j]) != '\n'; ){
 			aux = 0;					// Vai armazenas a chave do proximo vizinho

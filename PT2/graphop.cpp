@@ -36,21 +36,21 @@ inline void dfs_caminho(Graph * G, Nodes * no){
 void dfs_caminho(Graph * G, Nodes * no, int tabs){
 	vector <bool> neo;
 	neo.resize(1);
-	for(int i=1; i <= G->get_verts(); i++) neo.push_back(G->get_node(i)->visit);
+	for(int i=1; i <= G->get_verts(); i++) neo.push_back(G->get_node(i)->get_visit());
 	dfs_caminho_instavel(G, no, tabs);
-	for(int i=1; i <= G->get_verts(); i++) G->get_node(i)->visit = neo[i];
+	for(int i=1; i <= G->get_verts(); i++) G->get_node(i)->set_visit(neo[i]);
 }
 
 void dfs_caminho_estavel(Graph * G, Nodes * no, set<int>& visit, int tabs){	// Obs: passar set POR REFERENCIA!!!
-	if(visit.count(no->chave) != 0)	return;		//Elemento ja foi visitado
-	visit.insert(no->chave);
+	if(visit.count(no->get_key()) != 0)	return;		//Elemento ja foi visitado
+	visit.insert(no->get_key());
 	Nodes * pivo = no;
 	queue <int> fila;
-	if(pivo->vizinho != NULL)
-		while(pivo->vizinho != NULL){	// ainda tem nos em que incide
-			if(visit.count(G->get_node(pivo->vizinho->chave)->chave) == 0)
-				fila.push(pivo->vizinho->chave);
-			pivo = pivo->vizinho;
+	if(pivo->get_nxt() != NULL)
+		while(pivo->get_nxt() != NULL){	// ainda tem nos em que incide
+			if(visit.count(G->get_node(pivo->get_nxt()->get_key())->get_key()) == 0)
+				fila.push(pivo->get_nxt()->get_key());
+			pivo = pivo->get_nxt();
 		}
 	int aux;
 	while(!fila.empty()){	
@@ -58,24 +58,24 @@ void dfs_caminho_estavel(Graph * G, Nodes * no, set<int>& visit, int tabs){	// O
 		fila.pop();
 		for(int i=0; i < tabs; i++)
 			cout << " ";
-		cout << no->chave << " - " << aux << endl;
+		cout << no->get_key() << " - " << aux << endl;
 		dfs_caminho_estavel(G, G->get_node(aux), visit, tabs+1);
 	}
 }
 
 void dfs_caminho_instavel(Graph * G, Nodes * no, int tabs){
-	if(no->visit == true)	//Elemento ja foi visitado
+	if(no->get_visit() == true)	//Elemento ja foi visitado
 		return;	
-	no->visit = true;
+	no->set_visit(true);
 	Nodes * pivo = no;
 	queue <int> fila;
-	if(pivo->vizinho != NULL)
-		while(pivo->vizinho != NULL){	// ainda tem nos em que incide
-			if(G->get_node(pivo->vizinho->chave)->visit == false)
-				fila.push(pivo->vizinho->chave);
-			pivo = pivo->vizinho;
+	if(pivo->get_nxt() != NULL)
+		while(pivo->get_nxt() != NULL){	// ainda tem nos em que incide
+			if(G->get_node(pivo->get_nxt()->get_key())->get_visit() == false)
+				fila.push(pivo->get_nxt()->get_key());
+			pivo = pivo->get_nxt();
 		}
-//	else	{cout << "Sem proximos" << endl;return;}			// Nao tem vizinhos para visitar	
+//	else	{cout << "Sem proximos" << endl;return;}			// Nao tem nxts para visitar	
 	int aux;
 	while(!fila.empty()){
 		aux = fila.front();
@@ -83,20 +83,20 @@ void dfs_caminho_instavel(Graph * G, Nodes * no, int tabs){
 		fila.pop();
 		for(int i=0; i < tabs; i++)
 			cout << " ";
-		cout << no->chave << " - " << aux << endl;
+		cout << no->get_key() << " - " << aux << endl;
 		dfs_caminho_instavel(G, G->get_node(aux), tabs+1);
 	}
 }
 
 void dfs_pure(Graph * G, Nodes * no, set<int>& visitados){	// Obs: passar set POR REFERENCIA!!!
-	if(visitados.count(no->chave) != 0)	return;			//Elemento ja foi visitado
-	visitados.insert(no->chave);
+	if(visitados.count(no->get_key()) != 0)	return;			//Elemento ja foi visitado
+	visitados.insert(no->get_key());
 	Nodes * pivo = no;
 	queue <int> fila;
-	while(pivo->vizinho != NULL){	// ainda tem nos em que incide
-		if(visitados.count(G->get_node(pivo->vizinho->chave)->chave) == 0)
-			fila.push(pivo->vizinho->chave);
-		pivo = pivo->vizinho;
+	while(pivo->get_nxt() != NULL){	// ainda tem nos em que incide
+		if(visitados.count(G->get_node(pivo->get_nxt()->get_key())->get_key()) == 0)
+			fila.push(pivo->get_nxt()->get_key());
+		pivo = pivo->get_nxt();
 	}
 	int aux;
 	while(!fila.empty()){	
@@ -112,25 +112,25 @@ void bfs_caminho_instavel_debug(Graph * G, Nodes * no){
 	int per_lvl = 1;			// Inicialmente, apenas um noh expansivel
 	int new_per_lvl = 0;
 	int profundidade = 0;
-	cout << "Inicia em: " << no->chave << endl;
+	cout << "Inicia em: " << no->get_key() << endl;
 	Nodes * pivo = no;
 	queue <int> fila;
 	set<int> expandido;
-	fila.push(pivo->chave);
+	fila.push(pivo->get_key());
 	while(!fila.empty()){
 		for(int j=0; j < per_lvl; j++){
 			int aux = fila.front();
-			new_per_lvl += G->get_node(aux)->amigos;		// Nova qtd de elemetos por level
+			new_per_lvl += G->get_node(aux)->get_qtd_nxt();		// Nova qtd de elemetos por level
 			cout << "Expandindo: " << aux << endl;
 			if(expandido.count(aux) == 0){			// Ainda nao foi expandido o noh
-				pivo = G->get_node(aux)->vizinho;
+				pivo = G->get_node(aux)->get_nxt();
 				while(pivo != NULL){	// ainda tem nos em que incide
-					if(expandido.count(pivo->chave) == 0)	// Se nao foi expandido, insere
-						fila.push(pivo->chave);
-					else	cout << "Ciclo! ";// << aux << "-" << pivo->chave << endl;
+					if(expandido.count(pivo->get_key()) == 0)	// Se nao foi expandido, insere
+						fila.push(pivo->get_key());
+					else	cout << "Ciclo! ";// << aux << "-" << pivo->get_key() << endl;
 					for(int i = 0; i < profundidade; i++) cout << " ";
-					cout << aux << "-" << pivo->chave << endl;
-					pivo = pivo->vizinho;
+					cout << aux << "-" << pivo->get_key() << endl;
+					pivo = pivo->get_nxt();
 				}
 			}
 			fila.pop();		expandido.insert(aux);
@@ -142,15 +142,15 @@ void bfs_caminho_instavel_debug(Graph * G, Nodes * no){
 void bfs_caminho_instavel(Graph * G, Nodes * no){
 	Nodes * pivo = no;
 	queue <int> fila;	set <int> expandido;
-	fila.push(pivo->chave);
+	fila.push(pivo->get_key());
 	while(!fila.empty()){
 		int aux = fila.front();
 		if(expandido.count(aux) == 0){			// Ainda nao foi expandido o noh
-			pivo = G->get_node(aux)->vizinho;
+			pivo = G->get_node(aux)->get_nxt();
 			while(pivo != NULL){	// ainda tem nos em que incide
-				if(expandido.count(pivo->chave) == 0)	// Se nao foi expandido, insere
-					fila.push(pivo->chave);
-				pivo = pivo->vizinho;
+				if(expandido.count(pivo->get_key()) == 0)	// Se nao foi expandido, insere
+					fila.push(pivo->get_key());
+				pivo = pivo->get_nxt();
 			}
 		}
 		fila.pop();		expandido.insert(aux);			/// Tira da pilha E marca como expandido
@@ -160,9 +160,9 @@ void bfs_caminho_instavel(Graph * G, Nodes * no){
 void bfs_caminho(Graph * G, Nodes * no){
 	vector <bool> neo;
 	neo.resize(1);
-	for(int i=1; i <= G->get_verts(); i++) neo.push_back(G->get_node(i)->visit);
+	for(int i=1; i <= G->get_verts(); i++) neo.push_back(G->get_node(i)->get_visit());
 	bfs_caminho_instavel_debug(G, no);	
-	for(int i=1; i <= G->get_verts(); i++) G->get_node(i)->visit = neo[i];
+	for(int i=1; i <= G->get_verts(); i++) G->get_node(i)->set_visit(neo[i]);
 }
 
 void bk(Graph * G, int const& min, set<int>clique, set<int>candidatos, set<int>falhos){
@@ -173,26 +173,26 @@ void bk(Graph * G, int const& min, set<int>clique, set<int>candidatos, set<int>f
     	}
     else if(candidatos.empty() == true) return;
     
-    set<int> clique_ext, vizinhos_no, intercecao_cand_vizinhos, intercecao_falhos_vizinhos;
-    set<int>::iterator it_candidatos, it_vizinhos, it_intercecao;
+    set<int> clique_ext, nxts_no, intercecao_cand_nxts, intercecao_falhos_nxts;
+    set<int>::iterator it_candidatos, it_nxts, it_intercecao;
 
     for(it_candidatos = candidatos.begin();it_candidatos != candidatos.end(); it_candidatos = candidatos.begin()){	// Sempre mudo candidato.begin
         clique_ext = clique;
         clique_ext.insert(*it_candidatos);
-        for(Nodes * pivo = G->get_node((*it_candidatos))->vizinho; pivo != NULL; pivo = pivo->vizinho)
-            vizinhos_no.insert(pivo->chave);            //  Usado p/ intercecao com o clique
-        for(it_intercecao = vizinhos_no.begin(); it_intercecao != vizinhos_no.end(); it_intercecao++){
-           if(vizinhos_no.count((*it_intercecao)) > 0 && candidatos.count((*it_intercecao)) > 0)
-                intercecao_cand_vizinhos.insert((*it_intercecao));
-            if(vizinhos_no.count((*it_intercecao)) > 0 && falhos.count((*it_intercecao)) > 0)
-                intercecao_falhos_vizinhos.insert((*it_intercecao));
+        for(Nodes * pivo = G->get_node((*it_candidatos))->get_nxt(); pivo != NULL; pivo = pivo->get_nxt())
+            nxts_no.insert(pivo->get_key());            //  Usado p/ intercecao com o clique
+        for(it_intercecao = nxts_no.begin(); it_intercecao != nxts_no.end(); it_intercecao++){
+           if(nxts_no.count((*it_intercecao)) > 0 && candidatos.count((*it_intercecao)) > 0)
+                intercecao_cand_nxts.insert((*it_intercecao));
+            if(nxts_no.count((*it_intercecao)) > 0 && falhos.count((*it_intercecao)) > 0)
+                intercecao_falhos_nxts.insert((*it_intercecao));
         }     
-        bk(G, min, clique_ext, intercecao_cand_vizinhos, intercecao_falhos_vizinhos);
+        bk(G, min, clique_ext, intercecao_cand_nxts, intercecao_falhos_nxts);
         
         clique_ext.clear();
-        vizinhos_no.clear();
-        intercecao_cand_vizinhos.clear();
-        intercecao_falhos_vizinhos.clear();
+        nxts_no.clear();
+        intercecao_cand_nxts.clear();
+        intercecao_falhos_nxts.clear();
         // Duhhhhhhhhhhhhhhh
         candidatos.erase((*it_candidatos));
         falhos.insert((*it_candidatos));    
@@ -204,7 +204,7 @@ void bk(Graph * G, int min){
     set<int> vazio;
     set<int> cheio;
     for(int i=1; i < G->get_verts()+1; i++)
-        cheio.insert(G->get_node(i)->chave);
+        cheio.insert(G->get_node(i)->get_key());
     //cout << "Inicialmente, candidatos sao:\n";
 //    mostra_set(cheio);
     cout << "Serao mostrados cliques maximais com " << min << "+ componentes:\n";
@@ -218,14 +218,14 @@ void mostra_por_nota(Graph *G){
 		vecbros[i]=0;
 	}
 	for (int i=1;i<=G->get_verts(); i++){
-		vecbros[G->get_node(i)->amigos]++;
+		vecbros[G->get_node(i)->get_qtd_nxt()]++;
 	}
 	for (int i=G->get_verts()-1;i!=0; i--){
 		int j=1;
 		while (vecbros[i]!=0){
-			if (G->get_node(j)->amigos==i){
+			if (G->get_node(j)->get_qtd_nxt()==i){
 				vecbros[i]--;
-				cout << G->get_node(j)->chave << " : " <<G->get_node(j)->matricula << endl;
+				cout << G->get_node(j)->get_key() << " : " <<G->get_node(j)->get_matricula() << endl;
 			}
 			j++;
 		}
@@ -240,32 +240,32 @@ void clicks_maxi_node_debug(Graph* G, Nodes * no, set<int> el_clique, set<int> c
     set<int>::iterator iter, iter2;    // Vai iterar sobre conjunto que forma o clique
     int aux;
     bool maximal, expande;                // Por padrao, eh o maximal.
-    cout << "\n\nNoh atual: " << no->chave << endl;
+    cout << "\n\nNoh atual: " << no->get_key() << endl;
 
-	el_clique.insert(no->chave);		// Insere a si mesmo na lista de node do clique
-    candidatos.erase(no->chave);
+	el_clique.insert(no->get_key());		// Insere a si mesmo na lista de node do clique
+    candidatos.erase(no->get_key());
     Nodes * pivo;						// Vai percorrer lista de adjacencia do noh
-    if(no->amigos != 0){        // Ah nao ser que seja na primeira chamada, TEM que ter amigos
-        for(pivo =  no->vizinho; pivo != NULL; pivo = pivo->vizinho){
-            if(inutil.count(pivo->chave) == 0){   // Se ainda nao foi eh inutil
-              	   	pre_candidatos.push(pivo->chave);   //  Insere na fila p/ VER SE eh candidato
-                  	cout << pivo->chave << " ";
+    if(no->get_qtd_nxt() != 0){        // Ah nao ser que seja na primeira chamada, TEM que ter qtd_nxt
+        for(pivo =  no->get_nxt(); pivo != NULL; pivo = pivo->get_nxt()){
+            if(inutil.count(pivo->get_key()) == 0){   // Se ainda nao foi eh inutil
+              	   	pre_candidatos.push(pivo->get_key());   //  Insere na fila p/ VER SE eh candidato
+                  	cout << pivo->get_key() << " ";
                 }
             }
             cout << '\n';
         }
-        while(pre_candidatos.empty() == false){       // Enquanto fila nao vazia, checar os vizinho recursivamente
+        while(pre_candidatos.empty() == false){       // Enquanto fila nao vazia, checar os nxt recursivamente
             aux = pre_candidatos.front();  pre_candidatos.pop();             
            ////////////////////////		CRIANDO LISTA DOS VIZINHOSS DE G->get_node(aux)
             if(G->adjacentes[aux].empty() == true){	// Tste p/ nao recriar varias vezes a msm lista :P
 	            cout << "Criando lista de adjacencia para " << aux << " :\n";
-	            for(pivo=G->get_node(aux)->vizinho; pivo != NULL; pivo = pivo->vizinho){
-		            G->adjacentes[aux].insert(pivo->chave);
-		            cout << "Inseriu "<< pivo->chave <<"\n";
+	            for(pivo=G->get_node(aux)->get_nxt(); pivo != NULL; pivo = pivo->get_nxt()){
+		            G->adjacentes[aux].insert(pivo->get_key());
+		            cout << "Inseriu "<< pivo->get_key() <<"\n";
 	            }
 	        }
 	        ////////////////////////
-	        // P/ cada aux, ver se ele contem toodos os node do clique como vizinhos
+	        // P/ cada aux, ver se ele contem toodos os node do clique como nxts
 			set<int>::iterator help = el_clique.end();
 	        for(iter2 = el_clique.begin(), expande =true; iter2 != el_clique.end(); iter2++){
 	        	if(G->adjacentes[aux].count(*iter2) == 0){
@@ -306,23 +306,23 @@ void clicks_maxi_node(Graph* G, Nodes * no, set<int> el_clique, set<int> candida
     int aux;
     bool maximal, expande;                // Por padrao, eh o maximal.
 
-	el_clique.insert(no->chave);		// Insere a si mesmo na lista de node do clique
-    candidatos.erase(no->chave);
+	el_clique.insert(no->get_key());		// Insere a si mesmo na lista de node do clique
+    candidatos.erase(no->get_key());
     Nodes * pivo;						// Vai percorrer lista de adjacencia do noh
-    if(no->amigos != 0){        // Ah nao ser que seja na primeira chamada, TEM que ter amigos
-        for(pivo =  no->vizinho; pivo != NULL; pivo = pivo->vizinho)
-//            if(inutil.count(pivo->chave) == 0)   // Se ainda nao foi eh inutil
-              	   	pre_candidatos.push(pivo->chave);   //  Insere na fila p/ VER SE eh candidato                       
+    if(no->get_qtd_nxt() != 0){        // Ah nao ser que seja na primeira chamada, TEM que ter qtd_nxt
+        for(pivo =  no->get_nxt(); pivo != NULL; pivo = pivo->get_nxt())
+//            if(inutil.count(pivo->get_key()) == 0)   // Se ainda nao foi eh inutil
+              	   	pre_candidatos.push(pivo->get_key());   //  Insere na fila p/ VER SE eh candidato                       
         
-        while(pre_candidatos.empty() == false){       // Enquanto fila nao vazia, checar os vizinhos recursivamente
+        while(pre_candidatos.empty() == false){       // Enquanto fila nao vazia, checar os nxts recursivamente
             aux = pre_candidatos.front();  pre_candidatos.pop();             
            ////////////////////////		CRIANDO LISTA DOS VIZINHOSS DE G->get_node(aux)
             if(G->adjacentes[aux].empty() == true)	// Tste p/ nao recriar varias vezes a msm lista :P
-	            for(pivo=G->get_node(aux)->vizinho; pivo != NULL; pivo = pivo->vizinho)
-		            G->adjacentes[aux].insert(pivo->chave);
+	            for(pivo=G->get_node(aux)->get_nxt(); pivo != NULL; pivo = pivo->get_nxt())
+		            G->adjacentes[aux].insert(pivo->get_key());
 	            	       
 	        ////////////////////////
-	        // P/ cada aux, ver se ele contem toodos os node do clique como vizinhos
+	        // P/ cada aux, ver se ele contem toodos os node do clique como nxts
 			set<int>::iterator help = el_clique.end();
 			expande =true;
 	        for(iter2 = el_clique.begin() ; iter2 != el_clique.end(); iter2++){
@@ -363,9 +363,9 @@ void clicks_maxi_node(Graph* G, Nodes * no, set<int> el_clique, set<int> candida
 }
 
 void clicks_maxi_node(Graph * G, Nodes * no, set<int>candidatos){
-    cout << "No base:     " << no->chave << endl;
+    cout << "No base:     " << no->get_key() << endl;
     G->adjacentes.resize(G->get_verts()+1);
-    int amigos[G->get_verts()+1];
+    int qtd_nxt[G->get_verts()+1];
 
     set <int> el_clique, inutil;
     clicks_maxi_node(G, no, el_clique, candidatos, inutil);
@@ -379,16 +379,16 @@ void clicks_maxi_node(Graph * G, Nodes * no, set<int>candidatos){
 void max_click(Graph * G){
 	set<int> candidatos;
 	for(int i = 1; i <= G->get_verts(); i++)
-		candidatos.insert(G->get_node(i)->chave);
+		candidatos.insert(G->get_node(i)->get_key());
 	for(int i = 1; i  <= G->get_verts(); i++)
 		clicks_maxi_node(G, G->get_node(i), candidatos);
 }
 
-bool big_key(Nodes * a, Nodes * b){return (a->chave < b->chave);}	// Ordena crescente
-bool small_key(Nodes * a, Nodes * b){return (a->chave > b->chave);}	// Ordena decrescente
+bool big_keyy(Nodes * a, Nodes * b){return (a->get_key() < b->get_key());}	// Ordena crescente
+bool small_keyy(Nodes * a, Nodes * b){return (a->get_key() > b->get_key());}	// Ordena decrescente
 
-bool comp(Nodes * a, Nodes * b){if(a->amigos != b->amigos)return (a->amigos < b->amigos);	return big_key(a,b);}	// Ordena crescente
-bool comp_r(Nodes * a, Nodes * b){if(a->amigos != b->amigos) return (a->amigos > b->amigos); return small_key(a,b);}	// Ordena crescente
+bool comp(Nodes * a, Nodes * b){if(a->get_qtd_nxt() != b->get_qtd_nxt())return (a->get_qtd_nxt() < b->get_qtd_nxt());	return big_keyy(a,b);}	// Ordena crescente
+bool comp_r(Nodes * a, Nodes * b){if(a->get_qtd_nxt() != b->get_qtd_nxt()) return (a->get_qtd_nxt() > b->get_qtd_nxt()); return small_keyy(a,b);}	// Ordena crescente
 
 
 void sort_reach(Graph * G){	
@@ -399,6 +399,6 @@ void sort_reach_r(Graph * G){
 	sort(G->iterador()+1, G->iterador() + G->get_verts() + 1 , comp_r);
 }
 
-void sort_key(Graph* G){
-	sort(G->iterador()+1, G->iterador() + G->get_verts() + 1 , big_key);
+void sort_keyy(Graph* G){
+	sort(G->iterador()+1, G->iterador() + G->get_verts() + 1 , big_keyy);
 }

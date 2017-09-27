@@ -34,7 +34,7 @@ public:
 	void mk_bi();			// Arestas direcionadas passam a ser sem direcao
 	void reset();			/// Apaga o grafo
 	void insert(Nodes*);	/// Insere novo noh no grafo
-	void insert_nxt(int, Nodes*, int);	/// Indice do no de origem,No vizinho e o custo do caminho
+	void insert_qtd_nxt(int, Nodes*, int);	/// Indice do no de origem,No nxt e o cost do caminho
 //	void insert_end(int, Nodes*, int);	/// Insere no final da lista
 
 	void cliques_no_maximais(Nodes * no, set<int>candidatos);

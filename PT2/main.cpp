@@ -20,14 +20,17 @@ using namespace std;
 //*/
 
 int main(){
-//    Graph * G = new Graph("sdd", ""); 
-	Graph * G = new Graph("ssd"); 
+	cout << "Vai Criar grafo" << endl;
+	Graph * G = new Graph("");
+//	Graph * G = new Graph(""); 
 	cout << "Criou grafo" << endl;
     G->mk_bi();					// Força a bidirecao
 	cout << "Virou bi" << endl;
+
 	G->show();
 
 	cout << "Cliques maximos/maximais de grau 6 (os maiores da turma):\n";
     bk(G, 6);			// Pertence aa biblioteca graphop.hpp
+//*/
 	return 0;
 }
