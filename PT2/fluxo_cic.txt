@@ -1,3 +1,4 @@
+35
 id	Codigo		Creditos		Peso		Nome	Pre-requisitos
 
 1	113034		6				2			C1		0
@@ -31,7 +32,7 @@ id	Codigo		Creditos		Peso		Nome	Pre-requisitos
 
 25	116432		4				3			SB 		10 7
 26	117960		4				2			FSO		21
-27	116882		6				3			AC 		12 | 0 TN1
+27	116882		6				3			AC 		12 | 0
 28	116416		4				1			SI 		7 | 23
 29	117943		4				2			CE 		7 14
 

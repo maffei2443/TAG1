@@ -1,0 +1,2548 @@
+35
+id	Codigo		Creditos		Peso		Nome	Pre-requisitos
+Construiu grafo do fluxo 
+Mostrando grafo: 
+****** i == 1 ******
+ key		  : 113034
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : C1
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 327631
+ Matricula	  : 113034
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : C1
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 3276271
+ Matricula	  : 113034
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : C1
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 32762710
+ Matricula	  : 113034
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : C1
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 2 ******
+ key		  : 113468
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : ISC
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1597032658
+ Matricula	  : 113468
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ISC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -1018696725
+ Matricula	  : 113468
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ISC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 327627061
+ Matricula	  : 113468
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ISC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 3 ******
+ key		  : 113450
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : FTC
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -789476277
+ Matricula	  : 113450
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : FTC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 695171822
+ Matricula	  : 113450
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : FTC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 1209542565
+ Matricula	  : 113450
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : FTC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 4 ******
+ key		  : 113476
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : APC
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1638216411
+ Matricula	  : 113476
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : APC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -612884242
+ Matricula	  : 113476
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : APC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 797705035
+ Matricula	  : 113476
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : APC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 5 ******
+ key		  : 116726
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : ISC
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1833875140
+ Matricula	  : 116726
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ISC
+ cost:	      : 2
+ visit 	  : 0
+
+
+
+
+ key		  : -1158882255
+ Matricula	  : 116726
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ISC
+ cost:	      : 2
+ visit 	  : 0
+
+
+
+
+ key		  : 1296079338
+ Matricula	  : 116726
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ISC
+ cost:	      : 2
+ visit 	  : 0
+
+
+
+
+****** i == 6 ******
+ key		  : 116351
+ Matricula	  : 0
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : CD
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1417939618
+ Matricula	  : 116351
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CD
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -1000787421
+ Matricula	  : 116351
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CD
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 75891476
+ Matricula	  : 116351
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CD
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 758914721
+ Matricula	  : 116351
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CD
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 7 ******
+ key		  : 116319
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : ED
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1294494331
+ Matricula	  : 116319
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ED
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -600414606
+ Matricula	  : 116319
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ED
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -60041461
+ Matricula	  : 116319
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ED
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+****** i == 8 ******
+ key		  : 113042
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : C2
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1709178803
+ Matricula	  : 113042
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : C2
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : 88081115
+ Matricula	  : 113042
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : C2
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : 880811151
+ Matricula	  : 113042
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : C2
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+****** i == 9 ******
+ key		  : 113093
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : IAL
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -2113198545
+ Matricula	  : 113093
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : IAL
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 218176879
+ Matricula	  : 113093
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : IAL
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 342851030
+ Matricula	  : 113093
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : IAL
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+****** i == 10 ******
+ key		  : 116394
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : OAC
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -866457035
+ Matricula	  : 116394
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : OAC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -746357964
+ Matricula	  : 116394
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : OAC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -74635797
+ Matricula	  : 116394
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : OAC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 11 ******
+ key		  : 117889
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : TP1
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1621352797
+ Matricula	  : 117889
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TP1
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 966341221
+ Matricula	  : 117889
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TP1
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1126354913
+ Matricula	  : 117889
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TP1
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+****** i == 12 ******
+ key		  : 113107
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : A1
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -26424890
+ Matricula	  : 113107
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : A1
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1073477579
+ Matricula	  : 113107
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : A1
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 2144841159
+ Matricula	  : 113107
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : A1
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+****** i == 13 ******
+ key		  : 113417
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : CN
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -655090506
+ Matricula	  : 113417
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CN
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -264248939
+ Matricula	  : 113417
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CN
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1652477867
+ Matricula	  : 113417
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CN
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+****** i == 14 ******
+ key		  : 115045
+ Matricula	  : 0
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : PE
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1084541359
+ Matricula	  : 115045
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PE
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -1079953889
+ Matricula	  : 115045
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PE
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 2039029516
+ Matricula	  : 115045
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PE
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 2039488259
+ Matricula	  : 115045
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PE
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 15 ******
+ key		  : 117366
+ Matricula	  : 0
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : LC1
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1991150742
+ Matricula	  : 117366
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : LC1
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -1917101991
+ Matricula	  : 117366
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : LC1
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -1546577840
+ Matricula	  : 117366
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : LC1
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -621206929
+ Matricula	  : 117366
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : LC1
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 1563329136
+ Matricula	  : 117366
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : LC1
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 1714090788
+ Matricula	  : 117366
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : LC1
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 2085362959
+ Matricula	  : 117366
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : LC1
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 16 ******
+ key		  : 117897
+ Matricula	  : 0
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : TP2
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -389613469
+ Matricula	  : 117897
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TP2
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -306641225
+ Matricula	  : 117897
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TP2
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -38961343
+ Matricula	  : 117897
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TP2
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 398832607
+ Matricula	  : 117897
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TP2
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 17 ******
+ key		  : 116327
+ Matricula	  : 0
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : OA
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -2036930956
+ Matricula	  : 116327
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : OA
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -1698549013
+ Matricula	  : 116327
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : OA
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -599351627
+ Matricula	  : 116327
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : OA
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 194379055
+ Matricula	  : 116327
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : OA
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1105526927
+ Matricula	  : 116327
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : OA
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1228555030
+ Matricula	  : 116327
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : OA
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1943790554
+ Matricula	  : 116327
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : OA
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+****** i == 18 ******
+ key		  : 117901
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : TAG
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1829632657
+ Matricula	  : 117901
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TAG
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : -1116457425
+ Matricula	  : 117901
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TAG
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 1720327645
+ Matricula	  : 117901
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TAG
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+****** i == 19 ******
+ key		  : 116572
+ Matricula	  : 0
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : RC
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1954244979
+ Matricula	  : 116572
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : RC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -348608559
+ Matricula	  : 116572
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : RC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -34860856
+ Matricula	  : 116572
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : RC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 23407227
+ Matricula	  : 116572
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : RC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 234072231
+ Matricula	  : 116572
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : RC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 808881710
+ Matricula	  : 116572
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : RC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 1932386674
+ Matricula	  : 116572
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : RC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 2143997564
+ Matricula	  : 116572
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : RC
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 20 ******
+ key		  : 116343
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : LP
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -716208053
+ Matricula	  : 116343
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : LP
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -501117531
+ Matricula	  : 116343
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : LP
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 1427854069
+ Matricula	  : 116343
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : LP
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 21 ******
+ key		  : 117935
+ Matricula	  : 0
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : PC
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -819032256
+ Matricula	  : 117935
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -781284436
+ Matricula	  : 117935
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 777090233
+ Matricula	  : 117935
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1051485703
+ Matricula	  : 117935
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1393638763
+ Matricula	  : 117935
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1924922439
+ Matricula	  : 117935
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 2069355206
+ Matricula	  : 117935
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+****** i == 22 ******
+ key		  : 116441
+ Matricula	  : 0
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : ES
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1443790421
+ Matricula	  : 116441
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ES
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -358035288
+ Matricula	  : 116441
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ES
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -298847405
+ Matricula	  : 116441
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ES
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 180030592
+ Matricula	  : 116441
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ES
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 399611993
+ Matricula	  : 116441
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ES
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 714614417
+ Matricula	  : 116441
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ES
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 823189932
+ Matricula	  : 116441
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ES
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 1306493248
+ Matricula	  : 116441
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ES
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 1800305904
+ Matricula	  : 116441
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : ES
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 23 ******
+ key		  : 116378
+ Matricula	  : 0
+ qtd_nxt 	  : 5
+ in 		  : 0
+ out 		  : 0
+name:		  : BD
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1553002338
+ Matricula	  : 116378
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : BD
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -681411573
+ Matricula	  : 116378
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : BD
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 578319453
+ Matricula	  : 116378
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : BD
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1649845765
+ Matricula	  : 116378
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : BD
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1775818863
+ Matricula	  : 116378
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : BD
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+****** i == 24 ******
+ key		  : 116653
+ Matricula	  : 0
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : IIA
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -2126460597
+ Matricula	  : 116653
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : IIA
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : -1501136249
+ Matricula	  : 116653
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : IIA
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 210230494
+ Matricula	  : 116653
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : IIA
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 1488227195
+ Matricula	  : 116653
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : IIA
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 1997370023
+ Matricula	  : 116653
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : IIA
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 2102304947
+ Matricula	  : 116653
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : IIA
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+****** i == 25 ******
+ key		  : 116432
+ Matricula	  : 0
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : SB
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -815464209
+ Matricula	  : 116432
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SB
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -451787026
+ Matricula	  : 116432
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SB
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -222903003
+ Matricula	  : 116432
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SB
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 57957708
+ Matricula	  : 116432
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SB
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 435292502
+ Matricula	  : 116432
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SB
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 579577087
+ Matricula	  : 116432
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SB
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 2065937227
+ Matricula	  : 116432
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SB
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 26 ******
+ key		  : 117960
+ Matricula	  : 0
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : FSO
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -243502248
+ Matricula	  : 117960
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : FSO
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1500803535
+ Matricula	  : 117960
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : FSO
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1859944817
+ Matricula	  : 117960
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : FSO
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 2123133423
+ Matricula	  : 117960
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : FSO
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+****** i == 27 ******
+ key		  : 116882
+ Matricula	  : 0
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : AC
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -2055209265
+ Matricula	  : 116882
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : AC
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : -674137496
+ Matricula	  : 116882
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : AC
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : 223975803
+ Matricula	  : 116882
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : AC
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : 637503712
+ Matricula	  : 116882
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : AC
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : 922743832
+ Matricula	  : 116882
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : AC
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : 1310887773
+ Matricula	  : 116882
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : AC
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : 1419578970
+ Matricula	  : 116882
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : AC
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : 1848559632
+ Matricula	  : 116882
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : AC
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : 2080069900
+ Matricula	  : 116882
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : AC
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+****** i == 28 ******
+ key		  : 116416
+ Matricula	  : 0
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : SI
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -653328926
+ Matricula	  : 116416
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SI
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 57057733
+ Matricula	  : 116416
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SI
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 172369273
+ Matricula	  : 116416
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SI
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 570577314
+ Matricula	  : 116416
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SI
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 1223157296
+ Matricula	  : 116416
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SI
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 1305727120
+ Matricula	  : 116416
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SI
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 1410805920
+ Matricula	  : 116416
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SI
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 1723692691
+ Matricula	  : 116416
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SI
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 2056645335
+ Matricula	  : 116416
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SI
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+****** i == 29 ******
+ key		  : 117943
+ Matricula	  : 0
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : CE
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -2145050827
+ Matricula	  : 117943
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CE
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -1862147882
+ Matricula	  : 117943
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CE
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -908383146
+ Matricula	  : 117943
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CE
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -644001813
+ Matricula	  : 117943
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CE
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : -493896907
+ Matricula	  : 117943
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CE
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 24328194
+ Matricula	  : 117943
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CE
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 243281941
+ Matricula	  : 117943
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : CE
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+****** i == 30 ******
+ key		  : 117536
+ Matricula	  : 0
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1753293216
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -1531194671
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -1441609652
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -946559285
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -388300349
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -353062975
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -175329320
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 411963790
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 764337530
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 1499355550
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 1867922475
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 2108653613
+ Matricula	  : 117536
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : PAA
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 31 ******
+ key		  : 117951
+ Matricula	  : 0
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Comp
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -2090990205
+ Matricula	  : 117951
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Comp
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -1666483760
+ Matricula	  : 117951
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Comp
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -875658297
+ Matricula	  : 117951
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Comp
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -364507286
+ Matricula	  : 117951
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Comp
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -166648376
+ Matricula	  : 117951
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Comp
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : -36450727
+ Matricula	  : 117951
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Comp
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 515031568
+ Matricula	  : 117951
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Comp
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 649894438
+ Matricula	  : 117951
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Comp
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 855348386
+ Matricula	  : 117951
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Comp
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+****** i == 32 ******
+ key		  : 117927
+ Matricula	  : 0
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : SC
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -2001295953
+ Matricula	  : 117927
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 564934391
+ Matricula	  : 117927
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 658863863
+ Matricula	  : 117927
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+ key		  : 1354376575
+ Matricula	  : 117927
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : SC
+ cost:	      : 8
+ visit 	  : 0
+
+
+
+
+****** i == 33 ******
+ key		  : 117919
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : MC
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 158802646
+ Matricula	  : 117919
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : MC
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 1461876911
+ Matricula	  : 117919
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : MC
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+ key		  : 1733867183
+ Matricula	  : 117919
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : MC
+ cost:	      : 4
+ visit 	  : 0
+
+
+
+
+****** i == 34 ******
+ key		  : 116912
+ Matricula	  : 0
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : TG1
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1299605013
+ Matricula	  : 116912
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TG1
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : -111148242
+ Matricula	  : 116912
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TG1
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+ key		  : 1588026421
+ Matricula	  : 116912
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TG1
+ cost:	      : 18
+ visit 	  : 0
+
+
+
+
+****** i == 35 ******
+ key		  : 116291
+ Matricula	  : 0
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : TG2
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : -1111482459
+ Matricula	  : 116291
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TG2
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 520903409
+ Matricula	  : 116291
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TG2
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 914066797
+ Matricula	  : 116291
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TG2
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+ key		  : 1770077259
+ Matricula	  : 116291
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : TG2
+ cost:	      : 12
+ visit 	  : 0
+
+
+
+
+Eh oque??

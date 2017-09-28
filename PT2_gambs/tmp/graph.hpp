@@ -4,8 +4,8 @@ Autores:
 	Leonardo Maffei da Silva - 160033811
 */
 
-#ifndef _GRAPHFLUX_HPP_
-#define _GRAPHFLUX_HPP_
+#ifndef _GRAPH_HPP_
+#define _GRAPH_HPP_
 #include "nodes.hpp"
 #include <vector>
 #include <string>
@@ -38,7 +38,7 @@ public:
 	void insert_qtd_nxt(int, Nodes*, int);	/// Indice do no de origem,No nxt e o cost do caminho
 //	void insert_end(int, Nodes*, int);	/// Insere no final da lista
 
-	void cliques_no_maximais(Nodes * no, set<int>candidatos);
+	void cliques_no_maximais(Nodes* no, set<int>candidatos);
 	void max_click();
 
 	vector <int> list(int);
@@ -46,5 +46,4 @@ public:
 	void show_verts();
 	void show_nodes();
 };
-
 #endif
