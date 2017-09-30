@@ -20,3 +20,15 @@ main.o:	main.cpp
 	g++ -c main.cpp
 ######################################################
 ######################################################	
+
+TST:	nodes.o graph.o tst.o 
+	g++ -fpermissive -std=c++11 nodes.o graph.o tst.o -o tst 
+	rm *.o 
+
+nodes.o:	nodes.cpp nodes.hpp
+	g++ -c nodes.cpp
+graph.o:	graph.cpp graph.hpp
+	g++ -c graph.cpp
+##Parte do Arthur###
+tst.o:	tst.cpp
+	g++ -c tst.cpp

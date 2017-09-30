@@ -4,8 +4,8 @@ Autores:
 	Leonardo Maffei da Silva - 160033811
 */
 
-#ifndef _GRAPHFLUX_HPP_
-#define _GRAPHFLUX_HPP_
+#ifndef _GRAPH_HPP_
+#define _GRAPH_HPP_
 #include "nodes.hpp"
 #include <vector>
 #include <string>
@@ -27,9 +27,10 @@ public:
 	vector<Nodes*> :: iterator iterador(){return node.begin();}
 	vector<set<int> > adjacentes;
 	Graph();
-	Graph(int);		// Construtor 
-	Graph(string);
-	Graph(string, string);
+	Graph(int);		// Construtor_fluxo 
+	Graph(int, int);		// Construtor_fluxo debug
+	Graph(string);	// Construtor_amigos
+	Graph(string, string);	//Construtor amigos_debug
 	~Graph();
 	
 	void mk_bi();			// Arestas direcionadas passam a ser sem direcao
@@ -38,7 +39,7 @@ public:
 	void insert_qtd_nxt(int, Nodes*, int);	/// Indice do no de origem,No nxt e o cost do caminho
 //	void insert_end(int, Nodes*, int);	/// Insere no final da lista
 
-	void cliques_no_maximais(Nodes * no, set<int>candidatos);
+	void cliques_no_maximais(Nodes* no, set<int>candidatos);
 	void max_click();
 
 	vector <int> list(int);
@@ -46,5 +47,4 @@ public:
 	void show_verts();
 	void show_nodes();
 };
-
 #endif
