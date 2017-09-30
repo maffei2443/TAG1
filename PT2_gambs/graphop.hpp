@@ -10,6 +10,10 @@ Autores:
 #include "nodes.hpp"
 #include "graph.hpp"
 #include <set>
+#include <utility>
+#include <queue>
+#include <map>
+
 using namespace std;
 // Suporte
 void mostra_set(set <int> to_show);
@@ -43,5 +47,7 @@ void sort_reach(Graph* G); 		// Ordena do menor ateh maior quanditade de qtd_nxt
 void sort_reach_r(Graph* G); // Ordena do maior ateh menor quanditade de qtd_nxt
 void sort_keyy(Graph* G); // Ordena do maior ateh menor quanditade de qtd_nxt
 
+// Ordenacao topologica BEM especifica
+vector<int> sort_tp(Graph * G);
 
 #endif

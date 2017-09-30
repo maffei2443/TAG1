@@ -382,7 +382,8 @@ void Graph :: show(){
 	cout << "Mostrando grafo: " << endl;
 	for(int i=1; i <= this->verts;i++){
 		cout << "****** i == " << i << " ******" << endl; 
-		this->node[i]->mostra_lista();
+//		this->node[i]->mostra_lista();
+		this->node[i]->mostra_no();
 	}
 }
 

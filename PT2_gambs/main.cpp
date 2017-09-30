@@ -19,9 +19,11 @@ using namespace std;
 
 //*/
 
+
 int main(){
-	cout << "Vai Criar grafo" << endl;
+//	Graph * G = new Graph(9);
 	Graph * G = new Graph("");
+	cout << "Vai Criar grafo" << endl;
 //	Graph * G = new Graph(""); 
 	cout << "Criou grafo" << endl;
     G->mk_bi();					// Força a bidirecao
@@ -31,6 +33,6 @@ int main(){
 
 	cout << "Cliques maximos/maximais de grau 6 (os maiores da turma):\n";
     bk(G, 6);			// Pertence aa biblioteca graphop.hpp
-//*/
+//
 	return 0;
 }
