@@ -1,0 +1,4580 @@
+Vai Criar grafo
+Criou grafo
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Ciclos aida nao implementados
+Virou bi
+Mostrando grafo: 
+****** i == 1 ******
+ key		  : 1
+ Matricula	  : 110027892
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Diego Santos Kieckbusch
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 2 ******
+ key		  : 2
+ Matricula	  : 120037301
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcelo Giordano Martins Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 3
+ Matricula	  : 130032891
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcus Vinicius da Silva Borges
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 5
+ Matricula	  : 130058866
+ qtd_nxt 	  : 2
+ in 		  : 0
+ out 		  : 0
+name:		  : Kevin Masin Mahema
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 11
+ Matricula	  : 140087851
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Walyson Maxwel Dias Leite
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 14
+ Matricula	  : 140161597
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Rodrigo Neris Ferreira Cardoso
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 17
+ Matricula	  : 140178759
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leandro Alberto de Faria
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 3 ******
+ key		  : 3
+ Matricula	  : 130032891
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcus Vinicius da Silva Borges
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 2
+ Matricula	  : 120037301
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcelo Giordano Martins Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 7
+ Matricula	  : 130137421
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Vitor Passos Pontes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 21
+ Matricula	  : 150120524
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Caio Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 29
+ Matricula	  : 150134495
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Khalil Carsten do Nascimento
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 30
+ Matricula	  : 150135491
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo de Almeida
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 4 ******
+ key		  : 4
+ Matricula	  : 130056162
+ qtd_nxt 	  : 1
+ in 		  : 0
+ out 		  : 0
+name:		  : Lucas Araujo Pena
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 6
+ Matricula	  : 130067385
+ qtd_nxt 	  : 1
+ in 		  : 0
+ out 		  : 0
+name:		  : Vinicius de Sousa Santana
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 5 ******
+ key		  : 5
+ Matricula	  : 130058866
+ qtd_nxt 	  : 2
+ in 		  : 0
+ out 		  : 0
+name:		  : Kevin Masin Mahema
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 2
+ Matricula	  : 120037301
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcelo Giordano Martins Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 18
+ Matricula	  : 150015585
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Luan Mendes Goncalves Freitas
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 6 ******
+ key		  : 6
+ Matricula	  : 130067385
+ qtd_nxt 	  : 1
+ in 		  : 0
+ out 		  : 0
+name:		  : Vinicius de Sousa Santana
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 4
+ Matricula	  : 130056162
+ qtd_nxt 	  : 1
+ in 		  : 0
+ out 		  : 0
+name:		  : Lucas Araujo Pena
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 7 ******
+ key		  : 7
+ Matricula	  : 130137421
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Vitor Passos Pontes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 3
+ Matricula	  : 130032891
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcus Vinicius da Silva Borges
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 21
+ Matricula	  : 150120524
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Caio Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 29
+ Matricula	  : 150134495
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Khalil Carsten do Nascimento
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 30
+ Matricula	  : 150135491
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo de Almeida
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 8 ******
+ key		  : 8
+ Matricula	  : 140030131
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Pedro Henrique Santos Gonzaga
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 9 ******
+ key		  : 9
+ Matricula	  : 140080279
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Bernardo Costa Nascimento
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 10 ******
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 3
+ Matricula	  : 130032891
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcus Vinicius da Silva Borges
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 7
+ Matricula	  : 130137421
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Vitor Passos Pontes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 13
+ Matricula	  : 140160299
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : Raphael Soares Ramos
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 16
+ Matricula	  : 140170961
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Thiago Pereira Ribeiro Dantas
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 17
+ Matricula	  : 140178759
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leandro Alberto de Faria
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 21
+ Matricula	  : 150120524
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Caio Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 11 ******
+ key		  : 11
+ Matricula	  : 140087851
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Walyson Maxwel Dias Leite
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 2
+ Matricula	  : 120037301
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcelo Giordano Martins Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 17
+ Matricula	  : 140178759
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leandro Alberto de Faria
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 12 ******
+ key		  : 12
+ Matricula	  : 140159461
+ qtd_nxt 	  : 2
+ in 		  : 0
+ out 		  : 0
+name:		  : Rafael de Oiveira Martins
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 13 ******
+ key		  : 13
+ Matricula	  : 140160299
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : Raphael Soares Ramos
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 15
+ Matricula	  : 140168915
+ qtd_nxt 	  : 2
+ in 		  : 0
+ out 		  : 0
+name:		  : Jader Martins Camboim de Sa
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 17
+ Matricula	  : 140178759
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leandro Alberto de Faria
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 14 ******
+ key		  : 14
+ Matricula	  : 140161597
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Rodrigo Neris Ferreira Cardoso
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 2
+ Matricula	  : 120037301
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcelo Giordano Martins Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 16
+ Matricula	  : 140170961
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Thiago Pereira Ribeiro Dantas
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 17
+ Matricula	  : 140178759
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leandro Alberto de Faria
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 15 ******
+ key		  : 15
+ Matricula	  : 140168915
+ qtd_nxt 	  : 2
+ in 		  : 0
+ out 		  : 0
+name:		  : Jader Martins Camboim de Sa
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 13
+ Matricula	  : 140160299
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : Raphael Soares Ramos
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 16 ******
+ key		  : 16
+ Matricula	  : 140170961
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Thiago Pereira Ribeiro Dantas
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 14
+ Matricula	  : 140161597
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Rodrigo Neris Ferreira Cardoso
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 17
+ Matricula	  : 140178759
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leandro Alberto de Faria
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 17 ******
+ key		  : 17
+ Matricula	  : 140178759
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leandro Alberto de Faria
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 2
+ Matricula	  : 120037301
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcelo Giordano Martins Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 11
+ Matricula	  : 140087851
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Walyson Maxwel Dias Leite
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 13
+ Matricula	  : 140160299
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : Raphael Soares Ramos
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 14
+ Matricula	  : 140161597
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Rodrigo Neris Ferreira Cardoso
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 16
+ Matricula	  : 140170961
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Thiago Pereira Ribeiro Dantas
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 18 ******
+ key		  : 18
+ Matricula	  : 150015585
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Luan Mendes Goncalves Freitas
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 5
+ Matricula	  : 130058866
+ qtd_nxt 	  : 2
+ in 		  : 0
+ out 		  : 0
+name:		  : Kevin Masin Mahema
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 49
+ Matricula	  : 170053016
+ qtd_nxt 	  : 1
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Barbosa Santos
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 19 ******
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 2
+ Matricula	  : 120037301
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcelo Giordano Martins Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 3
+ Matricula	  : 130032891
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcus Vinicius da Silva Borges
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 7
+ Matricula	  : 130137421
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Vitor Passos Pontes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 13
+ Matricula	  : 140160299
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : Raphael Soares Ramos
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 14
+ Matricula	  : 140161597
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Rodrigo Neris Ferreira Cardoso
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 15
+ Matricula	  : 140168915
+ qtd_nxt 	  : 2
+ in 		  : 0
+ out 		  : 0
+name:		  : Jader Martins Camboim de Sa
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 17
+ Matricula	  : 140178759
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leandro Alberto de Faria
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 18
+ Matricula	  : 150015585
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Luan Mendes Goncalves Freitas
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 21
+ Matricula	  : 150120524
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Caio Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 24
+ Matricula	  : 150126760
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rocha Fontenele
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 28
+ Matricula	  : 150132131
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Marcos Schmaltz Duda
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 29
+ Matricula	  : 150134495
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Khalil Carsten do Nascimento
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 30
+ Matricula	  : 150135491
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo de Almeida
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 34
+ Matricula	  : 160002575
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : Arthur da Silveira Couto
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 46
+ Matricula	  : 160071569
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Luis Felipe Braga Gebrim Silva
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 20 ******
+ key		  : 20
+ Matricula	  : 150118236
+ qtd_nxt 	  : 5
+ in 		  : 0
+ out 		  : 0
+name:		  : Antonio Henrique de Moura Rodrigues
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 33
+ Matricula	  : 150150296
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Tiago Rodrigues da Cunha Cabral
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 21 ******
+ key		  : 21
+ Matricula	  : 150120524
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Caio Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 3
+ Matricula	  : 130032891
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcus Vinicius da Silva Borges
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 7
+ Matricula	  : 130137421
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Vitor Passos Pontes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 29
+ Matricula	  : 150134495
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Khalil Carsten do Nascimento
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 30
+ Matricula	  : 150135491
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo de Almeida
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 22 ******
+ key		  : 22
+ Matricula	  : 150124163
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Emmanuel Gustavo Rinaldi Perotto
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 23 ******
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 17
+ Matricula	  : 140178759
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leandro Alberto de Faria
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 20
+ Matricula	  : 150118236
+ qtd_nxt 	  : 5
+ in 		  : 0
+ out 		  : 0
+name:		  : Antonio Henrique de Moura Rodrigues
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 24
+ Matricula	  : 150126760
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rocha Fontenele
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 28
+ Matricula	  : 150132131
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Marcos Schmaltz Duda
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 30
+ Matricula	  : 150135491
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo de Almeida
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 33
+ Matricula	  : 150150296
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Tiago Rodrigues da Cunha Cabral
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 24 ******
+ key		  : 24
+ Matricula	  : 150126760
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rocha Fontenele
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 33
+ Matricula	  : 150150296
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Tiago Rodrigues da Cunha Cabral
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 40
+ Matricula	  : 160038316
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Pedro Lucas Pinto Andrade
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 25 ******
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 12
+ Matricula	  : 140159461
+ qtd_nxt 	  : 2
+ in 		  : 0
+ out 		  : 0
+name:		  : Rafael de Oiveira Martins
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 24
+ Matricula	  : 150126760
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rocha Fontenele
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 38
+ Matricula	  : 160015537
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Mikael Marques Mello
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 45
+ Matricula	  : 160071101
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Victor Bohrer Munhoz
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 26 ******
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 20
+ Matricula	  : 150118236
+ qtd_nxt 	  : 5
+ in 		  : 0
+ out 		  : 0
+name:		  : Antonio Henrique de Moura Rodrigues
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 24
+ Matricula	  : 150126760
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rocha Fontenele
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 29
+ Matricula	  : 150134495
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Khalil Carsten do Nascimento
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 30
+ Matricula	  : 150135491
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo de Almeida
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 33
+ Matricula	  : 150150296
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Tiago Rodrigues da Cunha Cabral
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 34
+ Matricula	  : 160002575
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : Arthur da Silveira Couto
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 37
+ Matricula	  : 160011795
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leo Moraes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 46
+ Matricula	  : 160071569
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Luis Felipe Braga Gebrim Silva
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 27 ******
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 2
+ Matricula	  : 120037301
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcelo Giordano Martins Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 20
+ Matricula	  : 150118236
+ qtd_nxt 	  : 5
+ in 		  : 0
+ out 		  : 0
+name:		  : Antonio Henrique de Moura Rodrigues
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 29
+ Matricula	  : 150134495
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Khalil Carsten do Nascimento
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 33
+ Matricula	  : 150150296
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Tiago Rodrigues da Cunha Cabral
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 34
+ Matricula	  : 160002575
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : Arthur da Silveira Couto
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 28 ******
+ key		  : 28
+ Matricula	  : 150132131
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Marcos Schmaltz Duda
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 30
+ Matricula	  : 150135491
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo de Almeida
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 37
+ Matricula	  : 160011795
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leo Moraes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 29 ******
+ key		  : 29
+ Matricula	  : 150134495
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Khalil Carsten do Nascimento
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 3
+ Matricula	  : 130032891
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcus Vinicius da Silva Borges
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 7
+ Matricula	  : 130137421
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Vitor Passos Pontes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 21
+ Matricula	  : 150120524
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Caio Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 30
+ Matricula	  : 150135491
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo de Almeida
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 41
+ Matricula	  : 160046424
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Lobao Barroso de Souza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 30 ******
+ key		  : 30
+ Matricula	  : 150135491
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo de Almeida
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 3
+ Matricula	  : 130032891
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcus Vinicius da Silva Borges
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 7
+ Matricula	  : 130137421
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Vitor Passos Pontes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 21
+ Matricula	  : 150120524
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Caio Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 28
+ Matricula	  : 150132131
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Marcos Schmaltz Duda
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 29
+ Matricula	  : 150134495
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Khalil Carsten do Nascimento
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 31 ******
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 14
+ Matricula	  : 140161597
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Rodrigo Neris Ferreira Cardoso
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 20
+ Matricula	  : 150118236
+ qtd_nxt 	  : 5
+ in 		  : 0
+ out 		  : 0
+name:		  : Antonio Henrique de Moura Rodrigues
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 21
+ Matricula	  : 150120524
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Caio Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 24
+ Matricula	  : 150126760
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rocha Fontenele
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 33
+ Matricula	  : 150150296
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Tiago Rodrigues da Cunha Cabral
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 32 ******
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 10
+ Matricula	  : 140082221
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Frederico de Paiva Lenza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 24
+ Matricula	  : 150126760
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rocha Fontenele
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 28
+ Matricula	  : 150132131
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Marcos Schmaltz Duda
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 33
+ Matricula	  : 150150296
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Tiago Rodrigues da Cunha Cabral
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 33 ******
+ key		  : 33
+ Matricula	  : 150150296
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Tiago Rodrigues da Cunha Cabral
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 20
+ Matricula	  : 150118236
+ qtd_nxt 	  : 5
+ in 		  : 0
+ out 		  : 0
+name:		  : Antonio Henrique de Moura Rodrigues
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 24
+ Matricula	  : 150126760
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rocha Fontenele
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 31
+ Matricula	  : 150141661
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Rodrigues Guimaraes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 34 ******
+ key		  : 34
+ Matricula	  : 160002575
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : Arthur da Silveira Couto
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 27
+ Matricula	  : 150131992
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Gabriel Lima Neves
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 35 ******
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 30
+ Matricula	  : 150135491
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo de Almeida
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 33
+ Matricula	  : 150150296
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Tiago Rodrigues da Cunha Cabral
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 37
+ Matricula	  : 160011795
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leo Moraes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 38
+ Matricula	  : 160015537
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Mikael Marques Mello
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 40
+ Matricula	  : 160038316
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Pedro Lucas Pinto Andrade
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 41
+ Matricula	  : 160046424
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Lobao Barroso de Souza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 46
+ Matricula	  : 160071569
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Luis Felipe Braga Gebrim Silva
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 36 ******
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 28
+ Matricula	  : 150132131
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Marcos Schmaltz Duda
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 32
+ Matricula	  : 150146612
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Renan Godoi de Medeiros
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 37
+ Matricula	  : 160011795
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leo Moraes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 38
+ Matricula	  : 160015537
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Mikael Marques Mello
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 41
+ Matricula	  : 160046424
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Lobao Barroso de Souza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 37 ******
+ key		  : 37
+ Matricula	  : 160011795
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leo Moraes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 28
+ Matricula	  : 150132131
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Marcos Schmaltz Duda
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 38
+ Matricula	  : 160015537
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Mikael Marques Mello
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 41
+ Matricula	  : 160046424
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Lobao Barroso de Souza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 38 ******
+ key		  : 38
+ Matricula	  : 160015537
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Mikael Marques Mello
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 37
+ Matricula	  : 160011795
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leo Moraes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 41
+ Matricula	  : 160046424
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Lobao Barroso de Souza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 46
+ Matricula	  : 160071569
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Luis Felipe Braga Gebrim Silva
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 39 ******
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 23
+ Matricula	  : 150126701
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Patrick Alcantara Mourao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 34
+ Matricula	  : 160002575
+ qtd_nxt 	  : 4
+ in 		  : 0
+ out 		  : 0
+name:		  : Arthur da Silveira Couto
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 37
+ Matricula	  : 160011795
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leo Moraes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 38
+ Matricula	  : 160015537
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Mikael Marques Mello
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 41
+ Matricula	  : 160046424
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Lobao Barroso de Souza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 45
+ Matricula	  : 160071101
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Victor Bohrer Munhoz
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 46
+ Matricula	  : 160071569
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Luis Felipe Braga Gebrim Silva
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 40 ******
+ key		  : 40
+ Matricula	  : 160038316
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Pedro Lucas Pinto Andrade
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 24
+ Matricula	  : 150126760
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rocha Fontenele
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 41 ******
+ key		  : 41
+ Matricula	  : 160046424
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Lobao Barroso de Souza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 29
+ Matricula	  : 150134495
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Khalil Carsten do Nascimento
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 37
+ Matricula	  : 160011795
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leo Moraes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 38
+ Matricula	  : 160015537
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Mikael Marques Mello
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 45
+ Matricula	  : 160071101
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Victor Bohrer Munhoz
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 46
+ Matricula	  : 160071569
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Luis Felipe Braga Gebrim Silva
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 42 ******
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 2
+ Matricula	  : 120037301
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Marcelo Giordano Martins Costa de Oliveira
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 7
+ Matricula	  : 130137421
+ qtd_nxt 	  : 7
+ in 		  : 0
+ out 		  : 0
+name:		  : Vitor Passos Pontes
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 11
+ Matricula	  : 140087851
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Walyson Maxwel Dias Leite
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 12
+ Matricula	  : 140159461
+ qtd_nxt 	  : 2
+ in 		  : 0
+ out 		  : 0
+name:		  : Rafael de Oiveira Martins
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 17
+ Matricula	  : 140178759
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leandro Alberto de Faria
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 37
+ Matricula	  : 160011795
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leo Moraes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 47
+ Matricula	  : 160085012
+ qtd_nxt 	  : 1
+ in 		  : 0
+ out 		  : 0
+name:		  : Victor Neves Martorelli
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 43 ******
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 14
+ Matricula	  : 140161597
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Rodrigo Neris Ferreira Cardoso
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 24
+ Matricula	  : 150126760
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rocha Fontenele
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 36
+ Matricula	  : 160006490
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Levi Gomes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 37
+ Matricula	  : 160011795
+ qtd_nxt 	  : 9
+ in 		  : 0
+ out 		  : 0
+name:		  : Leo Moraes da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 38
+ Matricula	  : 160015537
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Mikael Marques Mello
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 40
+ Matricula	  : 160038316
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Pedro Lucas Pinto Andrade
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 44
+ Matricula	  : 160069653
+ qtd_nxt 	  : 1
+ in 		  : 0
+ out 		  : 0
+name:		  : Barbara Varanda Rangel
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 44 ******
+ key		  : 44
+ Matricula	  : 160069653
+ qtd_nxt 	  : 1
+ in 		  : 0
+ out 		  : 0
+name:		  : Barbara Varanda Rangel
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 43
+ Matricula	  : 160048036
+ qtd_nxt 	  : 12
+ in 		  : 0
+ out 		  : 0
+name:		  : Ana Luisa Salvador Alvarez
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 45 ******
+ key		  : 45
+ Matricula	  : 160071101
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Joao Victor Bohrer Munhoz
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 25
+ Matricula	  : 150126808
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Rodrigues Diogenes Macedo
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 41
+ Matricula	  : 160046424
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Lobao Barroso de Souza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 46 ******
+ key		  : 46
+ Matricula	  : 160071569
+ qtd_nxt 	  : 6
+ in 		  : 0
+ out 		  : 0
+name:		  : Luis Felipe Braga Gebrim Silva
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 19
+ Matricula	  : 150032552
+ qtd_nxt 	  : 21
+ in 		  : 0
+ out 		  : 0
+name:		  : Claudio Segala Rodrigues Silva Filho
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 26
+ Matricula	  : 150129921
+ qtd_nxt 	  : 18
+ in 		  : 0
+ out 		  : 0
+name:		  : Igor Figueira Pinheiro da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 35
+ Matricula	  : 160003636
+ qtd_nxt 	  : 10
+ in 		  : 0
+ out 		  : 0
+name:		  : CAio Albuquerque Brandao
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 38
+ Matricula	  : 160015537
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Mikael Marques Mello
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 39
+ Matricula	  : 160033811
+ qtd_nxt 	  : 13
+ in 		  : 0
+ out 		  : 0
+name:		  : Leonardo Maffei da Silva
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 41
+ Matricula	  : 160046424
+ qtd_nxt 	  : 8
+ in 		  : 0
+ out 		  : 0
+name:		  : Gabriel Lobao Barroso de Souza
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 47 ******
+ key		  : 47
+ Matricula	  : 160085012
+ qtd_nxt 	  : 1
+ in 		  : 0
+ out 		  : 0
+name:		  : Victor Neves Martorelli
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 42
+ Matricula	  : 160047617
+ qtd_nxt 	  : 11
+ in 		  : 0
+ out 		  : 0
+name:		  : Adriano Rodrigues Figueiredo Torres
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 48 ******
+ key		  : 48
+ Matricula	  : 170052915
+ qtd_nxt 	  : 0
+ in 		  : 0
+ out 		  : 0
+name:		  : Lucas Sousa Lacerda
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+****** i == 49 ******
+ key		  : 49
+ Matricula	  : 170053016
+ qtd_nxt 	  : 1
+ in 		  : 0
+ out 		  : 0
+name:		  : Matheus Barbosa Santos
+
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+ key		  : 18
+ Matricula	  : 150015585
+ qtd_nxt 	  : 3
+ in 		  : 0
+ out 		  : 0
+name:		  : Luan Mendes Goncalves Freitas
+ cost:	      : 1
+ visit 	  : 0
+
+
+
+
+Cliques maximos/maximais de grau 6 (os maiores da turma):
+Serao mostrados cliques maximais com 6+ componentes:

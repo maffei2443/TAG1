@@ -1,0 +1,344 @@
+Construiu grafo do fluxo 
+Insercao primaria: 1
+Insercao primaria: 2
+Insercao primaria: 3
+Insercao primaria: 4
+Insercao primaria: 5
+Insercao primaria: 6
+Insercao primaria: 9
+Insercao primaria: 12
+Insercao primaria: 33
+Insercao primaria: 34
+Proximo nivel
+
+
+id autal : 1
+Diminuir o grau de 8
+Diminuir o grau de 14
+Diminuir o grau de 30
+Diminuiu o grau de 8 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 8
+Diminuiu o grau de 14 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 14
+Diminuiu o grau de 30 de 4 para 3
+Bugou?? 3
+Nao inseriu na fila:30
+
+Inseriu na ordem topologica: 1
+
+id autal : 2
+
+Inseriu na ordem topologica: 2
+
+id autal : 3
+Diminuir o grau de 15
+Diminuiu o grau de 15 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:15
+
+Inseriu na ordem topologica: 3
+
+id autal : 4
+Diminuir o grau de 7
+Diminuiu o grau de 7 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 7
+
+Inseriu na ordem topologica: 4
+
+id autal : 5
+
+Inseriu na ordem topologica: 5
+
+id autal : 6
+Diminuir o grau de 10
+Diminuiu o grau de 10 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 10
+
+Inseriu na ordem topologica: 6
+
+id autal : 9
+
+Inseriu na ordem topologica: 9
+
+id autal : 12
+Diminuir o grau de 27
+Diminuiu o grau de 27 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 27
+
+Inseriu na ordem topologica: 12
+
+id autal : 33
+Diminuir o grau de 35
+Diminuiu o grau de 35 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:35
+
+Inseriu na ordem topologica: 33
+
+id autal : 34
+Diminuir o grau de 35
+Diminuiu o grau de 35 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+
+Inseriu na ordem topologica: 34
+
+Proximo nivel
+
+
+id autal : 8
+Diminuir o grau de 13
+Diminuir o grau de 19
+Diminuiu o grau de 13 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Diminuiu o grau de 19 de 3 para 2
+Bugou?? 2
+Nao inseriu na fila:19
+
+Inseriu na ordem topologica: 8
+
+id autal : 14
+Diminuir o grau de 17
+Diminuir o grau de 19
+Diminuir o grau de 29
+Diminuiu o grau de 17 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:17
+Diminuiu o grau de 19 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:19
+Diminuiu o grau de 29 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:29
+
+Inseriu na ordem topologica: 14
+
+id autal : 7
+Diminuir o grau de 17
+Diminuir o grau de 20
+Diminuir o grau de 28
+Diminuir o grau de 25
+Diminuir o grau de 19
+Diminuir o grau de 24
+Diminuir o grau de 15
+Diminuir o grau de 30
+Diminuir o grau de 11
+Diminuir o grau de 18
+Diminuir o grau de 29
+Diminuiu o grau de 17 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 17
+Diminuiu o grau de 20 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 20
+Diminuiu o grau de 28 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:28
+Diminuiu o grau de 25 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:25
+Diminuiu o grau de 19 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 19
+Diminuiu o grau de 24 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:24
+Diminuiu o grau de 15 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 15
+Diminuiu o grau de 30 de 3 para 2
+Bugou?? 2
+Nao inseriu na fila:30
+Diminuiu o grau de 11 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 11
+Diminuiu o grau de 18 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 18
+Diminuiu o grau de 29 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 29
+
+Inseriu na ordem topologica: 7
+
+id autal : 10
+Diminuir o grau de 25
+Diminuir o grau de 21
+Diminuiu o grau de 25 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 25
+Diminuiu o grau de 21 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:21
+
+Inseriu na ordem topologica: 10
+
+id autal : 27
+Diminuir o grau de 31
+Diminuiu o grau de 31 de 3 para 2
+Bugou?? 2
+Nao inseriu na fila:31
+
+Inseriu na ordem topologica: 27
+
+Proximo nivel
+
+
+id autal : 17
+Diminuir o grau de 23
+Diminuiu o grau de 23 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 23
+
+Inseriu na ordem topologica: 17
+
+id autal : 20
+Diminuir o grau de 22
+Diminuir o grau de 31
+Diminuiu o grau de 22 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:22
+Diminuiu o grau de 31 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:31
+
+Inseriu na ordem topologica: 20
+
+id autal : 19
+Diminuir o grau de 32
+Diminuiu o grau de 32 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 32
+
+Inseriu na ordem topologica: 19
+
+id autal : 15
+Diminuir o grau de 24
+Diminuiu o grau de 24 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 24
+
+Inseriu na ordem topologica: 15
+
+id autal : 11
+Diminuir o grau de 22
+Diminuir o grau de 30
+Diminuir o grau de 16
+Diminuiu o grau de 22 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 22
+Diminuiu o grau de 30 de 2 para 1
+Bugou?? 1
+Nao inseriu na fila:30
+Diminuiu o grau de 16 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+
+Inseriu na ordem topologica: 11
+
+id autal : 18
+
+Inseriu na ordem topologica: 18
+
+id autal : 29
+
+Inseriu na ordem topologica: 29
+
+id autal : 25
+Diminuir o grau de 31
+Diminuiu o grau de 31 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 31
+
+Inseriu na ordem topologica: 25
+
+Proximo nivel
+
+
+id autal : 23
+Diminuir o grau de 28
+Diminuiu o grau de 28 de 1 para 0
+Bugou?? 0
+INSERE, PORRA, A MERDA DO 0 NA FILA
+Inseriu na fila: 28
+
+Inseriu na ordem topologica: 23
+
+id autal : 32
+
+Inseriu na ordem topologica: 32
+
+id autal : 24
+
+Inseriu na ordem topologica: 24
+
+id autal : 22
+
+Inseriu na ordem topologica: 22
+
+id autal : 31
+
+Inseriu na ordem topologica: 31
+
+Proximo nivel
+
+
+id autal : 28
+
+Inseriu na ordem topologica: 28
+
+Elementos na ordem: 30
+Posicao: 1 Code == 1 Nome : C1
+Posicao: 2 Code == 2 Nome : ISC
+Posicao: 3 Code == 3 Nome : FTC
+Posicao: 4 Code == 4 Nome : APC
+Posicao: 5 Code == 5 Nome : IS
+Posicao: 6 Code == 6 Nome : CD
+Posicao: 7 Code == 9 Nome : IAL
+Posicao: 8 Code == 12 Nome : A1
+Posicao: 9 Code == 33 Nome : MC
+Posicao: 10 Code == 34 Nome : TG1
+Posicao: 11 Code == 8 Nome : C2
+Posicao: 12 Code == 14 Nome : PE
+Posicao: 13 Code == 7 Nome : ED
+Posicao: 14 Code == 10 Nome : OAC
+Posicao: 15 Code == 27 Nome : AC
+Posicao: 16 Code == 17 Nome : OA
+Posicao: 17 Code == 20 Nome : LP
+Posicao: 18 Code == 19 Nome : RC
+Posicao: 19 Code == 15 Nome : LC1
+Posicao: 20 Code == 11 Nome : TP1
+Posicao: 21 Code == 18 Nome : TAG
+Posicao: 22 Code == 29 Nome : CE
+Posicao: 23 Code == 25 Nome : SB
+Posicao: 24 Code == 23 Nome : BD
+Posicao: 25 Code == 32 Nome : SC
+Posicao: 26 Code == 24 Nome : IIA
+Posicao: 27 Code == 22 Nome : ES
+Posicao: 28 Code == 31 Nome : Comp
+Posicao: 29 Code == 28 Nome : SI
+Eh oque??

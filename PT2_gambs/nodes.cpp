@@ -45,12 +45,14 @@ void Nodes :: insere_pre_calculado(Nodes* proximo){	// Com direito tratamento ca
 
 
 void Nodes :: mostra_no(){
-	cout << "Chave		  : " << this->key << endl;
-	cout << "Matricula	  : " << this->matricula << endl;
-//	cout << "Nome 		 : " << this->name << endl;
-	cout << "Amigos (grau): " << this->qtd_nxt << endl;
-//	cout << "Custo:		 : " << this->get_cost() << endl;
-//	cout << "Visitado 	 : " << this->get_visit() << endl;
+	cout << " key		  : " << this->key << endl;
+	cout << " Matricula	  : " << this->matricula << endl;
+	cout << " qtd_nxt 	  : " << this->qtd_nxt << endl;
+	cout << " in 		  : " << this->in << endl;
+	cout << " out 		  : " << this->out << endl;
+	cout << "name:		  : " << this->name << endl;
+	cout << " cost:	      : " << this->cost << endl;
+	cout << " visit 	  : " << this->visit << endl;
 	printf("\n\n");
 }
 
