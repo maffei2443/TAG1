@@ -187,12 +187,13 @@ Graph :: Graph(int){
 	
 
 	int prev[id_max+1] {};	// fila para usar pra guardar pre-requisitos
-	int i;
+	int i, k;
 	do{
-		i = 0;
+		set <int> redundancy;
+		i = k = 0;
 		arq >> id >> code >> rec_credits >> hardness >> name;
 
-		if(id > id_max)		return;	// Arquivo zuado :/ .
+		if(id > id_max || id < 1)		return;	// Arquivo zuado :/ .
 
 		int cost = rec_credits * hardness;
 		node[id] = new Nodes(code);	this->node[id]->set_name(name);	this->node[id]->set_cost(cost);
@@ -201,11 +202,14 @@ Graph :: Graph(int){
 			arq >> code;
 			if(code != 0 && code != -1){
 				prev[i] = code;
-// zoado		this->node[code]->plus_out(1);	// +1 mateira que libera
-				this->node[id]->plus_in(1);		// +1 pre-requisito
-				i++;
+				if(redundancy.count(code) == 0){	// Se nao eh redundante adicionar esse pre-req, add
+					redundancy.insert(code);
+// zoado			this->node[code]->plus_out(1);	// +1 mateira que libera
+					this->node[id]->plus_in(1);		// +1 pre-requisito
+					i++;
+				}
 			}
-			// -1 eh seprador de requisitos
+			// -1 eh separador de requisitos
 		}while(code != 0);
 		
 		for(int j=0; j < i; j++){
@@ -219,7 +223,6 @@ Graph :: Graph(int){
 		}
 				
 	}while(id != id_max);
-	cout << "Construiu grafo do fluxo " << endl;
 	arq.close();
 }
 
