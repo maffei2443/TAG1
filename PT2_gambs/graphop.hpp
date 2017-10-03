@@ -55,5 +55,6 @@ vector<int> sort_tp(Graph * G);
 
 Critcpath true_dfs_cp(Graph * G, Nodes * no, map <int, int> code_index);
 Critcpath dfs_cp(Graph * G, Nodes * no);
+Critcpath dfs_cpg(Graph * G);	// Retorna o caminho critico
 
 #endif

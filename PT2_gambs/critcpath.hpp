@@ -7,7 +7,8 @@ using namespace  std;
 
 class Critcpath{
 public:
-    queue<int> keys;
+    queue<int>    keys;
+    queue<string> names;
     int sizequeue;
     int accumulatedcost;
 

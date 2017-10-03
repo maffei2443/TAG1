@@ -3,6 +3,7 @@ using namespace std;
 
 void Critcpath :: addnodes(Nodes *n){
         keys.push(n->get_key());
+        names.push(n->get_name());
         accumulatedcost+=n->get_cost();
         sizequeue++;
 }
@@ -10,11 +11,11 @@ void Critcpath :: addnodes(Nodes *n){
 Critcpath :: Critcpath(Nodes *n){
 //      cout << "itsleaf" << endl;
         keys.push(n->get_key());
+        names.push(n->get_name());
         accumulatedcost = n->get_cost();
         sizequeue = 1;
     }
 Critcpath :: Critcpath(){
-//      cout << "wat" << endl;
         accumulatedcost=0;
         sizequeue=0;
 }

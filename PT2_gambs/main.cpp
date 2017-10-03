@@ -23,13 +23,15 @@ using namespace std;
 
 int main(){
 //	Graph * G = new Graph(9);
+
+	cout << "Autores: Arthur da Silveira Couto 		16/0002575" << endl;
+	cout << "Autores: Leonardo Maffei da Silva 		16/0033811" << endl;
+	ENTER;	WAIT;	CLS;
+
 	int useless = 0;
 	Graph *  G = new Graph(useless);		// Apenas para chamar o contrutor correto
 
 	cout << "Curso: Ciencia da Computacao" << endl;
-	ENTER;	WAIT;	CLS;
-	
-
 	cout << "DAG(vertice, seguido de disciplinas que dependem dele):\n\n";
 	ENTER;	WAIT;	CLS;
 	
@@ -58,6 +60,15 @@ int main(){
 	cout << "Caminho critico:\n\n";
 	ENTER;	WAIT;	CLS;
 
+	Critcpath way = dfs_cpg(G);
+	int limit = way.sizequeue;
+	for(int j = 0; j < limit; j++){
+        cout  << "Codigo: " << way.keys.front() << "	Nome:	" << way.names.front() << endl;
+        way.keys.pop();
+        way.names.pop();
+        way.sizequeue--;
+    }
 
+    cout << "Final do Trabalho 2." << endl;
 	return 0;
 }

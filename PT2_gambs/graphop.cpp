@@ -504,5 +504,16 @@ Critcpath dfs_cp(Graph * G, Nodes * no){
         code_index.insert(code_index.begin(), pair<int,int>(G->get_node(i)->get_key(), i)); // Necesario; faz o map.
      }
      return true_dfs_cp(G, no, code_index);
+}
 
+Critcpath dfs_cpg(Graph * G){    // Obs: passar set POR REFERENCIA!!!
+    int verts = G->get_verts();
+    Critcpath maxpath;
+    Critcpath aux;
+    for (int i = 1; i < verts + 1; i++){    // ainda tem nos em que incide
+        aux = dfs_cp(G, G->get_node(i));
+        if(aux.accumulatedcost > maxpath.accumulatedcost)
+            maxpath=aux;
+    }
+    return maxpath;
 }
