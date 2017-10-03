@@ -22,9 +22,10 @@ using namespace std;
 
 int main(){
 //	Graph * G = new Graph(9);
-	Graph *  G = new Graph(9);
+	int a = 9;
+	Graph *  G = new Graph(a);
 
-	cout << "Curso: Ciencia da Computacao" << endd;
+	cout << "Curso: Ciencia da Computacao" << endl;
 
 	cout << "DAG(vertice, seguido de disciplinas que dependem dele):\n\n";
 

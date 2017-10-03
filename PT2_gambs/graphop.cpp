@@ -480,12 +480,12 @@ vector<int> sort_tp(Graph * G){		// Retorna uma ordenacao topologica do grafo
 // Caminho critico
 
 
-Critpath true_dfs_cp(Graph * G, Nodes * no, map <int, int> code_index){ // Obs: passar set POR REFERENCIA!!!
+Critcpath true_dfs_cp(Graph * G, Nodes * no, map <int, int> code_index){ // Obs: passar set POR REFERENCIA!!!
     // Coloca todos os de grau de chegada zero em uma fila.
 
     if(no->get_nxt() == NULL)   return Critpath(no);            //Elemento ja foi visitado
     Nodes * pivo = no;
-    Critpath maxpath, aux;
+    Critcpath maxpath, aux;
 
     while(pivo->get_nxt() != NULL){ // ainda tem nos em que incide
         aux = true_dfs_cp(G, G->get_node(code_index.find(pivo->get_nxt()->get_key())->second), code_index);
@@ -497,7 +497,7 @@ Critpath true_dfs_cp(Graph * G, Nodes * no, map <int, int> code_index){ // Obs: 
     return maxpath;
 }
 
-Critpath dfs_cp(Graph * G, Nodes * no){
+Critcpath dfs_cp(Graph * G, Nodes * no){
 	map <int, int> code_index;
     for(int i = 1; i < G->get_verts()+1; i++){
         // Criando o mapa para busca mais eficiente depois.
