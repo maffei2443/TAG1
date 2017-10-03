@@ -188,15 +188,17 @@ Graph :: Graph(int){
 
 	int prev[id_max+1] {};	// fila para usar pra guardar pre-requisitos
 	int i, k;
+	int acumulator = 0;		// Creditos necessario de OBRIGATORIAS
 	do{
 		set <int> redundancy;
 		i = k = 0;
 		arq >> id >> code >> rec_credits >> hardness >> name;
-
 		if(id > id_max || id < 1)		return;	// Arquivo zuado :/ .
 
 		int cost = rec_credits * hardness;
 		node[id] = new Nodes(code);	this->node[id]->set_name(name);	this->node[id]->set_cost(cost);
+		node[id]->set_payment(rec_credits);
+		acumulator += rec_credits;
 		// Vai pegar os pre-requisitos
 		do{
 			arq >> code;
@@ -223,6 +225,7 @@ Graph :: Graph(int){
 		}
 				
 	}while(id != id_max);
+	this->sum_pay = acumulator;
 	arq.close();
 }
 

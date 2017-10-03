@@ -413,12 +413,22 @@ vector<int> sort_tp(Graph * G){		// Retorna uma ordenacao topologica do grafo
 	vector<int>	sorted;			// Uma possivel ordenacao topologica
 	vector<bool> inserted(verts+3, false);	// Inseridos na ordem
 
+	bool tg1_added = false;	// Se torna true apenas quando o TG1 for adicionado aa fila
+	int tg1, index_tg1;	// Vaii armazenar o id de TG1 no grafo
+//	int min = ceil((3 * G->get_sum_pay)/4);
+//	int done = 0;			// Cursou nenhumam ateria inicialmente
 	// Coloca todos os de grau de chegada zero em uma fila.
 	for(int i = 1; i < verts+1; i++){
 		// Criando o mapa para busca mais eficiente depois.
 		code_index.insert(code_index.begin(), pair<int,int>(G->get_node(i)->get_key(), i));	// Necesario; faz o map.
+		
 		if(G->get_node(i)->get_in() == 0)
-			nxt_sorted.push(i);
+			if(G->get_node(i)->get_name() != "TG1")
+				nxt_sorted.push(i);
+			else{
+				tg1 = G->get_node(i)->get_key();
+				index_tg1 = i;
+			}
 	}
 	queue<int> to_decrease_by_one;
 	for(int id; nxt_sorted.empty() == false;){
@@ -451,9 +461,19 @@ vector<int> sort_tp(Graph * G){		// Retorna uma ordenacao topologica do grafo
 			inserted[id] = true;
 		}
 	}
-	int i=0;
-	for(vector<int>::iterator it = sorted.begin(); it != sorted.end(); it++, i++)
-		sorted[i] = G->get_node(*it)->get_key();
+	int j=0;	sorted.push_back(-1);	// Fim da fila
+	for(vector<int>::iterator it = sorted.begin(); sorted[j] != -1; it++, j++)
+		sorted[j] = G->get_node(*it)->get_key();
+	sorted[j] = tg1;
+
+	int tmp;
+	for(Nodes * pivo = G->get_node(index_tg1)->get_nxt(); pivo != NULL; pivo = pivo->get_nxt())
+		if(pivo->get_name() == "TG2"){
+			tmp = pivo->get_key();
+			break;
+		}
+	sorted.push_back(tmp);
+
 	return sorted;	
 }
 

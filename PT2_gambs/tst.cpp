@@ -24,7 +24,7 @@ int main(){
 		// Criando o mapa para busca mais eficiente depois.
 		code_index.insert(code_index.begin(), pair<int,int>(G->get_node(i)->get_key(), i));
 	}
-	vector<int> sorted = sort_tp(G);	
+	vector<int> sorted = sort_tp(G);
 	vector<int>::iterator it = sorted.begin();
 	int i;
 	for(i = 0; it != sorted.end(); it++, i++)

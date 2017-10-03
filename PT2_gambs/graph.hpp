@@ -18,11 +18,12 @@ private:
 	vector <Nodes*> node;
 	int verts;
 	int edge;
-
+	int sum_pay;
 public:
 	inline int get_verts(){return verts;}
 	inline int get_edge(){return edge;}
 	inline Nodes* get_node(int i){return node[i];}
+	inline int get_sum_pay(){return sum_pay;}
 //	inline vector<Nodes*> get_vet_node(){return node;}
 	vector<Nodes*> :: iterator iterador(){return node.begin();}
 	vector<set<int> > adjacentes;
