@@ -1,14 +1,19 @@
-#ifndef _CRITC_HPP_
-#define _CRITC_HPP_
+#ifndef _CRITCPATH_HPP_
+#define _CRITCPATH_HPP_
 #include <queue>
+#include "nodes.hpp"
+using namespace  std;
 
-class Critpath{
+
+class Critcpath{
 public:
     queue<int> keys;
     int sizequeue;
     int accumulatedcost;
 
     void addnodes(Nodes *n);
-	Critpath(Nodes *n);
-	Critpath();
+	Critcpath(Nodes *n);
+	Critcpath();
 };
+
+#endif

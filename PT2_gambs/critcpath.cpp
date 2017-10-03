@@ -1,19 +1,19 @@
-
 #include "critcpath.hpp"
+using namespace std;
 
-void Critic :: addnodes(Nodes *n){
+void Criticpath :: addnodes(Nodes *n){
         keys.push(n->get_key());
         accumulatedcost+=n->get_cost();
         sizequeue++;
 }
 
-Critpath :: Critpath(Nodes *n){
+Critcpath :: Critcpath(Nodes *n){
 //      cout << "itsleaf" << endl;
         keys.push(n->get_key());
         accumulatedcost = n->get_cost();
         sizequeue = 1;
     }
-Critpath :: Critpath(){
+Critcpath :: Critcpath(){
 //      cout << "wat" << endl;
         accumulatedcost=0;
         sizequeue=0;
