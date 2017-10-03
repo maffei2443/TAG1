@@ -12,25 +12,52 @@ Autores:
 #include "nodes.hpp"
 #include "graph.hpp"
 #include "graphop.hpp"
-#define cls cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-
+#define CLS cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+#define ENTER cout << "Tecle enter para continuar..." << endl
+#define WAIT getchar();
 using namespace std;
 // /*
 
 //*/
 
+
 int main(){
-	cout << "Vai Criar grafo" << endl;
-	Graph * G = new Graph("");
-//	Graph * G = new Graph(""); 
-	cout << "Criou grafo" << endl;
-    G->mk_bi();					// Força a bidirecao
-	cout << "Virou bi" << endl;
+//	Graph * G = new Graph(9);
+	int useless = 0;
+	Graph *  G = new Graph(useless);		// Apenas para chamar o contrutor correto
 
+	cout << "Curso: Ciencia da Computacao" << endl;
+	ENTER;	WAIT;	CLS;
+	
+
+	cout << "DAG(vertice, seguido de disciplinas que dependem dele):\n\n";
+	ENTER;	WAIT;	CLS;
+	
 	G->show();
+	ENTER;	WAIT;	CLS;
 
-	cout << "Cliques maximos/maximais de grau 6 (os maiores da turma):\n";
-    bk(G, 6);			// Pertence aa biblioteca graphop.hpp
-//*/
+
+
+
+	map <int, int> code_index;
+	for(int i = 1; i < G->get_verts()+1; i++){
+		// Criando o mapa para busca mais eficiente depois.
+		code_index.insert(code_index.begin(), pair<int,int>(G->get_node(i)->get_key(), i));
+	}
+	cout << "Ordenacao topologica:\n\n";
+	ENTER;	WAIT;	CLS;
+
+	vector<int> sorted = sort_tp(G);
+	vector<int>::iterator it = sorted.begin();
+
+	for(int i = 0; it != sorted.end(); it++, i++)
+		cout << "Posicao: " << i+1 << " | Code == " << sorted[i] << " | Name: " << G->get_node(code_index.find(sorted[i])->second)->get_name() << endl;
+	
+	ENTER;	WAIT;	CLS;
+
+	cout << "Caminho critico:\n\n";
+	ENTER;	WAIT;	CLS;
+
+
 	return 0;
 }

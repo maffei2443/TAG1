@@ -483,7 +483,7 @@ vector<int> sort_tp(Graph * G){		// Retorna uma ordenacao topologica do grafo
 Critcpath true_dfs_cp(Graph * G, Nodes * no, map <int, int> code_index){ // Obs: passar set POR REFERENCIA!!!
     // Coloca todos os de grau de chegada zero em uma fila.
 
-    if(no->get_nxt() == NULL)   return Critpath(no);            //Elemento ja foi visitado
+    if(no->get_nxt() == NULL)   return Critcpath(no);            //Elemento ja foi visitado
     Nodes * pivo = no;
     Critcpath maxpath, aux;
 

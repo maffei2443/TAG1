@@ -40,22 +40,82 @@ void inline Graph :: exclude_list(int index){
 // public
 Graph :: Graph() : edge(0), verts(0){node.resize(1);///*/
 }
+Graph :: Graph(int, int){
+	cout << "Contrutor para bedug\n";
+	int id, code, rec_credits, hardness, pre_req;	//id: posicao no vetor (this->key); code = codigo da disciplina no MW (this->matricula)
+	string name;
+	ifstream arq("fluxo_cic.txt");
+ 	
+	int id_max;		arq >> id_max;
+	cout << id_max;
+	// Debug
+	getline(arq, name);
+	cout << name << endl;
+
+	getline(arq, name);
+	cout << name << endl;
+
+	this->verts = id_max;
+	this->node.resize(id_max + 1);
+	
+
+	int prev[id_max+1] {};	// fila para usar pra guardar pre-requisitos
+	int i;
+	do{
+		i = 0;
+		arq >> id >> code >> rec_credits >> hardness >> name;
+
+		if(id > id_max)		return;	// Arquivo zuado :/ .
+
+		int cost = rec_credits * hardness;
+		node[id] = new Nodes(code);	this->node[id]->set_name(name);	this->node[id]->set_cost(cost);
+		cout << "Atual> " << id << endl;
+		// Vai pegar os pre-requisitos
+		do{
+			arq >> code;
+			cout << code << ' ';
+			if(code != 0 && code != -1){
+				prev[i] = code;
+				if(code == 1)	cout << "Pre-req de " << id << endl;
+// zoado		this->node[code]->plus_out(1);	// +1 mateira que libera
+				this->node[id]->plus_in(1);		// +1 pre-requisito
+				i++;
+			}
+			else
+				cout << "\nPulou " << code << endl;
+			// -1 eh seprador de requisitos
+		}while(code != 0);
+		
+		for(int j=0; j < i; j++){
+			this->node[prev[j]]->insert_qtd_nxt_pro(new Nodes(this->node[id], this->node[id]->get_cost()));		
+			this->node[prev[j]]->set_out(this->node[prev[j]]->get_qtd_nxt());
+		}
+
+		switch (id){case 5: case 9: case 14:
+					case 19: case 24: case 29:
+					case 32: case 34:	getline(arq,name);		// Quebra de linha entre os semestres
+		}
+				
+	}while(id != id_max);
+	cout << "Construiu grafo do fluxo " << endl;
+	arq.close();
+}
 
 Graph :: Graph(string){
 	edge = 0;	verts = 0;
-	vector <string> friend_list;	/// Lista auxiliar p/ contruir a list de adjacencia APOS ler todo o arquivo
+	vector <string> friend_list;	/// Lista auxiliar p/ contruir a list de adjacencia APOS ler todo o arq
 	friend_list.resize(1);
 	this->node.resize(1);	// Assim os node se iniciam pelo numero 1, posicao 1
-	ifstream arquivo;
-	arquivo.open("amigos_tag20172.txt");
-//	arquivo.open("minigrafo");
+	ifstream arq;
+	arq.open("amigos_tag20172.txt");
+//	arq.open("minigrafo");
 	int aux, aux2;
 	string line, s_aux;
 	int index, j;			// Bbs: 'j' e 'index' sao variaveis >essenciais <
 	/// Ler os dados e criar o grafo
-	for(index=1; arquivo.eof() == false; index++){
+	for(index=1; arq.eof() == false; index++){
 		///Ler a line
-		getline(arquivo, line); line += '\n';	// Marca o termino da line. Serah util ao final
+		getline(arq, line); line += '\n';	// Marca o termino da line. Serah util ao final
 		///Pegar o ID do animal	
 		for(j=0, aux=0; line[j] <= '9' && line[j] >= '0'; j++)
 			aux = aux*10 + (line[j] - 48);
@@ -106,25 +166,85 @@ Graph :: Graph(string){
 			this->node[i]->insere_pre_calculado(this->node[aux]);	// Insere nxt de node[i] a partir de this->node[aux]; JAH CONTA OS AMIGOS!!!
 		}
 	}
+	arq.close();
 }
 
 //*
 
+Graph :: Graph(int){
+	int id, code, rec_credits, hardness, pre_req;	//id: posicao no vetor (this->key); code = codigo da disciplina no MW (this->matricula)
+	string name;
+	ifstream arq("fluxo_cic.txt");
+ 	
+	int id_max;		arq >> id_max;
+	// Debug
+	getline(arq, name);
+
+	getline(arq, name);
+
+	this->verts = id_max;
+	this->node.resize(id_max + 1);
+	
+
+	int prev[id_max+1] {};	// fila para usar pra guardar pre-requisitos
+	int i, k;
+	int acumulator = 0;		// Creditos necessario de OBRIGATORIAS
+	do{
+		set <int> redundancy;
+		i = k = 0;
+		arq >> id >> code >> rec_credits >> hardness >> name;
+		if(id > id_max || id < 1)		return;	// Arquivo zuado :/ .
+
+		int cost = rec_credits * hardness;
+		node[id] = new Nodes(code);	this->node[id]->set_name(name);	this->node[id]->set_cost(cost);
+		node[id]->set_payment(rec_credits);
+		acumulator += rec_credits;
+		// Vai pegar os pre-requisitos
+		do{
+			arq >> code;
+			if(code != 0 && code != -1){
+				prev[i] = code;
+				if(redundancy.count(code) == 0){	// Se nao eh redundante adicionar esse pre-req, add
+					redundancy.insert(code);
+// zoado			this->node[code]->plus_out(1);	// +1 mateira que libera
+					this->node[id]->plus_in(1);		// +1 pre-requisito
+					i++;
+				}
+			}
+			// -1 eh separador de requisitos
+		}while(code != 0);
+		
+		for(int j=0; j < i; j++){
+			this->node[prev[j]]->insert_qtd_nxt_pro(new Nodes(this->node[id], this->node[id]->get_cost()));		
+			this->node[prev[j]]->set_out(this->node[prev[j]]->get_qtd_nxt());
+		}
+
+		switch (id){case 5: case 9: case 14:
+					case 19: case 24: case 29:
+					case 32: case 34:	getline(arq,name);		// Quebra de linha entre os semestres
+		}
+				
+	}while(id != id_max);
+	this->sum_pay = acumulator;
+	arq.close();
+}
+
+
 Graph :: Graph(string, string){
-	vector <string> friend_list;	/// Lista auxiliar p/ contruir a list de adjacencia APOS ler todo o arquivo
+	vector <string> friend_list;	/// Lista auxiliar p/ contruir a list de adjacencia APOS ler todo o arq
 	friend_list.resize(1);
 	this->node.resize(1);	// Assim os node se iniciam pelo numero 1, posicao 1
-	///Abrir o arquivo
-	ifstream arquivo;
-	arquivo.open("amigos_tag20172.txt");
-//	arquivo.open("minigrafo");
+	///Abrir o arq
+	ifstream arq;
+	arq.open("amigos_tag20172.txt");
+//	arq.open("minigrafo");
 	int aux, aux2;
 	string line, s_aux;
 	int index, j;
 	/// Ler os dados e criar o grafo
-	for(index=1; arquivo.eof() == false; index++){
+	for(index=1; arq.eof() == false; index++){
 		///Ler a line
-		getline(arquivo, line); line += '\n';	// Marca o termino da line. Serah util ao final
+		getline(arq, line); line += '\n';	// Marca o termino da line. Serah util ao final
 		///Pegar o ID do animal	
 		for(j=0, aux=0; line[j] <= '9' && line[j] >= '0'; j++)
 			aux = aux*10 + (line[j] - 48);
@@ -192,6 +312,7 @@ Graph :: Graph(string, string){
 			j++;	// Pula a virgula
 		}
 	}
+	arq.close();
 }
 
 
@@ -226,8 +347,9 @@ void Graph :: mk_bi(){
 
 
 void Graph :: reset(){
-	for(int i=1; i <= this->verts; i++)
+	for(int i=1; i <= this->verts; i++){
 		exclude_list(i);
+	}
 	this->node.resize(0);
 	this->verts = 0;	this->edge=0;
 }

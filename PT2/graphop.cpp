@@ -402,3 +402,107 @@ void sort_reach_r(Graph * G){
 void sort_keyy(Graph* G){
 	sort(G->iterador()+1, G->iterador() + G->get_verts() + 1 , big_keyy);
 }
+
+// Ordenacao topologica BEM especifica
+
+vector<int> sort_tp(Graph * G){		// Retorna uma ordenacao topologica do grafo
+	int verts = G->get_verts();	
+
+	map <int, int> code_index;
+	queue <int> nxt_sorted;		// Proximos a SEREM INSERIDOS, de qqer forma, na ordenacao topologica.
+	vector<int>	sorted;			// Uma possivel ordenacao topologica
+	vector<bool> inserted(verts+3, false);	// Inseridos na ordem
+
+	bool tg1_added = false;	// Se torna true apenas quando o TG1 for adicionado aa fila
+	int tg1, index_tg1;	// Vaii armazenar o id de TG1 no grafo
+//	int min = ceil((3 * G->get_sum_pay)/4);
+//	int done = 0;			// Cursou nenhumam ateria inicialmente
+	// Coloca todos os de grau de chegada zero em uma fila.
+	for(int i = 1; i < verts+1; i++){
+		// Criando o mapa para busca mais eficiente depois.
+		code_index.insert(code_index.begin(), pair<int,int>(G->get_node(i)->get_key(), i));	// Necesario; faz o map.
+		
+		if(G->get_node(i)->get_in() == 0)
+			if(G->get_node(i)->get_name() != "TG1")
+				nxt_sorted.push(i);
+			else{
+				tg1 = G->get_node(i)->get_key();
+				index_tg1 = i;
+			}
+	}
+	queue<int> to_decrease_by_one;
+	for(int id; nxt_sorted.empty() == false;){
+		for(int i = 0, j = nxt_sorted.size(); i < j; i++){	// Esvazia a parte da pilha que foi enviada para cah.
+			id = nxt_sorted.front();	// 'id' contem a posicao no vetor jah.
+			nxt_sorted.pop();
+			// POSSIVELMENTE enche novamente a pilha
+			Nodes * pivot;
+			// Para cada vertice, verifica se seu "sucessores" podem seradicionados aa fila
+			for(pivot = G->get_node(id)->get_nxt(); pivot != NULL; ){
+				to_decrease_by_one.push(code_index.find(pivot->get_key())->second);	// Lista das materias a se decrementar o grau de incidencia.				
+				if(pivot->get_nxt() != NULL)
+					pivot = pivot->get_nxt();
+				else
+					pivot = NULL;
+			}
+			for(int aux; to_decrease_by_one.empty() == false;){	// Enquanto houver decrementos pendentes, decrementar
+				aux = to_decrease_by_one.front();
+				to_decrease_by_one.pop();
+				G->get_node(aux)->plus_in(-1);
+				int in_degree = G->get_node(aux)->get_in();
+				if(in_degree < 1){		// Se fez todos os pre-erq, pode entrar na ordem
+					int tmp = code_index.find(G->get_node(aux)->get_key())->second;
+					if(inserted[tmp] == false){ // Se ainda nao foi colocado na lista ordenada, eh colocado
+						nxt_sorted.push(code_index.find(G->get_node(aux)->get_key())->second);
+					}
+				}
+			}
+			sorted.push_back(id);	// Lista com ordenacao tpologica valida.
+			inserted[id] = true;
+		}
+	}
+	int j=0;	sorted.push_back(-1);	// Fim da fila
+	for(vector<int>::iterator it = sorted.begin(); sorted[j] != -1; it++, j++)
+		sorted[j] = G->get_node(*it)->get_key();
+	sorted[j] = tg1;
+
+	int tmp;
+	for(Nodes * pivo = G->get_node(index_tg1)->get_nxt(); pivo != NULL; pivo = pivo->get_nxt())
+		if(pivo->get_name() == "TG2"){
+			tmp = pivo->get_key();
+			break;
+		}
+	sorted.push_back(tmp);
+
+	return sorted;	
+}
+
+// Caminho critico
+
+
+Critcpath true_dfs_cp(Graph * G, Nodes * no, map <int, int> code_index){ // Obs: passar set POR REFERENCIA!!!
+    // Coloca todos os de grau de chegada zero em uma fila.
+
+    if(no->get_nxt() == NULL)   return Critcpath(no);            //Elemento ja foi visitado
+    Nodes * pivo = no;
+    Critcpath maxpath, aux;
+
+    while(pivo->get_nxt() != NULL){ // ainda tem nos em que incide
+        aux = true_dfs_cp(G, G->get_node(code_index.find(pivo->get_nxt()->get_key())->second), code_index);
+        if(aux.accumulatedcost > maxpath.accumulatedcost)
+            maxpath = aux;  
+        pivo = pivo->get_nxt();
+    }
+    maxpath.addnodes(no);
+    return maxpath;
+}
+
+Critcpath dfs_cp(Graph * G, Nodes * no){
+	map <int, int> code_index;
+    for(int i = 1; i < G->get_verts()+1; i++){
+        // Criando o mapa para busca mais eficiente depois.
+        code_index.insert(code_index.begin(), pair<int,int>(G->get_node(i)->get_key(), i)); // Necesario; faz o map.
+     }
+     return true_dfs_cp(G, no, code_index);
+
+}

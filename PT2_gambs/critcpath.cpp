@@ -1,7 +1,7 @@
 #include "critcpath.hpp"
 using namespace std;
 
-void Criticpath :: addnodes(Nodes *n){
+void Critcpath :: addnodes(Nodes *n){
         keys.push(n->get_key());
         accumulatedcost+=n->get_cost();
         sizequeue++;

@@ -1,9 +1,7 @@
 ######################################################
 ######################################################
-MAIN:	graphop.o critcpath.o nodes.o graph.o main.o 
+MAIN:	nodes.o graph.o critcpath.o graphop.o main.o 
 	g++ -fpermissive -std=c++11 graphop.o critcpath.o nodes.o graph.o main.o -o main  
-graphop.o: graphop.cpp graphop.hpp
-	g++ -c graphop.cpp	
 critcpath.o:	critcpath.cpp critcpath.hpp
 	g++ -c critcpath.cpp
 nodes.o:	nodes.cpp nodes.hpp
@@ -14,6 +12,8 @@ graph.o:	graph.cpp graph.hpp
 BFS.o:	BFS.cpp BFS.hpp
 	g++ -c BFS.cpp
 ####################
+graphop.o: graphop.cpp graphop.hpp
+	g++ -c graphop.cpp	
 main.o:	main.cpp
 	g++ -c main.cpp
 ######################################################

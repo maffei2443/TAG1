@@ -9,6 +9,7 @@ Autores:
 
 #include "nodes.hpp"
 #include "graph.hpp"
+#include "critcpath.hpp"
 #include <set>
 #include <utility>
 #include <queue>
@@ -51,29 +52,8 @@ void sort_keyy(Graph* G); // Ordena do maior ateh menor quanditade de qtd_nxt
 vector<int> sort_tp(Graph * G);
 
 // Caminho critico
-class Critpath{
-public:
-    queue<int> keys;
-    int sizequeue;
-    int accumulatedcost;
-    void addnodes(Nodes *n){
-        keys.push(n->get_key());
-        accumulatedcost+=n->get_cost();
-        sizequeue++;
-    }
-    Critpath(Nodes *n){
-//      cout << "itsleaf" << endl;
-        keys.push(n->get_key());
-        accumulatedcost = n->get_cost();
-        sizequeue = 1;
-    }
-    Critpath(){
-//      cout << "wat" << endl;
-        accumulatedcost=0;
-        sizequeue=0;
-    }
-};
-Critpath true_dfs_cp(Graph * G, Nodes * no, map <int, int> code_index);
-Critpath dfs_cp(Graph * G, Nodes * no);
+
+Critcpath true_dfs_cp(Graph * G, Nodes * no, map <int, int> code_index);
+Critcpath dfs_cp(Graph * G, Nodes * no);
 
 #endif
