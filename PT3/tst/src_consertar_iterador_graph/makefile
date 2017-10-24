@@ -1,36 +1,37 @@
+X = -std=c++11
 ######################################################
-TESTE:	nodes.o graph.o teste.o
-	g++ -fpermissive -std=c++11 nodes.o graph.o teste.o -o teste
-
+BI:	nodes.o graph.o bi.o
+	g++ $(X)  nodes.o graph.o bi.o -o bi
+######################################################
+TST:	nodes.o graph.o tst.o
+	g++ $(X)  nodes.o graph.o tst.o -o tst
 ######################################################
 MAIN:	nodes.o graph.o critcpath.o graphop.o main.o 
-	g++ -fpermissive -std=c++11 graphop.o critcpath.o nodes.o graph.o main.o -o main  
+	g++ $(X) graphop.o critcpath.o nodes.o graph.o main.o -o main  
 critcpath.o:	critcpath.cpp critcpath.hpp
-	g++ -c critcpath.cpp
+	g++ $(X) -c critcpath.cpp
 nodes.o:	nodes.cpp nodes.hpp
-	g++ -c nodes.cpp
+	g++ $(X) -c nodes.cpp
 graph.o:	graph.cpp graph.hpp
-	g++ -c graph.cpp
+	g++ $(X) -c graph.cpp
 ##Parte do Arthur###
 BFS.o:	BFS.cpp BFS.hpp
-	g++ -c BFS.cpp
+	g++ $(X) -c BFS.cpp
 ####################
 graphop.o: graphop.cpp graphop.hpp
-	g++ -c graphop.cpp	
+	g++ $(X) -c graphop.cpp	
 main.o:	main.cpp
-	g++ -c main.cpp
+	g++ $(X) -c main.cpp
 ######################################################
 ######################################################	
-
-TST:	graphop.o nodes.o graph.o tst.o 
-	g++ -fpermissive -std=c++11 graphop.o nodes.o graph.o tst.o -o tst  
-####################
+bi.o:	bi.cpp
+	g++ $(X) -c bi.cpp
 tst.o:	tst.cpp
-	g++ -c tst.cpp
+	g++ $(X) -c tst.cpp
 #########################################
 #########################################
 #########################################
 CRITC:	graphop.o nodes.o graph.o critc.o 
-	g++ -fpermissive -std=c++11 graphop.o nodes.o graph.o critc.o -o critc  
+	g++ $(X) graphop.o nodes.o graph.o critc.o -o critc  
 critc.o:
-	g++ critc.cpp -c critc
+	g++ $(X) critc.cpp -c critc
