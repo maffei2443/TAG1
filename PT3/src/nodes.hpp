@@ -22,7 +22,7 @@ typedef struct {
 */
 class Nodes{
 private:
-	bool teacher;
+	bool teacher, sat;	// se eh professor e se eh saturado
 	Nodes * teacher1;
 	Nodes * teacher2;
 	int key, hab;				/// semantica dependese eh professor ou escola
@@ -30,14 +30,17 @@ private:
 	bool visit;
 	set <int> already;			// Conjunto dos que jah estao na lista de adjacencia. Impede arestas paralelas.
 	deque <Nodes*> nxt;		/// Para fazer a lista de adjacencia
+	Nodes* insert_teacher2(Nodes*);
 public:
-
-	Nodes(int k, int h) : teacher(true),  hab(h), key(k), qtd_nxt(0), visit(false), teacher1(NULL), teacher2(NULL){}
-	Nodes(int k, int h, char) : teacher(false), hab(h), key(k+100), qtd_nxt(0), visit(false), teacher1(NULL), teacher2(NULL){}
+	Nodes(){}
+	Nodes(int k, int h) : teacher(true), sat(false), hab(h), key(k), qtd_nxt(0), visit(false), teacher1(NULL), teacher2(NULL){}
+	Nodes(int k, int h, char) : teacher(false), sat(false), hab(h), key(k+100), qtd_nxt(0), visit(false), teacher1(NULL), teacher2(NULL){}
 	
+	inline int get_teacher(){return teacher;}
+	inline int get_sat(){return sat;}
 	inline int get_key(){return key;}
 	inline int get_hab(){return hab;}
-	inline int get_qtd_nxt(){return qtd_nxt;}
+	int get_qtd_nxt(){return qtd_nxt;}
 	inline bool get_visit(){return visit;}
 	deque<Nodes*>::iterator get_nxt(){return nxt.begin();}	// Retorna iterador constante para o primeiro elemento dos que o noh pode atingir
 	deque<Nodes*>::iterator get_end(){return nxt.end();}	// Retorna iterador constante para o primeiro elemento dos que o noh pode atingir
@@ -47,6 +50,7 @@ public:
 	void remove_nxt_front();
 	void remove_nxt_back();
 	
+	Nodes* insert_teacher(Nodes*);
 //	inline void set_qtd_nxt(int qtd_nxt){ this->qtd_nxt = qtd_nxt;}
 //	inline void set_key(int key){this->key = key;}
 
