@@ -35,8 +35,9 @@ public:
 	Nodes(){}
 	Nodes(int k, int h) : teacher(true), sat(false), hab(h), key(k), qtd_nxt(0), visit(false), teacher1(NULL), teacher2(NULL){}
 	Nodes(int k, int h, char) : teacher(false), sat(false), hab(h), key(k+100), qtd_nxt(0), visit(false), teacher1(NULL), teacher2(NULL){}
-	
-	inline int get_teacher(){return teacher;}
+
+	Nodes * get_teacher1(){return teacher1;}
+	Nodes * get_teacher2(){return teacher2;}
 	inline int get_sat(){return sat;}
 	inline int get_key(){return key;}
 	inline int get_hab(){return hab;}

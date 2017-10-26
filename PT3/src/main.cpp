@@ -184,6 +184,17 @@ int main(){
 	Nodes foo;
 	emparelhamento_top(G, 100, 50);
 
+	for(int i = 101; i < 151; i++){
+		Nodes* au = G->get_node(i);
+		cout << "\nEscola: " << au->get_key() << endl;
+		if(au->get_teacher1() != NULL){
+			cout << "Professor1: " << au->get_teacher1()->get_key() << endl;
+			if(au->get_teacher2() != NULL)
+				cout << "Professor2: " << au->get_teacher2()->get_key() << endl;
+				
+		}
+		cout << endl;
+	}
 	cout << "Terminou a main\n";
 	return 0;
 }
