@@ -1,0 +1,16 @@
+enquanto(algum nó do grafo é professor, está sem vaga e ainda não percorreu a sua lista de escolha de escolas para trabalhar) faça {
+    de grafo.nó1 até grafo.nófinal faça{
+        se nó é professor {
+            se lista de prioridades . topo não checado tem espaço ou tem um professor pior{
+                escola no topo da lista add_prof(nó)
+                se professor pior foi sobreescrito{
+                    avise professor pior que ele não tem mais vaga
+                }
+            }
+        }
+    }
+}
+
+(prof + 1, false)
+
+(prof + scho+1, false)
