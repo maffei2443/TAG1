@@ -60,35 +60,28 @@ bool bipartido1(Graph * G, vector<bool> &visit, set<int> &A, set<int> &B, queue<
 bool bipartido(Graph * G, vector<bool> &queued, set<int> &A, set<int> &B, queue<int> &fila){
 	int before, now;
 	set<int> *x, *y;
-	x = &A;
-	y = &B;
-	int caso;
+	x = &A;	y = &B;
 	before = 1;	// Antes de 1, '0' estah no conjunto B
 	int key = fila.front();
 	A.insert(key);
 	queued[key] = true;
 	while(fila.empty() == false){	// No primeiro caso, before == now.
 		key = fila.front();		fila.pop();
-		if(A.count(key) == 0)
-			now = 0;
-	
-		else if(A.count(key) != 0)
-			now = 1;
+		if(A.count(key) == 0)			now = 0;
+		else			now = 1;
 		
-		if(before != now){
+		if(before != now)
 			swap(x,y);
-			before = now;
-		}
 		
-
+		before = now;		
 		auto init = G->get_node(key)->get_nxt();
 		auto end = G->get_node(key)->get_end();
 												//No primeiro caso, before == now.
 		x->insert(key);
 		for(; init != end; init++){
 			if( x->count( (*init)->get_key()) != 0)	return false;	//Se vizinho estah no mesmo conjunto dele, nao eh bipartido
+
 			y->insert( (*init)->get_key() );		// Inseriu no conjunto oposto
-//			cout << "inseriu " << (*init)->get_key()  << "\n";
 		
 			if(queued[(*init)->get_key()] == false){
 				fila.push((*init)->get_key());

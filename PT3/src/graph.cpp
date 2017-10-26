@@ -26,14 +26,16 @@ void Graph :: mostra_set(set <int> to_show){
 }
 
 void inline Graph :: exclude_list(int index){
-	this->node[index]->remove_all_out();
+	this->node[index]->remove_all_nxt();
 	delete(this->node[index]);
 	this->node[index] = NULL;
 }
 
 
 // public
-Graph :: Graph() : edge(0), verts(0){node.resize(1);///*/
+Graph :: Graph() : edge(0), verts(0){
+	node.resize(1);///*/
+	cout << "this->verts == " << verts << endl;
 }
 
 Graph :: ~Graph(){
@@ -43,6 +45,8 @@ Graph :: ~Graph(){
 
 void Graph :: reset(){
 	for(int i=1; i <= this->verts; i++){
+		cout << "Thi->verts == " << this->verts << endl;
+		cout << "ahhhhhhh" << endl;
 		exclude_list(i);
 	}
 	this->node.resize(0);
@@ -66,25 +70,28 @@ vector<int> Graph ::  list(int vertice){
 }
 
 void Graph :: show_verts(){
+	cout << "Waning: ajustar funcao mostrar_no da classe Nodes\n";
 	for(int i=1; i <= this->verts;i++){
 		cout << "****** i == " << i << " ******" << endl; 
-		this->node[i]->mostra_no();		
+//		this->node[i]->mostra_no();		
 	}
 }
 
 void Graph :: show(){
+	cout << "Warning: ajustar funcao mostrar_lista da classe Nodes\n";
 	cout << "Mostrando grafo: " << endl;
 	for(int i=1; i <= this->verts;i++){
 		cout << "****** i == " << i << " ******" << endl; 
-		this->node[i]->mostra_lista();
+//		this->node[i]->mostra_lista();
 	}
 }
 
 void Graph :: show_nodes(){
 	cout << "Mostrando grafo: " << endl;
+	cout << "Warning: ajustar funcao mostra_no da classe Nodes\n";
 	for(int i=1; i <= this->verts;i++){
 		cout << "****** i == " << i << " ******" << endl; 
-		this->node[i]->mostra_no();
+//		this->node[i]->mostra_no();
 	}
 }
 

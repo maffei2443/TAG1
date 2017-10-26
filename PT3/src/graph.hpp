@@ -30,8 +30,8 @@ public:
 	deque<Nodes*> :: iterator end(){return node.end();}
 	vector<set<int> > adjacentes;
 	Graph();
+	Graph(int);
 	~Graph();
-	
 ///	void mk_bi();			// Arestas direcionadas passam a ser sem direcao
 	void reset();			/// Apaga o grafo
 	void insert(Nodes*);	/// Insere novo noh no grafo (no final da lsita de nohs)
