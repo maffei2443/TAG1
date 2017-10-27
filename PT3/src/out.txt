@@ -1,1417 +1,150 @@
-100 50
-Inseriu de boas
-1
-Candidato 1 para a escola Escola : 110
-Removido : ninguem
-teacher1 == 1
-2
-Candidato 2 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-2
-Candidato 2 para a escola Escola : 120
-Removido : ninguem
-teacher1 == 2
-3
-Candidato 3 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-3
-Candidato 3 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0
-3
-Candidato 3 para a escola Escola : 103
-Removido : ninguem
-teacher1 == 3
-4
-Candidato 4 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-4
-Candidato 4 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0
-4
-Candidato 4 para a escola Escola : 104
-Removido : ninguem
-teacher1 == 4
-5
-Candidato 5 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-5
-Candidato 5 para a escola Escola : 120
-teacher1 == 5
-removido == 2
-2
-Candidato 2 para a escola Escola : 102
-Removido : ninguem
-teacher1 == 2
-6
-Candidato 6 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-6
-Candidato 6 para a escola Escola : 105
-Removido : ninguem
-teacher1 == 6
-7
-Candidato 7 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-7
-Candidato 7 para a escola Escola : 105
-Professor rejeitado por 105
-teacher1  continua: 0
-7
-Candidato 7 para a escola Escola : 107
-Removido : ninguem
-teacher1 == 7
-8
-Candidato 8 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-8
-Candidato 8 para a escola Escola : 105
-Professor rejeitado por 105
-teacher1  continua: 0
-8
-Candidato 8 para a escola Escola : 108
-Removido : ninguem
-teacher1 == 8
-9
-Candidato 9 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-9
-Candidato 9 para a escola Escola : 105
-Professor rejeitado por 105
-teacher1  continua: 0
-9
-Candidato 9 para a escola Escola : 109
-Removido : ninguem
-teacher1 == 9
-10
-Candidato 10 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-10
-Candidato 10 para a escola Escola : 105
-teacher1 == 10
-removido == 6
-6
-Candidato 6 para a escola Escola : 106
-Removido : ninguem
-teacher1 == 6
-11
-Candidato 11 para a escola Escola : 120
-Removido : ninguem
-teacher2 == 11
-12
-Candidato 12 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-12
-Candidato 12 para a escola Escola : 130
-Removido : ninguem
-teacher1 == 12
-13
-Candidato 13 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-13
-Candidato 13 para a escola Escola : 130
-Removido : ninguem
-teacher2 == 13
-14
-Candidato 14 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-14
-Candidato 14 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-14
-Candidato 14 para a escola Escola : 114
-Removido : ninguem
-teacher1 == 14
-15
-Candidato 15 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-15
-Candidato 15 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-15
-Candidato 15 para a escola Escola : 115
-Removido : ninguem
-teacher1 == 15
-16
-Candidato 16 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-16
-Candidato 16 para a escola Escola : 135
-Removido : ninguem
-teacher1 == 16
-17
-Candidato 17 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-17
-Candidato 17 para a escola Escola : 135
-Removido : ninguem
-teacher2 == 17
-18
-Candidato 18 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-18
-Candidato 18 para a escola Escola : 135
-Professor rejeitado por 135
-teacher1  continua: 0x1796780
-18
-Candidato 18 para a escola Escola : 118
-Removido : ninguem
-teacher1 == 18
-19
-Candidato 19 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-19
-Candidato 19 para a escola Escola : 135
-Professor rejeitado por 135
-teacher1  continua: 0x1796780
-19
-Candidato 19 para a escola Escola : 119
-Removido : ninguem
-teacher1 == 19
-20
-Candidato 20 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-20
-Candidato 20 para a escola Escola : 135
-Professor rejeitado por 135
-teacher1  continua: 0x1796780
-20
-Candidato 20 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-20
-Candidato 20 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-20
-Candidato 20 para a escola Escola : 143
-Removido : ninguem
-teacher1 == 20
-21
-Candidato 21 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-21
-Candidato 21 para a escola Escola : 140
-Removido : ninguem
-teacher1 == 21
-22
-Candidato 22 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-22
-Candidato 22 para a escola Escola : 140
-teacher1 == 22
-removido == 21
-21
-Candidato 21 para a escola Escola : 121
-Removido : ninguem
-teacher1 == 21
-23
-Candidato 23 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-23
-Candidato 23 para a escola Escola : 140
-Removido : ninguem
-teacher2 == 23
-24
-Candidato 24 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-24
-Candidato 24 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-24
-Candidato 24 para a escola Escola : 124
-Removido : ninguem
-teacher1 == 24
-25
-Candidato 25 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-25
-Candidato 25 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-25
-Candidato 25 para a escola Escola : 125
-Removido : ninguem
-teacher1 == 25
-26
-Candidato 26 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-26
-Candidato 26 para a escola Escola : 145
-Removido : ninguem
-teacher1 == 26
-27
-Candidato 27 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-27
-Candidato 27 para a escola Escola : 145
-Removido : ninguem
-teacher2 == 27
-28
-Candidato 28 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-28
-Candidato 28 para a escola Escola : 145
-Professor rejeitado por 145
-teacher1  continua: 0x1798620
-28
-Candidato 28 para a escola Escola : 128
-Removido : ninguem
-teacher1 == 28
-29
-Candidato 29 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-29
-Candidato 29 para a escola Escola : 145
-Professor rejeitado por 145
-teacher1  continua: 0x1798620
-29
-Candidato 29 para a escola Escola : 129
-Removido : ninguem
-teacher1 == 29
-30
-Candidato 30 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-30
-Candidato 30 para a escola Escola : 145
-Professor rejeitado por 145
-teacher1  continua: 0x1798620
-30
-Candidato 30 para a escola Escola : 103
-teacher1 == 30
-removido == 3
-3
-Candidato 3 para a escola Escola : 127
-Removido : ninguem
-teacher1 == 3
-31
-Candidato 31 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-31
-Candidato 31 para a escola Escola : 150
-Removido : ninguem
-teacher1 == 31
-32
-Candidato 32 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-32
-Candidato 32 para a escola Escola : 150
-teacher1 == 32
-removido == 31
-31
-Candidato 31 para a escola Escola : 131
-Removido : ninguem
-teacher1 == 31
-33
-Candidato 33 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-33
-Candidato 33 para a escola Escola : 150
-Removido : ninguem
-teacher2 == 33
-34
-Candidato 34 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-34
-Candidato 34 para a escola Escola : 150
-Professor rejeitado por 150
-teacher1  continua: 0x1799880
-34
-Candidato 34 para a escola Escola : 134
-Removido : ninguem
-teacher1 == 34
-35
-Candidato 35 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-35
-Candidato 35 para a escola Escola : 150
-Professor rejeitado por 150
-teacher1  continua: 0x1799880
-35
-Candidato 35 para a escola Escola : 135
-Professor rejeitado por 135
-teacher1  continua: 0x1796780
-35
-Candidato 35 para a escola Escola : 131
-teacher1 == 35
-removido == 31
-31
-Candidato 31 para a escola Escola : 141
-Removido : ninguem
-teacher1 == 31
-36
-Candidato 36 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-36
-Candidato 36 para a escola Escola : 150
-Professor rejeitado por 150
-teacher1  continua: 0x1799880
-36
-Candidato 36 para a escola Escola : 136
-Removido : ninguem
-teacher1 == 36
-37
-Candidato 37 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-37
-Candidato 37 para a escola Escola : 102
-Professor rejeitado por 102
-teacher1  continua: 0
-37
-Candidato 37 para a escola Escola : 137
-Removido : ninguem
-teacher1 == 37
-38
-Candidato 38 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-38
-Candidato 38 para a escola Escola : 102
-Professor rejeitado por 102
-teacher1  continua: 0
-38
-Candidato 38 para a escola Escola : 138
-Removido : ninguem
-teacher1 == 38
-39
-Candidato 39 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-39
-Candidato 39 para a escola Escola : 102
-Professor rejeitado por 102
-teacher1  continua: 0
-39
-Candidato 39 para a escola Escola : 139
-Removido : ninguem
-teacher1 == 39
-40
-Candidato 40 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-40
-Candidato 40 para a escola Escola : 102
-teacher1 == 40
-removido == 2
-2
-Candidato 2 para a escola Escola : 127
-Removido : ninguem
-teacher2 == 2
-41
-Candidato 41 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-41
-Candidato 41 para a escola Escola : 102
-Professor rejeitado por 102
-teacher1  continua: 0
-41
-Candidato 41 para a escola Escola : 141
-Professor rejeitado por 141
-teacher1  continua: 0
-41
-Candidato 41 para a escola Escola : 111
-Removido : ninguem
-teacher1 == 41
-42
-Candidato 42 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-42
-Candidato 42 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-42
-Candidato 42 para a escola Escola : 142
-Removido : ninguem
-teacher1 == 42
-43
-Candidato 43 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-43
-Candidato 43 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-43
-Candidato 43 para a escola Escola : 143
-Professor rejeitado por 143
-teacher1  continua: 0
-43
-Candidato 43 para a escola Escola : 111
-teacher1 == 43
-removido == 41
-41
-Candidato 41 para a escola Escola : 142
-Removido : ninguem
-teacher2 == 41
-44
-Candidato 44 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-44
-Candidato 44 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-44
-Candidato 44 para a escola Escola : 144
-Removido : ninguem
-teacher1 == 44
-45
-Candidato 45 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-45
-Candidato 45 para a escola Escola : 104
-teacher1 == 45
-removido == 4
-4
-Candidato 4 para a escola Escola : 127
-Professor rejeitado por 127
-teacher1  continua: 0x1793990
-4
-Candidato 4 para a escola Escola : 109
-Professor rejeitado por 109
-teacher1  continua: 0
-Rejeitdao do momento: 4
-46
-Candidato 46 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-46
-Candidato 46 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-46
-Candidato 46 para a escola Escola : 146
-Removido : ninguem
-teacher1 == 46
-47
-Candidato 47 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-47
-Candidato 47 para a escola Escola : 106
-Professor rejeitado por 106
-teacher1  continua: 0
-47
-Candidato 47 para a escola Escola : 147
-Removido : ninguem
-teacher1 == 47
-48
-Candidato 48 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-48
-Candidato 48 para a escola Escola : 106
-Professor rejeitado por 106
-teacher1  continua: 0
-48
-Candidato 48 para a escola Escola : 148
-Removido : ninguem
-teacher1 == 48
-49
-Candidato 49 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-49
-Candidato 49 para a escola Escola : 106
-Professor rejeitado por 106
-teacher1  continua: 0
-49
-Candidato 49 para a escola Escola : 149
-Removido : ninguem
-teacher1 == 49
-50
-Candidato 50 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-50
-Candidato 50 para a escola Escola : 106
-teacher1 == 50
-removido == 6
-6
-Candidato 6 para a escola Escola : 127
-Professor rejeitado por 127
-teacher1  continua: 0x1793990
-6
-Candidato 6 para a escola Escola : 113
-Removido : ninguem
-teacher1 == 6
-51
-Candidato 51 para a escola Escola : 150
-Professor rejeitado por 150
-teacher1  continua: 0x1799880
-51
-Candidato 51 para a escola Escola : 106
-Professor rejeitado por 106
-teacher1  continua: 0
-51
-Candidato 51 para a escola Escola : 149
-Removido : ninguem
-teacher2 == 51
-52
-Candidato 52 para a escola Escola : 149
-Professor rejeitado por 149
-teacher1  continua: 0x179cfa0
-52
-Candidato 52 para a escola Escola : 108
-Professor rejeitado por 108
-teacher1  continua: 0
-52
-Candidato 52 para a escola Escola : 148
-Removido : ninguem
-teacher2 == 52
-53
-Candidato 53 para a escola Escola : 148
-Professor rejeitado por 148
-teacher1  continua: 0x179d2b0
-53
-Candidato 53 para a escola Escola : 108
-Professor rejeitado por 108
-teacher1  continua: 0
-53
-Candidato 53 para a escola Escola : 147
-Removido : ninguem
-teacher2 == 53
-54
-Candidato 54 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-54
-Candidato 54 para a escola Escola : 108
-Professor rejeitado por 108
-teacher1  continua: 0
-54
-Candidato 54 para a escola Escola : 146
-Removido : ninguem
-teacher2 == 54
-55
-Candidato 55 para a escola Escola : 146
-Professor rejeitado por 146
-teacher1  continua: 0x179d8d0
-55
-Candidato 55 para a escola Escola : 108
-teacher1 == 55
-removido == 8
-8
-Candidato 8 para a escola Escola : 135
-Professor rejeitado por 135
-teacher1  continua: 0x1796780
-8
-Candidato 8 para a escola Escola : 117
-Removido : ninguem
-teacher1 == 8
-56
-Candidato 56 para a escola Escola : 145
-Professor rejeitado por 145
-teacher1  continua: 0x1798620
-56
-Candidato 56 para a escola Escola : 108
-Professor rejeitado por 108
-teacher1  continua: 0
-56
-Candidato 56 para a escola Escola : 144
-Removido : ninguem
-teacher2 == 56
-57
-Candidato 57 para a escola Escola : 144
-Professor rejeitado por 144
-teacher1  continua: 0x179def0
-57
-Candidato 57 para a escola Escola : 108
-Professor rejeitado por 108
-teacher1  continua: 0
-57
-Candidato 57 para a escola Escola : 143
-Professor rejeitado por 143
-teacher1  continua: 0
-57
-Candidato 57 para a escola Escola : 103
-Professor rejeitado por 103
-teacher1  continua: 0
-57
-Candidato 57 para a escola Escola : 125
-Removido : ninguem
-teacher2 == 57
-58
-Candidato 58 para a escola Escola : 143
-Professor rejeitado por 143
-teacher1  continua: 0
-58
-Candidato 58 para a escola Escola : 108
-Professor rejeitado por 108
-teacher1  continua: 0
-58
-Candidato 58 para a escola Escola : 142
-Professor rejeitado por 142
-teacher1  continua: 0x179b100
-58
-Candidato 58 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-58
-Candidato 58 para a escola Escola : 125
-Professor rejeitado por 125
-teacher1  continua: 0x179e200
-Rejeitdao do momento: 58
-59
-Candidato 59 para a escola Escola : 142
-Professor rejeitado por 142
-teacher1  continua: 0x179b100
-59
-Candidato 59 para a escola Escola : 108
-Professor rejeitado por 108
-teacher1  continua: 0
-59
-Candidato 59 para a escola Escola : 141
-teacher1 == 59
-removido == 31
-31
-Candidato 31 para a escola Escola : 118
-Professor rejeitado por 118
-teacher1  continua: 0
-Rejeitdao do momento: 31
-60
-Candidato 60 para a escola Escola : 141
-Removido : ninguem
-teacher2 == 60
-61
-Candidato 61 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-61
-Candidato 61 para a escola Escola : 108
-Professor rejeitado por 108
-teacher1  continua: 0
-61
-Candidato 61 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-61
-Candidato 61 para a escola Escola : 107
-Professor rejeitado por 107
-teacher1  continua: 0
-61
-Candidato 61 para a escola Escola : 115
-Removido : ninguem
-teacher2 == 61
-62
-Candidato 62 para a escola Escola : 139
-Removido : ninguem
-teacher2 == 62
-63
-Candidato 63 para a escola Escola : 138
-Removido : ninguem
-teacher2 == 63
-64
-Candidato 64 para a escola Escola : 137
-Removido : ninguem
-teacher2 == 64
-65
-Candidato 65 para a escola Escola : 136
-Removido : ninguem
-teacher2 == 65
-66
-Candidato 66 para a escola Escola : 135
-Professor rejeitado por 135
-teacher1  continua: 0x1796780
-66
-Candidato 66 para a escola Escola : 112
-Removido : ninguem
-teacher1 == 66
-67
-Candidato 67 para a escola Escola : 134
-Removido : ninguem
-teacher2 == 67
-68
-Candidato 68 para a escola Escola : 133
-Removido : ninguem
-teacher1 == 68
-69
-Candidato 69 para a escola Escola : 132
-Removido : ninguem
-teacher1 == 69
-70
-Candidato 70 para a escola Escola : 131
-Professor rejeitado por 131
-teacher1  continua: 0
-70
-Candidato 70 para a escola Escola : 112
-teacher1 == 70
-removido == 66
-66
-Candidato 66 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-66
-Candidato 66 para a escola Escola : 114
-Professor rejeitado por 114
-teacher1  continua: 0
-66
-Candidato 66 para a escola Escola : 115
-Professor rejeitado por 115
-teacher1  continua: 0x179ee40
-Rejeitdao do momento: 66
-71
-Candidato 71 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-71
-Candidato 71 para a escola Escola : 112
-Removido : ninguem
-teacher2 == 71
-72
-Candidato 72 para a escola Escola : 129
-Removido : ninguem
-teacher2 == 72
-73
-Candidato 73 para a escola Escola : 128
-Removido : ninguem
-teacher2 == 73
-74
-Candidato 74 para a escola Escola : 127
-Professor rejeitado por 127
-teacher1  continua: 0x1793990
-74
-Candidato 74 para a escola Escola : 113
-Professor rejeitado por 113
-teacher1  continua: 0
-74
-Candidato 74 para a escola Escola : 107
-Professor rejeitado por 107
-teacher1  continua: 0
-74
-Candidato 74 para a escola Escola : 123
-Removido : ninguem
-teacher1 == 74
-75
-Candidato 75 para a escola Escola : 126
-Removido : ninguem
-teacher1 == 75
-76
-Candidato 76 para a escola Escola : 125
-Professor rejeitado por 125
-teacher1  continua: 0x179e200
-76
-Candidato 76 para a escola Escola : 113
-Professor rejeitado por 113
-teacher1  continua: 0
-76
-Candidato 76 para a escola Escola : 107
-Professor rejeitado por 107
-teacher1  continua: 0
-76
-Candidato 76 para a escola Escola : 102
-Professor rejeitado por 102
-teacher1  continua: 0
-76
-Candidato 76 para a escola Escola : 135
-Professor rejeitado por 135
-teacher1  continua: 0x1796780
-Rejeitdao do momento: 76
-77
-Candidato 77 para a escola Escola : 124
-Professor rejeitado por 124
-teacher1  continua: 0
-77
-Candidato 77 para a escola Escola : 113
-Professor rejeitado por 113
-teacher1  continua: 0
-77
-Candidato 77 para a escola Escola : 107
-Professor rejeitado por 107
-teacher1  continua: 0
-77
-Candidato 77 para a escola Escola : 126
-Professor rejeitado por 126
-teacher1  continua: 0
-77
-Candidato 77 para a escola Escola : 135
-Professor rejeitado por 135
-teacher1  continua: 0x1796780
-Rejeitdao do momento: 77
-78
-Candidato 78 para a escola Escola : 123
-Professor rejeitado por 123
-teacher1  continua: 0
-78
-Candidato 78 para a escola Escola : 113
-Professor rejeitado por 113
-teacher1  continua: 0
-78
-Candidato 78 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-78
-Candidato 78 para a escola Escola : 127
-Professor rejeitado por 127
-teacher1  continua: 0x1793990
-78
-Candidato 78 para a escola Escola : 135
-Professor rejeitado por 135
-teacher1  continua: 0x1796780
-Rejeitdao do momento: 78
-79
-Candidato 79 para a escola Escola : 122
-Removido : ninguem
-teacher1 == 79
-80
-Candidato 80 para a escola Escola : 121
-teacher1 == 80
-removido == 21
-21
-Candidato 21 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-21
-Candidato 21 para a escola Escola : 145
-Professor rejeitado por 145
-teacher1  continua: 0x1798620
-Rejeitdao do momento: 21
-81
-Candidato 81 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-81
-Candidato 81 para a escola Escola : 127
-Professor rejeitado por 127
-teacher1  continua: 0x1793990
-81
-Candidato 81 para a escola Escola : 134
-Professor rejeitado por 134
-teacher1  continua: 0x17a00a0
-81
-Candidato 81 para a escola Escola : 130
-Professor rejeitado por 130
-teacher1  continua: 0x1795b40
-81
-Candidato 81 para a escola Escola : 111
-Professor rejeitado por 111
-teacher1  continua: 0
-Rejeitdao do momento: 81
-82
-Candidato 82 para a escola Escola : 119
-Professor rejeitado por 119
-teacher1  continua: 0
-82
-Candidato 82 para a escola Escola : 127
-Professor rejeitado por 127
-teacher1  continua: 0x1793990
-82
-Candidato 82 para a escola Escola : 134
-Professor rejeitado por 134
-teacher1  continua: 0x17a00a0
-82
-Candidato 82 para a escola Escola : 131
-Professor rejeitado por 131
-teacher1  continua: 0
-82
-Candidato 82 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-Rejeitdao do momento: 82
-83
-Candidato 83 para a escola Escola : 118
-Professor rejeitado por 118
-teacher1  continua: 0
-83
-Candidato 83 para a escola Escola : 127
-Professor rejeitado por 127
-teacher1  continua: 0x1793990
-83
-Candidato 83 para a escola Escola : 103
-Professor rejeitado por 103
-teacher1  continua: 0
-83
-Candidato 83 para a escola Escola : 132
-Removido : ninguem
-teacher2 == 83
-84
-Candidato 84 para a escola Escola : 117
-Professor rejeitado por 117
-teacher1  continua: 0
-84
-Candidato 84 para a escola Escola : 144
-Professor rejeitado por 144
-teacher1  continua: 0x179def0
-84
-Candidato 84 para a escola Escola : 103
-Professor rejeitado por 103
-teacher1  continua: 0
-84
-Candidato 84 para a escola Escola : 133
-Removido : ninguem
-teacher2 == 84
-85
-Candidato 85 para a escola Escola : 116
-Removido : ninguem
-teacher1 == 85
-86
-Candidato 86 para a escola Escola : 115
-Professor rejeitado por 115
-teacher1  continua: 0x179ee40
-86
-Candidato 86 para a escola Escola : 144
-Professor rejeitado por 144
-teacher1  continua: 0x179def0
-86
-Candidato 86 para a escola Escola : 103
-Professor rejeitado por 103
-teacher1  continua: 0
-86
-Candidato 86 para a escola Escola : 135
-Professor rejeitado por 135
-teacher1  continua: 0x1796780
-86
-Candidato 86 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-Rejeitdao do momento: 86
-87
-Candidato 87 para a escola Escola : 114
-Professor rejeitado por 114
-teacher1  continua: 0
-87
-Candidato 87 para a escola Escola : 144
-Professor rejeitado por 144
-teacher1  continua: 0x179def0
-87
-Candidato 87 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-87
-Candidato 87 para a escola Escola : 136
-Professor rejeitado por 136
-teacher1  continua: 0x179fa80
-87
-Candidato 87 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-Rejeitdao do momento: 87
-88
-Candidato 88 para a escola Escola : 113
-Professor rejeitado por 113
-teacher1  continua: 0
-88
-Candidato 88 para a escola Escola : 144
-Professor rejeitado por 144
-teacher1  continua: 0x179def0
-88
-Candidato 88 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-88
-Candidato 88 para a escola Escola : 137
-Professor rejeitado por 137
-teacher1  continua: 0x179f770
-88
-Candidato 88 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-Rejeitdao do momento: 88
-89
-Candidato 89 para a escola Escola : 112
-Professor rejeitado por 112
-teacher1  continua: 0x17a0ce0
-89
-Candidato 89 para a escola Escola : 144
-Professor rejeitado por 144
-teacher1  continua: 0x179def0
-89
-Candidato 89 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-89
-Candidato 89 para a escola Escola : 138
-Professor rejeitado por 138
-teacher1  continua: 0x179f460
-89
-Candidato 89 para a escola Escola : 120
-Professor rejeitado por 120
-teacher1  continua: 0x1795520
-Rejeitdao do momento: 89
-90
-Candidato 90 para a escola Escola : 111
-teacher1 == 90
-removido == 43
-43
-Candidato 43 para a escola Escola : 146
-Professor rejeitado por 146
-teacher1  continua: 0x179d8d0
-Rejeitdao do momento: 43
-91
-Candidato 91 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-91
-Candidato 91 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-91
-Candidato 91 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-91
-Candidato 91 para a escola Escola : 140
-Professor rejeitado por 140
-teacher1  continua: 0x17979e0
-91
-Candidato 91 para a escola Escola : 101
-Removido : ninguem
-teacher1 == 91
-92
-Candidato 92 para a escola Escola : 109
-Professor rejeitado por 109
-teacher1  continua: 0
-92
-Candidato 92 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-92
-Candidato 92 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-92
-Candidato 92 para a escola Escola : 141
-Professor rejeitado por 141
-teacher1  continua: 0x179eb30
-92
-Candidato 92 para a escola Escola : 101
-Removido : ninguem
-teacher2 == 92
-93
-Candidato 93 para a escola Escola : 108
-Professor rejeitado por 108
-teacher1  continua: 0
-93
-Candidato 93 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-93
-Candidato 93 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-93
-Candidato 93 para a escola Escola : 142
-Professor rejeitado por 142
-teacher1  continua: 0x179b100
-93
-Candidato 93 para a escola Escola : 101
-Professor rejeitado por 101
-teacher1  continua: 0x17a4d30
-Rejeitdao do momento: 93
-94
-Candidato 94 para a escola Escola : 107
-Professor rejeitado por 107
-teacher1  continua: 0
-94
-Candidato 94 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-94
-Candidato 94 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-94
-Candidato 94 para a escola Escola : 143
-Professor rejeitado por 143
-teacher1  continua: 0
-94
-Candidato 94 para a escola Escola : 101
-Professor rejeitado por 101
-teacher1  continua: 0x17a4d30
-Rejeitdao do momento: 94
-95
-Candidato 95 para a escola Escola : 106
-Professor rejeitado por 106
-teacher1  continua: 0
-95
-Candidato 95 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-95
-Candidato 95 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-95
-Candidato 95 para a escola Escola : 144
-Professor rejeitado por 144
-teacher1  continua: 0x179def0
-95
-Candidato 95 para a escola Escola : 101
-Professor rejeitado por 101
-teacher1  continua: 0x17a4d30
-Rejeitdao do momento: 95
-96
-Candidato 96 para a escola Escola : 105
-Professor rejeitado por 105
-teacher1  continua: 0
-96
-Candidato 96 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-96
-Candidato 96 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-96
-Candidato 96 para a escola Escola : 145
-Professor rejeitado por 145
-teacher1  continua: 0x1798620
-96
-Candidato 96 para a escola Escola : 101
-Professor rejeitado por 101
-teacher1  continua: 0x17a4d30
-Rejeitdao do momento: 96
-97
-Candidato 97 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-97
-Candidato 97 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-97
-Candidato 97 para a escola Escola : 114
-Professor rejeitado por 114
-teacher1  continua: 0
-97
-Candidato 97 para a escola Escola : 146
-Professor rejeitado por 146
-teacher1  continua: 0x179d8d0
-97
-Candidato 97 para a escola Escola : 101
-Professor rejeitado por 101
-teacher1  continua: 0x17a4d30
-Rejeitdao do momento: 97
-98
-Candidato 98 para a escola Escola : 103
-Professor rejeitado por 103
-teacher1  continua: 0
-98
-Candidato 98 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-98
-Candidato 98 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-98
-Candidato 98 para a escola Escola : 148
-Professor rejeitado por 148
-teacher1  continua: 0x179d2b0
-98
-Candidato 98 para a escola Escola : 101
-Professor rejeitado por 101
-teacher1  continua: 0x17a4d30
-Rejeitdao do momento: 98
-99
-Candidato 99 para a escola Escola : 102
-Professor rejeitado por 102
-teacher1  continua: 0
-99
-Candidato 99 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-99
-Candidato 99 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-99
-Candidato 99 para a escola Escola : 149
-Professor rejeitado por 149
-teacher1  continua: 0x179cfa0
-99
-Candidato 99 para a escola Escola : 101
-Professor rejeitado por 101
-teacher1  continua: 0x17a4d30
-Rejeitdao do momento: 99
-100
-Candidato 100 para a escola Escola : 101
-Professor rejeitado por 101
-teacher1  continua: 0x17a4d30
-100
-Candidato 100 para a escola Escola : 147
-Professor rejeitado por 147
-teacher1  continua: 0x179d5c0
-100
-Candidato 100 para a escola Escola : 104
-Professor rejeitado por 104
-teacher1  continua: 0
-100
-Candidato 100 para a escola Escola : 150
-Professor rejeitado por 150
-teacher1  continua: 0x1799880
-100
-Candidato 100 para a escola Escola : 110
-Professor rejeitado por 110
-teacher1  continua: 0
-Rejeitdao do momento: 100
+Escola: 101
  91 
  92 
-
+Escola: 102
  40 
-
+ 4 
+Escola: 103
  30 
-
+ 21 
+Escola: 104
  45 
-
+ 31 
+Escola: 105
  10 
-
+ 43 
+Escola: 106
  50 
-
+ 58 
+Escola: 107
  7 
-
+ 66 
+Escola: 108
  55 
-
+ 76 
+Escola: 109
  9 
-
+ 77 
+Escola: 110
  1 
-
+ 78 
+Escola: 111
  90 
-
+ 81 
+Escola: 112
  70 
  71 
-
+Escola: 113
  6 
-
+ 82 
+Escola: 114
  14 
-
+ 86 
+Escola: 115
  15 
  61 
-
+Escola: 116
  85 
-
+ 87 
+Escola: 117
  8 
-
+ 88 
+Escola: 118
  18 
-
+ 89 
+Escola: 119
  19 
-
+ 93 
+Escola: 120
  5 
  11 
-
+Escola: 121
  80 
-
+ 94 
+Escola: 122
  79 
-
+ 95 
+Escola: 123
  74 
-
+ 96 
+Escola: 124
  24 
-
+ 97 
+Escola: 125
  25 
  57 
-
+Escola: 126
  75 
-
+ 98 
+Escola: 127
  3 
  2 
-
+Escola: 128
  28 
  73 
-
+Escola: 129
  29 
  72 
-
+Escola: 130
  12 
  13 
-
+Escola: 131
  35 
-
+ 99 
+Escola: 132
  69 
  83 
-
+Escola: 133
  68 
  84 
-
+Escola: 134
  34 
  67 
-
+Escola: 135
  16 
  17 
-
+Escola: 136
  36 
  65 
-
+Escola: 137
  37 
  64 
-
+Escola: 138
  38 
  63 
-
+Escola: 139
  39 
  62 
-
+Escola: 140
  22 
  23 
-
+Escola: 141
  59 
  60 
-
+Escola: 142
  42 
  41 
-
+Escola: 143
  20 
-
+ 100 
+Escola: 144
  44 
  56 
-
+Escola: 145
  26 
  27 
-
+Escola: 146
  46 
  54 
-
+Escola: 147
  47 
  53 
-
+Escola: 148
  48 
  52 
-
+Escola: 149
  49 
  51 
-
+Escola: 150
  32 
  33 
-
-Terminou a main

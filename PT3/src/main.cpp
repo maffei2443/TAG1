@@ -16,7 +16,7 @@ Graph :: Graph(int){
 	char tmp;
 	string oo;
 	fscanf(fp, "%d %d", &prof, &scho);
-	fprintf(stdout, "%d %d\n", prof, scho);
+
 	this->verts = prof + scho;
 	this->edge = prof * 5;
 	this->node.resize(1 + prof + scho);
@@ -26,7 +26,6 @@ Graph :: Graph(int){
 	for(int i = 0; i < prof + scho + 1; i++)		tmpp[i].resize(5);
 	
 
-//	cout << "Criando nohs dos professores\n";
 	// Criando nohs dos professores
 	for(int i = 1; i < prof+1; i++){
 		fscanf(fp, "%d %d %d %d %d %d %d", &num, &hab, &tmpp[i][0], &tmpp[i][1], &tmpp[i][2], &tmpp[i][3], &tmpp[i][4]);
@@ -36,33 +35,14 @@ Graph :: Graph(int){
 
 	int scho_hab[50][2];
 	// Criando nohs das escolas
-//	cout << "Criando nohs das escolas\n";
 	for(int i = 1; i < scho+1; i++){
 		fscanf(fp, "%d %d", &scho_hab[i][0], &scho_hab[i][1]);
 		this->node[i+prof] = new Nodes(scho_hab[i][0], scho_hab[i][1], ' ');
 	}
 	
-//	cout << "Mostrando professores e habilidades possuidas\n";
-	for(int i = 1; i < prof+1; i++){
+	for(int i = 1; i < prof+1; i++)
 		for(int j = 0; j < 5; j++)
 			this->node[i]->set_nxt_back( this->node[ tmpp[i][j] ] );
-
-/*		printf("Professor: 		%d | ", this->node[i]->get_key());
-		printf("Habilidades: 	%d\n",  this->node[i]->get_hab());
-		printf("Elementos na lista: %d\n", this->node[i]->get_qtd_nxt());
-		printf("Lista de preferencias : \n");
-		for(auto x = this->node[i]->get_nxt(); x != this->node[i]->get_end(); x++)
-			cout << (*x)->get_key() << " ";
-		cout << endl;
-*/	}
-
-	/*
-	cout << "Mostrando escolas e habilidades exigidas\n";
-	for(int i = 1; i < scho+1; i++){
-		printf("Escola : 		%d | ",  this->node[i+prof]->get_key());
-		printf("Habilidades:	%d\n" , this->node[i+prof]->get_hab());
-	}
-/**/
 	
 	fclose(fp); 
 }
@@ -74,16 +54,10 @@ Nodes* Nodes :: insert_teacher2(Nodes* teach){	// Retorna o ponteiro removido, o
 			if(teach->get_hab() > this->teacher2->get_hab()){	// Se professor que se ofereceu tem + habilidades, aceite-o
 				auto removed = teacher2;
 				teacher2 = teach;
-				cout << "teacher2 == " << this->teacher1->get_key() << endl;
-				cout << "removido == " << removed->get_key() << endl;
-
 				return removed;
 			}
-			else{
-				cout << "Professor rejeitado por " << this->key << endl;
-				cout << "teacher2  continua: " << this->teacher2 << endl;
+			else
 				return teach;	// Professorr rejeitado
-			}
 		}
 		else
 			return teach;
@@ -91,14 +65,11 @@ Nodes* Nodes :: insert_teacher2(Nodes* teach){	// Retorna o ponteiro removido, o
 	else	// Primeiro a se candidatar; portanto, eh aceito de inicio
 		this->teacher2 = teach;
 	this->sat = true;	
-	cout << "Removido : ninguem\n";
-	cout << "teacher2 == " << this->teacher2->get_key() << endl;
 	return NULL;		// Colocou no teacher2 E eh o primeiro candidato
 }
 
 Nodes* Nodes :: insert_teacher(Nodes* teach){	// Retorna o ponteiro removido, ou o candidato caso ele nao seja inserido
-	cout << "Candidato " << teach->get_key() << " para a escola Escola : " << this->get_key() << "\n";
-	if(this->sat == true)	goto here;
+	if(this->sat == true)	return teach;
 	if(teach == NULL) throw NULL;				// ou NULL se eh o primeiro candidato
 	
 	if(this->teacher1 != NULL){		//   Tem candidato jah? Se nao, insere teach.
@@ -106,24 +77,16 @@ Nodes* Nodes :: insert_teacher(Nodes* teach){	// Retorna o ponteiro removido, ou
 			if(teach->get_hab() > this->teacher1->get_hab()){	// Se professor que se ofereceu tem + habilidades, aceite-o
 				auto removed = teacher1;
 				teacher1 = teach;
-				cout << "teacher1 == " << this->teacher1->get_key() << endl;
-				cout << "removido == " << removed->get_key() << endl;
 				return removed;
 			}
-			else{
-here:			cout << "Professor rejeitado por " << this->key << endl;
-				cout << "teacher1  continua: " << this->teacher2 << endl;
-				return teach;	// Professorr rejeitado
-			}
+			else
+				return teach;	// Professorr rejeitado			
 		}
 		else
 			return insert_teacher2(teach);
 	}
 	else	// Primeiro a se candidatar; portanto, eh aceito de inicio
 		this->teacher1 = teach;
-	cout << "Removido : ninguem\n";
-	cout << "teacher1 == " << this->teacher1->get_key() << endl;
-	
 	return NULL;		// Colocou no teacher1 E eh o primeiro candidato
 }
 Nodes* Nodes :: insert_teacher_forced(Nodes * trash){
@@ -143,7 +106,7 @@ Nodes* Nodes :: insert_teacher_forced(Nodes * trash){
 	return NULL;
 }
 
-void emparelhamento_top(Graph * G, const int& PROF, const int& SCHO){
+void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 
 	set<int> nsat_prof, nsat_scho;	// Conjunto dos professores/escolas nao saturados
 	
@@ -159,7 +122,6 @@ void emparelhamento_top(Graph * G, const int& PROF, const int& SCHO){
 		}
 		i++;
 	}
-	cout << "Inseriu de boas\n";
 	// Obs: se um professor for dispensado, checar se ele tem
 	// mais alguma rpeferencia. Se nao, foi REJEITADO.
 	// over1, over2 e over3 sao apenas subconjuntos de rejected
@@ -167,7 +129,6 @@ void emparelhamento_top(Graph * G, const int& PROF, const int& SCHO){
 		for(auto x = nsat_prof.begin(); x != nsat_prof.end();x = nsat_prof.begin()){	// x eh iterador de SET
 
 			Nodes* novo = G->get_node( (*x) );
-			cout << novo->get_key() << endl;
 			
 			Nodes* school = (* (novo->get_nxt()) );					// Ponteiro para ESCOLA.
 
@@ -196,7 +157,6 @@ void emparelhamento_top(Graph * G, const int& PROF, const int& SCHO){
 						nsat_prof.erase(novo->get_key());		// Como ele foi rejeitado, logo nao tem opcoes E portanto nao pode estar em nsat_prof.
 						rejected.insert(novo->get_key());	
 					}	
-
 				}				
 			}
 
@@ -210,17 +170,8 @@ void emparelhamento_top(Graph * G, const int& PROF, const int& SCHO){
 			}
 
 			// Se mudou o conjunto
-			if(rejected.count(novo->get_key()) != 0){
-				cout << "Rejeitdao do momento: " << novo->get_key() << endl;
-				
-			}
 		}
-		cout << "Professores nao saturados E com opcoes :: " << nsat_prof.size() << endl;
-		cout << "Desempregados :: " <<rejected.size()  << endl;
-		cout << "Empregados :: " << sat_prof.size()  << endl;
-		cout << "Escolas saturadas :: " << sat_scho.size()  << endl;
-		cout << "Escolas nao saturadas :: " <<nsat_scho.size()  << endl;
-		auto y = nsat_scho.begin();
+/**/	auto y = nsat_scho.begin();
 
 		// Soh joga os professores pras escolas.
 		// Uma vez que professor conseguiu emprego, nao quer mais trocar.
@@ -234,13 +185,6 @@ void emparelhamento_top(Graph * G, const int& PROF, const int& SCHO){
 			sat_prof.insert( (*x) );
 			rejected.erase( (*x) );
 		}
-
-		cout << "\n\n\n\n\n";
-		cout << "Professores nao saturados E com opcoes :: " << nsat_prof.size() << endl;
-		cout << "Desempregados :: " <<rejected.size()  << endl;
-		cout << "Empregados :: " << sat_prof.size()  << endl;
-		cout << "Escolas saturadas :: " << sat_scho.size()  << endl;
-		cout << "Escolas nao saturadas :: " <<nsat_scho.size()  << endl;
 }
 
 
@@ -251,7 +195,7 @@ int main(){
 
 
 	Nodes foo;
-	emparelhamento_top(G, 100, 50);
+	emparelhamento(G, 100, 50);
 
 	for(int i = 101; i < 151; i++){
 		Nodes* au = G->get_node(i);
@@ -265,6 +209,5 @@ int main(){
 		cout << endl;
 	}
 /**/	
-	cout << "Terminou a main\n";
 	return 0;
 }
