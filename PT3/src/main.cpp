@@ -123,8 +123,24 @@ here:			cout << "Professor rejeitado por " << this->key << endl;
 		this->teacher1 = teach;
 	cout << "Removido : ninguem\n";
 	cout << "teacher1 == " << this->teacher1->get_key() << endl;
-	getchar();
+	
 	return NULL;		// Colocou no teacher1 E eh o primeiro candidato
+}
+Nodes* Nodes :: insert_teacher_forced(Nodes * trash){
+	if(this->teacher1 != NULL){
+		this->sat = true;
+		if(this->teacher2 != NULL){
+			auto ret = this->teacher2;
+			this->teacher2 = trash;
+			return ret;
+		}
+		else{
+			this->teacher2 = trash;
+		}
+	}
+	else
+		this->teacher1 = trash;
+	return NULL;
 }
 
 void emparelhamento_top(Graph * G, const int& PROF, const int& SCHO){
@@ -132,7 +148,6 @@ void emparelhamento_top(Graph * G, const int& PROF, const int& SCHO){
 	set<int> nsat_prof, nsat_scho;	// Conjunto dos professores/escolas nao saturados
 	
 	set<int> sat_prof, sat_scho;
-	set<int> over1, over2, over3;	// Professores (com 1, 2 ou 3 habilidades) que foram rejeitados
 	set<int> rejected;				// Professores rejeitados
 	
 	// Iterar APENAS sobre os professores
@@ -197,9 +212,35 @@ void emparelhamento_top(Graph * G, const int& PROF, const int& SCHO){
 			// Se mudou o conjunto
 			if(rejected.count(novo->get_key()) != 0){
 				cout << "Rejeitdao do momento: " << novo->get_key() << endl;
-				getchar();
+				
 			}
 		}
+		cout << "Professores nao saturados E com opcoes :: " << nsat_prof.size() << endl;
+		cout << "Desempregados :: " <<rejected.size()  << endl;
+		cout << "Empregados :: " << sat_prof.size()  << endl;
+		cout << "Escolas saturadas :: " << sat_scho.size()  << endl;
+		cout << "Escolas nao saturadas :: " <<nsat_scho.size()  << endl;
+		auto y = nsat_scho.begin();
+
+		// Soh joga os professores pras escolas.
+		// Uma vez que professor conseguiu emprego, nao quer mais trocar.
+		for(auto x = rejected.begin(); x != rejected.end(); x = rejected.begin(), y = nsat_scho.begin()){
+			
+			G->get_node( (*y) )->insert_teacher_forced( G->get_node( (*x) ) );
+			if( G->get_node( (*y) )->get_sat() == true ){
+				sat_scho.insert( (*y) );
+				nsat_scho.erase( (*y) );
+			}
+			sat_prof.insert( (*x) );
+			rejected.erase( (*x) );
+		}
+
+		cout << "\n\n\n\n\n";
+		cout << "Professores nao saturados E com opcoes :: " << nsat_prof.size() << endl;
+		cout << "Desempregados :: " <<rejected.size()  << endl;
+		cout << "Empregados :: " << sat_prof.size()  << endl;
+		cout << "Escolas saturadas :: " << sat_scho.size()  << endl;
+		cout << "Escolas nao saturadas :: " <<nsat_scho.size()  << endl;
 }
 
 
@@ -214,7 +255,7 @@ int main(){
 
 	for(int i = 101; i < 151; i++){
 		Nodes* au = G->get_node(i);
-//		cout << "\n" /*Escola: "*/ << au->get_key() << endl;
+		cout << "\n" << "Escola: " << au->get_key() << endl;
 		if(au->get_teacher1() != NULL){
 			cout << " " << au->get_teacher1()->get_key() <<  " "<< endl;
 			if(au->get_teacher2() != NULL)
@@ -223,6 +264,7 @@ int main(){
 		}
 		cout << endl;
 	}
+/**/	
 	cout << "Terminou a main\n";
 	return 0;
 }

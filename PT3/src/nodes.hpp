@@ -52,6 +52,7 @@ public:
 	void remove_nxt_back();
 	
 	Nodes* insert_teacher(Nodes*);
+	Nodes* insert_teacher_forced(Nodes*);
 //	inline void set_qtd_nxt(int qtd_nxt){ this->qtd_nxt = qtd_nxt;}
 //	inline void set_key(int key){this->key = key;}
 
