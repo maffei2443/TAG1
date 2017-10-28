@@ -8,6 +8,8 @@ TST:	nodes.o graph.o tst.o
 ######################################################
 MAIN:		nodes.o graph.o main.o 
 	g++ $(X) nodes.o graph.o main.o -o main
+MAIN2:		nodes.o graph.o main_debug.o 
+	g++ $(X) nodes.o graph.o main_debug.o -o main_debug
 ######################################################
 
 nodes.o:	nodes.cpp nodes.hpp
@@ -25,6 +27,8 @@ tst.o:	tst.cpp
 	g++ $(X) -c tst.cpp
 main.o:	nodes.o graph.o main.cpp
 	g++ $(X) -c main.cpp
+main_debug.o:	nodes.o graph.o main_debug.cpp
+	g++ $(X) -c main_debug.cpp
 #########################################
 #########################################
 #########################################

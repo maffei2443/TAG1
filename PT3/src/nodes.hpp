@@ -46,6 +46,7 @@ public:
 	deque<Nodes*>::iterator get_nxt(){return nxt.begin();}	// Retorna iterador constante para o primeiro elemento dos que o noh pode atingir
 	deque<Nodes*>::iterator get_end(){return nxt.end();}	// Retorna iterador constante para o primeiro elemento dos que o noh pode atingir
 
+	bool set_sat();
 	void set_nxt_front(Nodes * no);
 	void set_nxt_back(Nodes * no);
 	void remove_nxt_front();
