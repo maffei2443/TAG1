@@ -1,150 +1,966 @@
+Candidato: 1
+Escola : 110
+(1) Removido : ninguem
+Candidato: 2
+Escola : 110
+(2) Removido : ninguem
+Candidato: 3
+Escola : 110
+(2) Rejeitou 3
+Candidato: 3
+Escola : 120
+(1) Removido : ninguem
+Candidato: 4
+Escola : 110
+(2) Rejeitou 4
+Candidato: 4
+Escola : 120
+(2) Removido : ninguem
+Candidato: 5
+Escola : 110
+(2) Retirou teacher2 == 2
+Inseriu teacher  == 5
+Candidato: 2
+Escola : 120
+(2) Rejeitou 2
+Candidato: 2
+Escola : 102
+(1) Removido : ninguem
+Candidato: 6
+Escola : 110
+(2) Rejeitou 6
+Candidato: 6
+Escola : 105
+(1) Removido : ninguem
+Candidato: 7
+Escola : 110
+(2) Rejeitou 7
+Candidato: 7
+Escola : 105
+(2) Removido : ninguem
+Candidato: 8
+Escola : 110
+(2) Rejeitou 8
+Candidato: 8
+Escola : 105
+(2) Rejeitou 8
+Candidato: 8
+Escola : 108
+(1) Removido : ninguem
+Candidato: 9
+Escola : 110
+(2) Rejeitou 9
+Candidato: 9
+Escola : 105
+(2) Rejeitou 9
+Candidato: 9
+Escola : 109
+(1) Removido : ninguem
+Candidato: 10
+Escola : 110
+(2) Rejeitou 10
+Candidato: 10
+Escola : 105
+(1) Retirou teacher1 == 6
+Inseriu teacher  == 10
+Candidato: 6
+Escola : 106
+(1) Removido : ninguem
+Candidato: 11
+Escola : 120
+(2) Rejeitou 11
+Candidato: 11
+Escola : 130
+(1) Removido : ninguem
+Candidato: 12
+Escola : 120
+(2) Rejeitou 12
+Candidato: 12
+Escola : 130
+(2) Removido : ninguem
+Candidato: 13
+Escola : 120
+(2) Rejeitou 13
+Candidato: 13
+Escola : 130
+Escola 130 saturada.
+Candidato: 13
+Escola : 113
+(1) Removido : ninguem
+Candidato: 14
+Escola : 120
+(2) Rejeitou 14
+Candidato: 14
+Escola : 130
+Escola 130 saturada.
+Candidato: 14
+Escola : 114
+(1) Removido : ninguem
+Candidato: 15
+Escola : 120
+(1) Retirou teacher1 == 3
+Inseriu teacher  == 15
+Candidato: 3
+Escola : 103
+(1) Removido : ninguem
+Candidato: 16
+Escola : 120
+(2) Rejeitou 16
+Candidato: 16
+Escola : 135
+(1) Removido : ninguem
+Candidato: 17
+Escola : 120
+(2) Rejeitou 17
+Candidato: 17
+Escola : 135
+(2) Removido : ninguem
+Candidato: 18
+Escola : 120
+(2) Rejeitou 18
+Candidato: 18
+Escola : 135
+Escola 135 saturada.
+Candidato: 18
+Escola : 118
+(1) Removido : ninguem
+Candidato: 19
+Escola : 120
+(2) Rejeitou 19
+Candidato: 19
+Escola : 135
+Escola 135 saturada.
+Candidato: 19
+Escola : 119
+(1) Removido : ninguem
+Candidato: 20
+Escola : 120
+(2) Retirou teacher2 == 4
+Inseriu teacher  == 20
+Candidato: 4
+Escola : 104
+(1) Removido : ninguem
+Candidato: 21
+Escola : 130
+Escola 130 saturada.
+Candidato: 21
+Escola : 140
+(1) Removido : ninguem
+Candidato: 22
+Escola : 130
+Escola 130 saturada.
+Candidato: 22
+Escola : 140
+(1) Retirou teacher1 == 21
+Inseriu teacher  == 22
+Candidato: 21
+Escola : 121
+(1) Removido : ninguem
+Candidato: 23
+Escola : 130
+Escola 130 saturada.
+Candidato: 23
+Escola : 140
+(2) Removido : ninguem
+Candidato: 24
+Escola : 130
+Escola 130 saturada.
+Candidato: 24
+Escola : 140
+Escola 140 saturada.
+Candidato: 24
+Escola : 124
+(1) Removido : ninguem
+Candidato: 25
+Escola : 130
+Escola 130 saturada.
+Candidato: 25
+Escola : 140
+Escola 140 saturada.
+Candidato: 25
+Escola : 125
+(1) Removido : ninguem
+Candidato: 26
+Escola : 130
+Escola 130 saturada.
+Candidato: 26
+Escola : 145
+(1) Removido : ninguem
+Candidato: 27
+Escola : 130
+Escola 130 saturada.
+Candidato: 27
+Escola : 145
+(2) Removido : ninguem
+Candidato: 28
+Escola : 130
+Escola 130 saturada.
+Candidato: 28
+Escola : 145
+Escola 145 saturada.
+Candidato: 28
+Escola : 128
+(1) Removido : ninguem
+Candidato: 29
+Escola : 130
+Escola 130 saturada.
+Candidato: 29
+Escola : 145
+Escola 145 saturada.
+Candidato: 29
+Escola : 129
+(1) Removido : ninguem
+Candidato: 30
+Escola : 130
+Escola 130 saturada.
+Candidato: 30
+Escola : 145
+Escola 145 saturada.
+Candidato: 30
+Escola : 103
+(1) Retirou teacher1 == 3
+Inseriu teacher  == 30
+Candidato: 3
+Escola : 127
+(1) Removido : ninguem
+Candidato: 31
+Escola : 140
+Escola 140 saturada.
+Candidato: 31
+Escola : 150
+(1) Removido : ninguem
+Candidato: 32
+Escola : 140
+Escola 140 saturada.
+Candidato: 32
+Escola : 150
+(1) Retirou teacher1 == 31
+Inseriu teacher  == 32
+Candidato: 31
+Escola : 131
+(1) Removido : ninguem
+Candidato: 33
+Escola : 140
+Escola 140 saturada.
+Candidato: 33
+Escola : 150
+(2) Removido : ninguem
+Candidato: 34
+Escola : 140
+Escola 140 saturada.
+Candidato: 34
+Escola : 150
+Escola 150 saturada.
+Candidato: 34
+Escola : 134
+(1) Removido : ninguem
+Candidato: 35
+Escola : 140
+Escola 140 saturada.
+Candidato: 35
+Escola : 150
+Escola 150 saturada.
+Candidato: 35
+Escola : 135
+Escola 135 saturada.
+Candidato: 35
+Escola : 131
+(1) Retirou teacher1 == 31
+Inseriu teacher  == 35
+Candidato: 31
+Escola : 141
+(1) Removido : ninguem
+Candidato: 36
+Escola : 140
+Escola 140 saturada.
+Candidato: 36
+Escola : 150
+Escola 150 saturada.
+Candidato: 36
+Escola : 136
+(1) Removido : ninguem
+Candidato: 37
+Escola : 140
+Escola 140 saturada.
+Candidato: 37
+Escola : 102
+(2) Removido : ninguem
+Candidato: 38
+Escola : 140
+Escola 140 saturada.
+Candidato: 38
+Escola : 102
+(2) Rejeitou 38
+Candidato: 38
+Escola : 138
+(1) Removido : ninguem
+Candidato: 39
+Escola : 140
+Escola 140 saturada.
+Candidato: 39
+Escola : 102
+(2) Rejeitou 39
+Candidato: 39
+Escola : 139
+(1) Removido : ninguem
+Candidato: 40
+Escola : 140
+Escola 140 saturada.
+Candidato: 40
+Escola : 102
+(1) Retirou teacher1 == 2
+Inseriu teacher  == 40
+Candidato: 2
+Escola : 127
+(2) Removido : ninguem
+Candidato: 41
+Escola : 140
+Escola 140 saturada.
+Candidato: 41
+Escola : 102
+(2) Rejeitou 41
+Candidato: 41
+Escola : 141
+(2) Removido : ninguem
+Candidato: 42
+Escola : 140
+Escola 140 saturada.
+Candidato: 42
+Escola : 104
+(2) Removido : ninguem
+Candidato: 43
+Escola : 140
+Escola 140 saturada.
+Candidato: 43
+Escola : 104
+(2) Rejeitou 43
+Candidato: 43
+Escola : 143
+(1) Removido : ninguem
+Candidato: 44
+Escola : 140
+Escola 140 saturada.
+Candidato: 44
+Escola : 104
+(2) Rejeitou 44
+Candidato: 44
+Escola : 144
+(1) Removido : ninguem
+Candidato: 45
+Escola : 140
+Escola 140 saturada.
+Candidato: 45
+Escola : 104
+(1) Retirou teacher1 == 4
+Inseriu teacher  == 45
+Candidato: 4
+Escola : 127
+Escola 127 saturada.
+Candidato: 4
+Escola : 109
+(2) Removido : ninguem
+Candidato: 46
+Escola : 140
+Escola 140 saturada.
+Candidato: 46
+Escola : 104
+(2) Rejeitou 46
+Candidato: 46
+Escola : 146
+(1) Removido : ninguem
+Candidato: 47
+Escola : 140
+Escola 140 saturada.
+Candidato: 47
+Escola : 106
+(2) Removido : ninguem
+Candidato: 48
+Escola : 140
+Escola 140 saturada.
+Candidato: 48
+Escola : 106
+(2) Rejeitou 48
+Candidato: 48
+Escola : 148
+(1) Removido : ninguem
+Candidato: 49
+Escola : 140
+Escola 140 saturada.
+Candidato: 49
+Escola : 106
+(2) Rejeitou 49
+Candidato: 49
+Escola : 149
+(1) Removido : ninguem
+Candidato: 50
+Escola : 140
+Escola 140 saturada.
+Candidato: 50
+Escola : 106
+(1) Retirou teacher1 == 6
+Inseriu teacher  == 50
+Candidato: 6
+Escola : 127
+Escola 127 saturada.
+Candidato: 6
+Escola : 113
+(2) Removido : ninguem
+Candidato: 51
+Escola : 150
+Escola 150 saturada.
+Candidato: 51
+Escola : 106
+(2) Rejeitou 51
+Candidato: 51
+Escola : 149
+(2) Removido : ninguem
+Candidato: 52
+Escola : 149
+(2) Retirou teacher2 == 51
+Inseriu teacher  == 52
+Candidato: 51
+Escola : 101
+(1) Removido : ninguem
+Candidato: 53
+Escola : 148
+(2) Removido : ninguem
+Candidato: 54
+Escola : 147
+(1) Removido : ninguem
+Candidato: 55
+Escola : 146
+(2) Removido : ninguem
+Candidato: 56
+Escola : 145
+Escola 145 saturada.
+Candidato: 56
+Escola : 108
+(2) Removido : ninguem
+Candidato: 57
+Escola : 144
+(2) Removido : ninguem
+Candidato: 58
+Escola : 143
+(2) Removido : ninguem
+Candidato: 59
+Escola : 142
+(1) Removido : ninguem
+Candidato: 60
+Escola : 141
+(1) Retirou teacher1 == 31
+Inseriu teacher  == 60
+Candidato: 31
+Escola : 118
+(2) Removido : ninguem
+Candidato: 61
+Escola : 140
+Escola 140 saturada.
+Candidato: 61
+Escola : 108
+(2) Rejeitou 61
+Candidato: 61
+Escola : 104
+(2) Rejeitou 61
+Candidato: 61
+Escola : 107
+(1) Removido : ninguem
+Candidato: 62
+Escola : 139
+(2) Removido : ninguem
+Candidato: 63
+Escola : 138
+(2) Removido : ninguem
+Candidato: 64
+Escola : 137
+(1) Removido : ninguem
+Candidato: 65
+Escola : 136
+(2) Removido : ninguem
+Candidato: 66
+Escola : 135
+Escola 135 saturada.
+Candidato: 66
+Escola : 112
+(1) Removido : ninguem
+Candidato: 67
+Escola : 134
+(2) Removido : ninguem
+Candidato: 68
+Escola : 133
+(1) Removido : ninguem
+Candidato: 69
+Escola : 132
+(1) Removido : ninguem
+Candidato: 70
+Escola : 131
+(2) Removido : ninguem
+Candidato: 71
+Escola : 130
+Escola 130 saturada.
+Candidato: 71
+Escola : 112
+(2) Removido : ninguem
+Candidato: 72
+Escola : 129
+(2) Removido : ninguem
+Candidato: 73
+Escola : 128
+(2) Removido : ninguem
+Candidato: 74
+Escola : 127
+Escola 127 saturada.
+Candidato: 74
+Escola : 113
+(2) Rejeitou 74
+Candidato: 74
+Escola : 107
+(2) Removido : ninguem
+Candidato: 75
+Escola : 126
+(1) Removido : ninguem
+Candidato: 76
+Escola : 125
+(2) Removido : ninguem
+Candidato: 77
+Escola : 124
+(2) Removido : ninguem
+Candidato: 78
+Escola : 123
+(1) Removido : ninguem
+Candidato: 79
+Escola : 122
+(1) Removido : ninguem
+Candidato: 80
+Escola : 121
+(1) Retirou teacher1 == 21
+Inseriu teacher  == 80
+Candidato: 21
+Escola : 110
+(2) Rejeitou 21
+Candidato: 21
+Escola : 145
+Escola 145 saturada.
+Candidato: 81
+Escola : 120
+Escola 120 saturada.
+Candidato: 81
+Escola : 127
+Escola 127 saturada.
+Candidato: 81
+Escola : 134
+Escola 134 saturada.
+Candidato: 81
+Escola : 130
+Escola 130 saturada.
+Candidato: 81
+Escola : 111
+(1) Removido : ninguem
+Candidato: 82
+Escola : 119
+(2) Removido : ninguem
+Candidato: 83
+Escola : 118
+(2) Retirou teacher2 == 31
+Inseriu teacher  == 83
+Candidato: 84
+Escola : 117
+(1) Removido : ninguem
+Candidato: 85
+Escola : 116
+(1) Removido : ninguem
+Candidato: 86
+Escola : 115
+(1) Removido : ninguem
+Candidato: 87
+Escola : 114
+(2) Removido : ninguem
+Candidato: 88
+Escola : 113
+(2) Rejeitou 88
+Candidato: 88
+Escola : 144
+Escola 144 saturada.
+Candidato: 88
+Escola : 104
+(2) Rejeitou 88
+Candidato: 88
+Escola : 137
+(2) Removido : ninguem
+Candidato: 89
+Escola : 112
+(2) Retirou teacher2 == 71
+Inseriu teacher  == 89
+Candidato: 71
+Escola : 101
+(2) Removido : ninguem
+Candidato: 90
+Escola : 111
+(1) Retirou teacher1 == 81
+Inseriu teacher  == 90
+Candidato: 91
+Escola : 110
+(2) Rejeitou 91
+Candidato: 91
+Escola : 147
+(2) Removido : ninguem
+Candidato: 92
+Escola : 109
+(2) Rejeitou 92
+Candidato: 92
+Escola : 147
+(2) Retirou teacher2 == 91
+Inseriu teacher  == 92
+Candidato: 91
+Escola : 104
+(2) Rejeitou 91
+Candidato: 91
+Escola : 140
+Escola 140 saturada.
+Candidato: 91
+Escola : 101
+Escola 101 saturada.
+Candidato: 93
+Escola : 108
+(2) Rejeitou 93
+Candidato: 93
+Escola : 147
+Escola 147 saturada.
+Candidato: 93
+Escola : 104
+(2) Rejeitou 93
+Candidato: 93
+Escola : 142
+(2) Removido : ninguem
+Candidato: 94
+Escola : 107
+(2) Rejeitou 94
+Candidato: 94
+Escola : 147
+Escola 147 saturada.
+Candidato: 94
+Escola : 104
+(2) Rejeitou 94
+Candidato: 94
+Escola : 143
+Escola 143 saturada.
+Candidato: 94
+Escola : 101
+Escola 101 saturada.
+Candidato: 95
+Escola : 106
+(2) Retirou teacher2 == 47
+Inseriu teacher  == 95
+Candidato: 47
+Escola : 147
+Escola 147 saturada.
+Candidato: 47
+Escola : 101
+Escola 101 saturada.
+Candidato: 47
+Escola : 145
+Escola 145 saturada.
+Candidato: 96
+Escola : 105
+(2) Rejeitou 96
+Candidato: 96
+Escola : 147
+Escola 147 saturada.
+Candidato: 96
+Escola : 104
+(2) Rejeitou 96
+Candidato: 96
+Escola : 145
+Escola 145 saturada.
+Candidato: 96
+Escola : 101
+Escola 101 saturada.
+Candidato: 97
+Escola : 104
+(2) Rejeitou 97
+Candidato: 97
+Escola : 147
+Escola 147 saturada.
+Candidato: 97
+Escola : 114
+(2) Rejeitou 97
+Candidato: 97
+Escola : 146
+(2) Rejeitou 97
+Candidato: 97
+Escola : 101
+Escola 101 saturada.
+Candidato: 98
+Escola : 103
+(2) Removido : ninguem
+Candidato: 99
+Escola : 102
+(2) Rejeitou 99
+Candidato: 99
+Escola : 147
+Escola 147 saturada.
+Candidato: 99
+Escola : 104
+(2) Rejeitou 99
+Candidato: 99
+Escola : 149
+Escola 149 saturada.
+Candidato: 99
+Escola : 101
+Escola 101 saturada.
+Candidato: 100
+Escola : 101
+Escola 101 saturada.
+Candidato: 100
+Escola : 147
+Escola 147 saturada.
+Candidato: 100
+Escola : 104
+(2) Retirou teacher2 == 42
+Inseriu teacher  == 100
+Candidato: 42
+Escola : 142
+Escola 142 saturada.
+Candidato: 42
+Escola : 111
+(2) Removido : ninguem
+
 Escola: 101
- 91 
- 92 
+ 51 
+ 71 
+
+
 Escola: 102
  40 
- 4 
+ 21 
+
+
 Escola: 103
  30 
- 21 
+ 31 
+
+
 Escola: 104
  45 
- 31 
+ 47 
+
+
 Escola: 105
  10 
- 43 
+ 81 
+
+
 Escola: 106
  50 
- 58 
+ 91 
+
+
 Escola: 107
- 7 
- 66 
+ 61 
+ 94 
+
+
 Escola: 108
- 55 
- 76 
+ 8 
+ 96 
+
+
 Escola: 109
  9 
- 77 
+ 97 
+
+
 Escola: 110
  1 
- 78 
+ 99 
+
+
 Escola: 111
  90 
- 81 
+ 42 
+
+
 Escola: 112
- 70 
- 71 
+ 66 
+ 89 
+
+
 Escola: 113
+ 13 
  6 
- 82 
+
+
 Escola: 114
  14 
- 86 
+ 87 
+
+
 Escola: 115
- 15 
- 61 
+ 86 
+
+
 Escola: 116
  85 
- 87 
+
+
 Escola: 117
- 8 
- 88 
+ 84 
+
+
 Escola: 118
  18 
- 89 
+ 83 
+
+
 Escola: 119
  19 
- 93 
+ 82 
+
+
 Escola: 120
- 5 
- 11 
+ 15 
+ 20 
+
+
 Escola: 121
  80 
- 94 
+
+
 Escola: 122
  79 
- 95 
+
+
 Escola: 123
- 74 
- 96 
+ 78 
+
+
 Escola: 124
  24 
- 97 
+ 77 
+
+
 Escola: 125
  25 
- 57 
+ 76 
+
+
 Escola: 126
  75 
- 98 
+
+
 Escola: 127
  3 
  2 
+
+
 Escola: 128
  28 
  73 
+
+
 Escola: 129
  29 
  72 
+
+
 Escola: 130
+ 11 
  12 
- 13 
+
+
 Escola: 131
  35 
- 99 
+ 70 
+
+
 Escola: 132
  69 
- 83 
+
+
 Escola: 133
  68 
- 84 
+
+
 Escola: 134
  34 
  67 
+
+
 Escola: 135
  16 
  17 
+
+
 Escola: 136
  36 
  65 
+
+
 Escola: 137
- 37 
  64 
+ 88 
+
+
 Escola: 138
  38 
  63 
+
+
 Escola: 139
  39 
  62 
+
+
 Escola: 140
  22 
  23 
+
+
 Escola: 141
- 59 
  60 
-Escola: 142
- 42 
  41 
+
+
+Escola: 142
+ 59 
+ 93 
+
+
 Escola: 143
- 20 
- 100 
+ 43 
+ 58 
+
+
 Escola: 144
  44 
- 56 
+ 57 
+
+
 Escola: 145
  26 
  27 
+
+
 Escola: 146
  46 
- 54 
+ 55 
+
+
 Escola: 147
- 47 
- 53 
+ 54 
+ 92 
+
+
 Escola: 148
  48 
- 52 
+ 53 
+
+
 Escola: 149
  49 
- 51 
+ 52 
+
+
 Escola: 150
  32 
  33 
+
