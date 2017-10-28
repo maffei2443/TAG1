@@ -30,6 +30,7 @@ private:
 	bool visit;
 	set <int> already;			// Conjunto dos que jah estao na lista de adjacencia. Impede arestas paralelas.
 	deque <Nodes*> nxt;		/// Para fazer a lista de adjacencia
+	Nodes* insert_teacher2_debug(Nodes*);
 	Nodes* insert_teacher2(Nodes*);
 public:
 	Nodes(){}
@@ -46,13 +47,16 @@ public:
 	deque<Nodes*>::iterator get_nxt(){return nxt.begin();}	// Retorna iterador constante para o primeiro elemento dos que o noh pode atingir
 	deque<Nodes*>::iterator get_end(){return nxt.end();}	// Retorna iterador constante para o primeiro elemento dos que o noh pode atingir
 
-	bool set_sat();
+	bool set_sat();											// Saturado com dois professores qqer
+	bool set_sat2();										// Saturado com dois professores com habilidades requeridas pela escola.
 	void set_nxt_front(Nodes * no);
 	void set_nxt_back(Nodes * no);
 	void remove_nxt_front();
 	void remove_nxt_back();
 	
+	Nodes* insert_teacher_debug(Nodes*);
 	Nodes* insert_teacher(Nodes*);
+	Nodes* insert_teacher_forced_debug(Nodes*);
 	Nodes* insert_teacher_forced(Nodes*);
 //	inline void set_qtd_nxt(int qtd_nxt){ this->qtd_nxt = qtd_nxt;}
 //	inline void set_key(int key){this->key = key;}

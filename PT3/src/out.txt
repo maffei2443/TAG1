@@ -1,150 +1,1930 @@
+
+
+Candidato: 1
+Habilidades Candidato: 3
+Escola : 110
+Habilidades escola : 1
+(1) Removido : ninguem
+
+
+Candidato: 2
+Habilidades Candidato: 2
+Escola : 110
+Habilidades escola : 1
+(2) Removido : ninguem
+
+
+Candidato: 3
+Habilidades Candidato: 2
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+
+
+Candidato: 3
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 4
+Habilidades Candidato: 2
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+
+
+Candidato: 4
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 5
+Habilidades Candidato: 3
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+
+
+Candidato: 5
+Habilidades Candidato: 3
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 5
+Habilidades Candidato: 3
+Escola : 105
+Habilidades escola : 1
+(1) Removido : ninguem
+
+
+Candidato: 6
+Habilidades Candidato: 2
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+
+
+Candidato: 6
+Habilidades Candidato: 2
+Escola : 105
+Habilidades escola : 1
+(2) Removido : ninguem
+
+
+Candidato: 7
+Habilidades Candidato: 2
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+
+
+Candidato: 7
+Habilidades Candidato: 2
+Escola : 105
+Habilidades escola : 1
+Escola 105 saturada.
+
+
+Candidato: 7
+Habilidades Candidato: 2
+Escola : 107
+Habilidades escola : 1
+(1) Removido : ninguem
+
+
+Candidato: 8
+Habilidades Candidato: 2
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+
+
+Candidato: 8
+Habilidades Candidato: 2
+Escola : 105
+Habilidades escola : 1
+Escola 105 saturada.
+
+
+Candidato: 8
+Habilidades Candidato: 2
+Escola : 108
+Habilidades escola : 1
+(1) Removido : ninguem
+
+
+Candidato: 9
+Habilidades Candidato: 2
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+
+
+Candidato: 9
+Habilidades Candidato: 2
+Escola : 105
+Habilidades escola : 1
+Escola 105 saturada.
+
+
+Candidato: 9
+Habilidades Candidato: 2
+Escola : 109
+Habilidades escola : 1
+(1) Removido : ninguem
+
+
+Candidato: 10
+Habilidades Candidato: 3
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+
+
+Candidato: 10
+Habilidades Candidato: 3
+Escola : 105
+Habilidades escola : 1
+Escola 105 saturada.
+
+
+Candidato: 10
+Habilidades Candidato: 3
+Escola : 107
+Habilidades escola : 1
+(2) Removido : ninguem
+
+
+Candidato: 11
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 11
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 12
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 12
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 13
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 13
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 13
+Habilidades Candidato: 2
+Escola : 113
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 14
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 14
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 14
+Habilidades Candidato: 2
+Escola : 114
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 15
+Habilidades Candidato: 3
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 15
+Habilidades Candidato: 3
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 15
+Habilidades Candidato: 3
+Escola : 115
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 16
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 16
+Habilidades Candidato: 2
+Escola : 135
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 17
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 17
+Habilidades Candidato: 2
+Escola : 135
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 18
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 18
+Habilidades Candidato: 2
+Escola : 135
+Habilidades escola : 2
+Escola 135 saturada.
+
+
+Candidato: 18
+Habilidades Candidato: 2
+Escola : 118
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 19
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 19
+Habilidades Candidato: 2
+Escola : 135
+Habilidades escola : 2
+Escola 135 saturada.
+
+
+Candidato: 19
+Habilidades Candidato: 2
+Escola : 119
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 20
+Habilidades Candidato: 3
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 20
+Habilidades Candidato: 3
+Escola : 135
+Habilidades escola : 2
+Escola 135 saturada.
+
+
+Candidato: 20
+Habilidades Candidato: 3
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 20
+Habilidades Candidato: 3
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+
+
+Candidato: 20
+Habilidades Candidato: 3
+Escola : 143
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 21
+Habilidades Candidato: 1
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 21
+Habilidades Candidato: 1
+Escola : 140
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 22
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 22
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 23
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 23
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 23
+Habilidades Candidato: 2
+Escola : 123
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 24
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 24
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 24
+Habilidades Candidato: 2
+Escola : 124
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 25
+Habilidades Candidato: 3
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 25
+Habilidades Candidato: 3
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 25
+Habilidades Candidato: 3
+Escola : 125
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 26
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 26
+Habilidades Candidato: 2
+Escola : 145
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 27
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 27
+Habilidades Candidato: 2
+Escola : 145
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 28
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 28
+Habilidades Candidato: 2
+Escola : 145
+Habilidades escola : 2
+Escola 145 saturada.
+
+
+Candidato: 28
+Habilidades Candidato: 2
+Escola : 128
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 29
+Habilidades Candidato: 2
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 29
+Habilidades Candidato: 2
+Escola : 145
+Habilidades escola : 2
+Escola 145 saturada.
+
+
+Candidato: 29
+Habilidades Candidato: 2
+Escola : 129
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 30
+Habilidades Candidato: 3
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 30
+Habilidades Candidato: 3
+Escola : 145
+Habilidades escola : 2
+Escola 145 saturada.
+
+
+Candidato: 30
+Habilidades Candidato: 3
+Escola : 103
+Habilidades escola : 1
+(1) Removido : ninguem
+
+
+Candidato: 31
+Habilidades Candidato: 1
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 31
+Habilidades Candidato: 1
+Escola : 150
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 32
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 32
+Habilidades Candidato: 2
+Escola : 150
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 33
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 33
+Habilidades Candidato: 2
+Escola : 150
+Habilidades escola : 2
+Escola 150 saturada.
+
+
+Candidato: 33
+Habilidades Candidato: 2
+Escola : 133
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 34
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 34
+Habilidades Candidato: 2
+Escola : 150
+Habilidades escola : 2
+Escola 150 saturada.
+
+
+Candidato: 34
+Habilidades Candidato: 2
+Escola : 134
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 35
+Habilidades Candidato: 3
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 35
+Habilidades Candidato: 3
+Escola : 150
+Habilidades escola : 2
+Escola 150 saturada.
+
+
+Candidato: 35
+Habilidades Candidato: 3
+Escola : 135
+Habilidades escola : 2
+Escola 135 saturada.
+
+
+Candidato: 35
+Habilidades Candidato: 3
+Escola : 131
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 36
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 36
+Habilidades Candidato: 2
+Escola : 150
+Habilidades escola : 2
+Escola 150 saturada.
+
+
+Candidato: 36
+Habilidades Candidato: 2
+Escola : 136
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 37
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 37
+Habilidades Candidato: 2
+Escola : 102
+Habilidades escola : 1
+(1) Removido : ninguem
+
+
+Candidato: 38
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 38
+Habilidades Candidato: 2
+Escola : 102
+Habilidades escola : 1
+(2) Removido : ninguem
+
+
+Candidato: 39
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 39
+Habilidades Candidato: 2
+Escola : 102
+Habilidades escola : 1
+Escola 102 saturada.
+
+
+Candidato: 39
+Habilidades Candidato: 2
+Escola : 139
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 40
+Habilidades Candidato: 3
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 40
+Habilidades Candidato: 3
+Escola : 102
+Habilidades escola : 1
+Escola 102 saturada.
+
+
+Candidato: 40
+Habilidades Candidato: 3
+Escola : 104
+Habilidades escola : 1
+(1) Removido : ninguem
+
+
+Candidato: 41
+Habilidades Candidato: 1
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 41
+Habilidades Candidato: 1
+Escola : 102
+Habilidades escola : 1
+Escola 102 saturada.
+
+
+Candidato: 41
+Habilidades Candidato: 1
+Escola : 141
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 42
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 42
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+(2) Removido : ninguem
+
+
+Candidato: 43
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 43
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 43
+Habilidades Candidato: 2
+Escola : 143
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 44
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 44
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 44
+Habilidades Candidato: 2
+Escola : 144
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 45
+Habilidades Candidato: 3
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 45
+Habilidades Candidato: 3
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 45
+Habilidades Candidato: 3
+Escola : 145
+Habilidades escola : 2
+Escola 145 saturada.
+
+
+Candidato: 45
+Habilidades Candidato: 3
+Escola : 111
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 46
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 46
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 46
+Habilidades Candidato: 2
+Escola : 146
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 47
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 47
+Habilidades Candidato: 2
+Escola : 106
+Habilidades escola : 1
+(1) Removido : ninguem
+
+
+Candidato: 48
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 48
+Habilidades Candidato: 2
+Escola : 106
+Habilidades escola : 1
+(2) Removido : ninguem
+
+
+Candidato: 49
+Habilidades Candidato: 2
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 49
+Habilidades Candidato: 2
+Escola : 106
+Habilidades escola : 1
+Escola 106 saturada.
+
+
+Candidato: 49
+Habilidades Candidato: 2
+Escola : 149
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 50
+Habilidades Candidato: 3
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 50
+Habilidades Candidato: 3
+Escola : 106
+Habilidades escola : 1
+Escola 106 saturada.
+
+
+Candidato: 50
+Habilidades Candidato: 3
+Escola : 150
+Habilidades escola : 2
+Escola 150 saturada.
+
+
+Candidato: 50
+Habilidades Candidato: 3
+Escola : 101
+Habilidades escola : 1
+(1) Removido : ninguem
+
+
+Candidato: 51
+Habilidades Candidato: 1
+Escola : 150
+Habilidades escola : 2
+Escola 150 saturada.
+
+
+Candidato: 51
+Habilidades Candidato: 1
+Escola : 106
+Habilidades escola : 1
+Escola 106 saturada.
+
+
+Candidato: 51
+Habilidades Candidato: 1
+Escola : 149
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 52
+Habilidades Candidato: 2
+Escola : 149
+Habilidades escola : 2
+Escola 149 saturada.
+
+
+Candidato: 52
+Habilidades Candidato: 2
+Escola : 108
+Habilidades escola : 1
+(2) Removido : ninguem
+
+
+Candidato: 53
+Habilidades Candidato: 2
+Escola : 148
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 54
+Habilidades Candidato: 2
+Escola : 147
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 55
+Habilidades Candidato: 3
+Escola : 146
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 56
+Habilidades Candidato: 2
+Escola : 145
+Habilidades escola : 2
+Escola 145 saturada.
+
+
+Candidato: 56
+Habilidades Candidato: 2
+Escola : 108
+Habilidades escola : 1
+Escola 108 saturada.
+
+
+Candidato: 56
+Habilidades Candidato: 2
+Escola : 144
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 57
+Habilidades Candidato: 2
+Escola : 144
+Habilidades escola : 2
+Escola 144 saturada.
+
+
+Candidato: 57
+Habilidades Candidato: 2
+Escola : 108
+Habilidades escola : 1
+Escola 108 saturada.
+
+
+Candidato: 57
+Habilidades Candidato: 2
+Escola : 143
+Habilidades escola : 2
+Escola 143 saturada.
+
+
+Candidato: 57
+Habilidades Candidato: 2
+Escola : 103
+Habilidades escola : 1
+(2) Removido : ninguem
+
+
+Candidato: 58
+Habilidades Candidato: 2
+Escola : 143
+Habilidades escola : 2
+Escola 143 saturada.
+
+
+Candidato: 58
+Habilidades Candidato: 2
+Escola : 108
+Habilidades escola : 1
+Escola 108 saturada.
+
+
+Candidato: 58
+Habilidades Candidato: 2
+Escola : 142
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 59
+Habilidades Candidato: 2
+Escola : 142
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 60
+Habilidades Candidato: 3
+Escola : 141
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 61
+Habilidades Candidato: 1
+Escola : 140
+Habilidades escola : 2
+Escola 140 saturada.
+
+
+Candidato: 61
+Habilidades Candidato: 1
+Escola : 108
+Habilidades escola : 1
+Escola 108 saturada.
+
+
+Candidato: 61
+Habilidades Candidato: 1
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 61
+Habilidades Candidato: 1
+Escola : 107
+Habilidades escola : 1
+Escola 107 saturada.
+
+
+Candidato: 61
+Habilidades Candidato: 1
+Escola : 115
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 62
+Habilidades Candidato: 2
+Escola : 139
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 63
+Habilidades Candidato: 2
+Escola : 138
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 64
+Habilidades Candidato: 2
+Escola : 137
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 65
+Habilidades Candidato: 3
+Escola : 136
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 66
+Habilidades Candidato: 2
+Escola : 135
+Habilidades escola : 2
+Escola 135 saturada.
+
+
+Candidato: 66
+Habilidades Candidato: 2
+Escola : 112
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 67
+Habilidades Candidato: 2
+Escola : 134
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 68
+Habilidades Candidato: 2
+Escola : 133
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 69
+Habilidades Candidato: 2
+Escola : 132
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 70
+Habilidades Candidato: 3
+Escola : 131
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 71
+Habilidades Candidato: 1
+Escola : 130
+Habilidades escola : 2
+Escola 130 saturada.
+
+
+Candidato: 71
+Habilidades Candidato: 1
+Escola : 112
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 72
+Habilidades Candidato: 2
+Escola : 129
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 73
+Habilidades Candidato: 2
+Escola : 128
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 74
+Habilidades Candidato: 2
+Escola : 127
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 75
+Habilidades Candidato: 3
+Escola : 126
+Habilidades escola : 2
+(1) Removido : ninguem
+
+
+Candidato: 76
+Habilidades Candidato: 2
+Escola : 125
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 77
+Habilidades Candidato: 2
+Escola : 124
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 78
+Habilidades Candidato: 2
+Escola : 123
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 79
+Habilidades Candidato: 2
+Escola : 122
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 80
+Habilidades Candidato: 3
+Escola : 121
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 81
+Habilidades Candidato: 1
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 81
+Habilidades Candidato: 1
+Escola : 127
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 82
+Habilidades Candidato: 2
+Escola : 119
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 83
+Habilidades Candidato: 2
+Escola : 118
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 84
+Habilidades Candidato: 2
+Escola : 117
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 85
+Habilidades Candidato: 3
+Escola : 116
+Habilidades escola : 3
+(1) Removido : ninguem
+
+
+Candidato: 86
+Habilidades Candidato: 2
+Escola : 115
+Habilidades escola : 3
+Escola 115 saturada.
+
+
+Candidato: 86
+Habilidades Candidato: 2
+Escola : 144
+Habilidades escola : 2
+Escola 144 saturada.
+
+
+Candidato: 86
+Habilidades Candidato: 2
+Escola : 103
+Habilidades escola : 1
+Escola 103 saturada.
+
+
+Candidato: 86
+Habilidades Candidato: 2
+Escola : 135
+Habilidades escola : 2
+Escola 135 saturada.
+
+
+Candidato: 86
+Habilidades Candidato: 2
+Escola : 120
+Habilidades escola : 3
+Escola 120 saturada.
+
+
+Candidato: 87
+Habilidades Candidato: 2
+Escola : 114
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 88
+Habilidades Candidato: 2
+Escola : 113
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 89
+Habilidades Candidato: 2
+Escola : 112
+Habilidades escola : 3
+Escola 112 saturada.
+
+
+Candidato: 89
+Habilidades Candidato: 2
+Escola : 144
+Habilidades escola : 2
+Escola 144 saturada.
+
+
+Candidato: 89
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 89
+Habilidades Candidato: 2
+Escola : 138
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 90
+Habilidades Candidato: 3
+Escola : 111
+Habilidades escola : 3
+(2) Removido : ninguem
+
+
+Candidato: 91
+Habilidades Candidato: 1
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+
+
+Candidato: 91
+Habilidades Candidato: 1
+Escola : 147
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 92
+Habilidades Candidato: 2
+Escola : 109
+Habilidades escola : 1
+(2) Removido : ninguem
+
+
+Candidato: 93
+Habilidades Candidato: 2
+Escola : 108
+Habilidades escola : 1
+Escola 108 saturada.
+
+
+Candidato: 93
+Habilidades Candidato: 2
+Escola : 147
+Habilidades escola : 2
+Escola 147 saturada.
+
+
+Candidato: 93
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 93
+Habilidades Candidato: 2
+Escola : 142
+Habilidades escola : 2
+Escola 142 saturada.
+
+
+Candidato: 93
+Habilidades Candidato: 2
+Escola : 101
+Habilidades escola : 1
+(2) Removido : ninguem
+
+
+Candidato: 94
+Habilidades Candidato: 2
+Escola : 107
+Habilidades escola : 1
+Escola 107 saturada.
+
+
+Candidato: 94
+Habilidades Candidato: 2
+Escola : 147
+Habilidades escola : 2
+Escola 147 saturada.
+
+
+Candidato: 94
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 94
+Habilidades Candidato: 2
+Escola : 143
+Habilidades escola : 2
+Escola 143 saturada.
+
+
+Candidato: 94
+Habilidades Candidato: 2
+Escola : 101
+Habilidades escola : 1
+Escola 101 saturada.
+
+
+Candidato: 95
+Habilidades Candidato: 3
+Escola : 106
+Habilidades escola : 1
+Escola 106 saturada.
+
+
+Candidato: 95
+Habilidades Candidato: 3
+Escola : 147
+Habilidades escola : 2
+Escola 147 saturada.
+
+
+Candidato: 95
+Habilidades Candidato: 3
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 95
+Habilidades Candidato: 3
+Escola : 144
+Habilidades escola : 2
+Escola 144 saturada.
+
+
+Candidato: 95
+Habilidades Candidato: 3
+Escola : 101
+Habilidades escola : 1
+Escola 101 saturada.
+
+
+Candidato: 96
+Habilidades Candidato: 2
+Escola : 105
+Habilidades escola : 1
+Escola 105 saturada.
+
+
+Candidato: 96
+Habilidades Candidato: 2
+Escola : 147
+Habilidades escola : 2
+Escola 147 saturada.
+
+
+Candidato: 96
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 96
+Habilidades Candidato: 2
+Escola : 145
+Habilidades escola : 2
+Escola 145 saturada.
+
+
+Candidato: 96
+Habilidades Candidato: 2
+Escola : 101
+Habilidades escola : 1
+Escola 101 saturada.
+
+
+Candidato: 97
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 97
+Habilidades Candidato: 2
+Escola : 147
+Habilidades escola : 2
+Escola 147 saturada.
+
+
+Candidato: 97
+Habilidades Candidato: 2
+Escola : 114
+Habilidades escola : 3
+Escola 114 saturada.
+
+
+Candidato: 97
+Habilidades Candidato: 2
+Escola : 146
+Habilidades escola : 2
+Escola 146 saturada.
+
+
+Candidato: 97
+Habilidades Candidato: 2
+Escola : 101
+Habilidades escola : 1
+Escola 101 saturada.
+
+
+Candidato: 98
+Habilidades Candidato: 2
+Escola : 103
+Habilidades escola : 1
+Escola 103 saturada.
+
+
+Candidato: 98
+Habilidades Candidato: 2
+Escola : 147
+Habilidades escola : 2
+Escola 147 saturada.
+
+
+Candidato: 98
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 98
+Habilidades Candidato: 2
+Escola : 148
+Habilidades escola : 2
+(2) Removido : ninguem
+
+
+Candidato: 99
+Habilidades Candidato: 2
+Escola : 102
+Habilidades escola : 1
+Escola 102 saturada.
+
+
+Candidato: 99
+Habilidades Candidato: 2
+Escola : 147
+Habilidades escola : 2
+Escola 147 saturada.
+
+
+Candidato: 99
+Habilidades Candidato: 2
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 99
+Habilidades Candidato: 2
+Escola : 149
+Habilidades escola : 2
+Escola 149 saturada.
+
+
+Candidato: 99
+Habilidades Candidato: 2
+Escola : 101
+Habilidades escola : 1
+Escola 101 saturada.
+
+
+Candidato: 100
+Habilidades Candidato: 3
+Escola : 101
+Habilidades escola : 1
+Escola 101 saturada.
+
+
+Candidato: 100
+Habilidades Candidato: 3
+Escola : 147
+Habilidades escola : 2
+Escola 147 saturada.
+
+
+Candidato: 100
+Habilidades Candidato: 3
+Escola : 104
+Habilidades escola : 1
+Escola 104 saturada.
+
+
+Candidato: 100
+Habilidades Candidato: 3
+Escola : 150
+Habilidades escola : 2
+Escola 150 saturada.
+
+
+Candidato: 100
+Habilidades Candidato: 3
+Escola : 110
+Habilidades escola : 1
+Escola 110 saturada.
+(1) Removido : ninguem
+(1) Removido : ninguem
+(1) Removido : ninguem
+(1) Removido : ninguem
+(1) Removido : ninguem
+(1) Removido : ninguem
+(1) Removido : ninguem
+
 Escola: 101
- 91 
- 92 
+ 50 
+ 93 
+
+
 Escola: 102
- 40 
- 4 
+ 37 
+ 38 
+
+
 Escola: 103
  30 
- 21 
+ 57 
+
+
 Escola: 104
- 45 
- 31 
+ 40 
+ 42 
+
+
 Escola: 105
- 10 
- 43 
+ 5 
+ 6 
+
+
 Escola: 106
- 50 
- 58 
+ 47 
+ 48 
+
+
 Escola: 107
  7 
- 66 
+ 10 
+
+
 Escola: 108
- 55 
- 76 
+ 8 
+ 52 
+
+
 Escola: 109
  9 
- 77 
+ 92 
+
+
 Escola: 110
  1 
- 78 
+ 2 
+
+
 Escola: 111
+ 45 
  90 
- 81 
+
+
 Escola: 112
- 70 
+ 66 
  71 
+
+
 Escola: 113
- 6 
- 82 
+ 13 
+ 88 
+
+
 Escola: 114
  14 
- 86 
+ 87 
+
+
 Escola: 115
  15 
  61 
+
+
 Escola: 116
  85 
- 87 
+ 86 
+
+
 Escola: 117
- 8 
- 88 
+ 84 
+ 94 
+
+
 Escola: 118
  18 
- 89 
+ 83 
+
+
 Escola: 119
  19 
- 93 
+ 82 
+
+
 Escola: 120
- 5 
- 11 
+ 3 
+ 4 
+
+
 Escola: 121
  80 
- 94 
+ 95 
+
+
 Escola: 122
  79 
- 95 
-Escola: 123
- 74 
  96 
+
+
+Escola: 123
+ 23 
+ 78 
+
+
 Escola: 124
  24 
- 97 
+ 77 
+
+
 Escola: 125
  25 
- 57 
+ 76 
+
+
 Escola: 126
  75 
- 98 
+ 97 
+
+
 Escola: 127
- 3 
- 2 
+ 74 
+ 81 
+
+
 Escola: 128
  28 
  73 
+
+
 Escola: 129
  29 
  72 
+
+
 Escola: 130
+ 11 
  12 
- 13 
+
+
 Escola: 131
  35 
- 99 
+ 70 
+
+
 Escola: 132
  69 
- 83 
+ 99 
+
+
 Escola: 133
+ 33 
  68 
- 84 
+
+
 Escola: 134
  34 
  67 
+
+
 Escola: 135
  16 
  17 
+
+
 Escola: 136
  36 
  65 
+
+
 Escola: 137
- 37 
  64 
+ 100 
+
+
 Escola: 138
- 38 
  63 
+ 89 
+
+
 Escola: 139
  39 
  62 
+
+
 Escola: 140
+ 21 
  22 
- 23 
+
+
 Escola: 141
- 59 
- 60 
-Escola: 142
- 42 
  41 
+ 60 
+
+
+Escola: 142
+ 58 
+ 59 
+
+
 Escola: 143
  20 
- 100 
+ 43 
+
+
 Escola: 144
  44 
  56 
+
+
 Escola: 145
  26 
  27 
+
+
 Escola: 146
  46 
- 54 
+ 55 
+
+
 Escola: 147
- 47 
- 53 
+ 54 
+ 91 
+
+
 Escola: 148
- 48 
- 52 
+ 53 
+ 98 
+
+
 Escola: 149
  49 
  51 
+
+
 Escola: 150
+ 31 
  32 
- 33 
+

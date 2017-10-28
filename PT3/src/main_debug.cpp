@@ -1,131 +1,9 @@
 #include "graph.hpp"
 #include <iostream>
-#include <fstream>
-#include <cstdio>
-#include <vector>
 using namespace std;
 
-Graph :: Graph(int){
-	
-	this->edge = 0;
-	this->sum_pay = 0;
-	FILE * fp = fopen("input.txt", "r+");
-	
-	int num, hab;
-	int prof, scho;
-	char tmp;
-	string oo;
-	fscanf(fp, "%d %d", &prof, &scho);
 
-	this->verts = prof + scho;
-	this->edge = prof * 5;
-	this->node.resize(1 + prof + scho);
 
-	vector< vector<int> > tmpp(prof + scho + 1);
-
-	for(int i = 0; i < prof + scho + 1; i++)		tmpp[i].resize(5);
-	
-
-	// Criando nohs dos professores
-	for(int i = 1; i < prof+1; i++){
-		fscanf(fp, "%d %d %d %d %d %d %d", &num, &hab, &tmpp[i][0], &tmpp[i][1], &tmpp[i][2], &tmpp[i][3], &tmpp[i][4]);
-		this->node[i] = new Nodes(num, hab);
-		for(int j = 0; j < 5; j++)	tmpp[i][j] += prof;
-	}
-
-	int scho_hab[50][2];
-	// Criando nohs das escolas
-	for(int i = 1; i < scho+1; i++){
-		fscanf(fp, "%d %d", &scho_hab[i][0], &scho_hab[i][1]);
-		this->node[i+prof] = new Nodes(scho_hab[i][0], scho_hab[i][1], ' ');
-	}
-	
-	for(int i = 1; i < prof+1; i++)
-		for(int j = 0; j < 5; j++)
-			this->node[i]->set_nxt_back( this->node[ tmpp[i][j] ] );
-	
-	fclose(fp); 
-}
-
-bool Nodes :: set_sat(){
-	if(this->teacher1->get_hab() == this->hab)
-		if(this->teacher2->get_hab() == this->hab)
-			this->sat = true;
-	return this->sat;
-}
-
-Nodes* Nodes :: insert_teacher2(Nodes* teach){	// Retorna o ponteiro removido, ou o candidato caso ele nao seja inserido
-												// ou NULL se eh o primeiro candidato
-	if(this->teacher2 != NULL){
-		if(this->teacher2->get_hab() != this->hab){	// Se o antigo nao eh o ideal, considera troca
-			if(teach->get_hab() > this->teacher2->get_hab()){	// Se professor que se ofereceu tem + habilidades, aceite-o
-				auto removed = teacher2;
-				teacher2 = teach;
-				cout << "(2) Retirou teacher2 == " << removed->get_key() << endl;
-				cout << "Inseriu teacher  == " << this->teacher2->get_key() << endl;
-				this->set_sat();
-				return removed;
-			}
-			else{
-				cout << "(2) Rejeitou " << teach->get_key() << endl;
-				return teach;	// Professorr rejeitado
-			}
-		}
-		else
-			return teach;
-	}
-	else{	// Primeiro a se candidatar; portanto, eh aceito de inicio
-		cout << "(2) Removido : ninguem\n";
-		this->teacher2 = teach;
-	}
-	this->set_sat();
-	return NULL;		// Colocou no teacher2 E eh o primeiro candidato
-}
-
-Nodes* Nodes :: insert_teacher(Nodes* teach){	// Retorna o ponteiro removido, ou o candidato caso ele nao seja inserido
-	cout << "Candidato: " << teach->get_key() << endl;
-	cout << "Escola : " << this->get_key() << endl;
-	if(this->sat == true){cout << "Escola "<<this->get_key() << " saturada.\n";	return teach;}
-	if(teach == NULL) throw NULL;				// ou NULL se eh o primeiro candidato
-	
-	if(this->teacher1 != NULL){		//   Tem candidato jah? Se nao, insere teach.
-		if(this->teacher1->get_hab() != this->hab){	// Se o antigo nao eh o ideal, considera troca
-			if(teach->get_hab() > this->teacher1->get_hab()){	// Se professor que se ofereceu tem + habilidades, aceite-o
-				auto removed = teacher1;
-				teacher1 = teach;
-				cout << "(1) Retirou teacher1 == " << removed->get_key() << endl;
-				cout << "Inseriu teacher  == " << this->teacher1->get_key() << endl;
-				return removed;
-			}
-			else
-				return insert_teacher2(teach);	// Professorr  (1) rejeitado. Tentar inserir na segunda posicao.
-		}
-		else
-			return insert_teacher2(teach);
-	}
-	else{	// Primeiro a se candidatar; portanto, eh aceito de inicio
-		cout << "(1) Removido : ninguem\n";
-		this->teacher1 = teach;
-	}
-	return NULL;		// Colocou no teacher1 E eh o primeiro candidato
-}
-Nodes* Nodes :: insert_teacher_forced(Nodes * trash){
-	if(this->teacher1 != NULL){
-		this->sat = true;
-		if(this->teacher2 != NULL){
-			auto ret = this->teacher2;
-			this->teacher2 = trash;
-			return ret;
-		}
-		else{
-			this->teacher2 = trash;
-		}
-	}
-	else
-		this->teacher1 = trash;
-	cout << "(1) Removido : ninguem\n";
-	return NULL;
-}
 
 void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 
@@ -157,12 +35,12 @@ void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 
 			novo->remove_nxt_front();	// Jah esgotou uma possibilidade.
 
-			Nodes* antigo = school->insert_teacher( novo );
+			Nodes* antigo = school->insert_teacher_debug( novo );
 
-			if(antigo != NULL){	// Se novo nao foi o primeiro candidato, tratar casos
+			if(antigo != NULL){	// Se novo nao pegar vala limpa, tratar casos
 				if(antigo  !=  novo){	// PROFESSOR NOVO FOI ACEITO.	Professor antigo deixou de ser saturado! 
 
-//					nsat_prof.insert(antigo->get_key()) ;	// Antigo professor passou a ser nao saturado.
+//					nsat_prof.insert(antigo->get_key()) ;	// Antigo professor passou a ser nao saturado... mas ainda tem opcaoes??
 					sat_prof.erase(antigo->get_key())	;	// Antigo contratado NAO ESTAH MAIS SATURADO. Portando, remover de sat_prof. .
 					
 					sat_prof.insert(novo->get_key())	;	// Atual professor virou saturado.
@@ -181,7 +59,7 @@ void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 				}				
 			}
 
-			else{	// Saturou o professor, pois ele FOI O PRIMEIRO CANDIDATO.
+			else{	// Saturou o professor, pois ele PEGOU UMA VAGA LIMPA.
 				sat_prof.insert( novo->get_key() );
 				nsat_prof.erase( novo->get_key() );
 				if( school->get_sat() ==  true ){	// Se escola foi saturada, colocar no conjunto de saturadas
@@ -198,7 +76,7 @@ void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 		// Uma vez que professor conseguiu emprego, nao quer mais trocar.
 		for(auto x = rejected.begin(); x != rejected.end(); x = rejected.begin(), y = nsat_scho.begin()){
 			
-			G->get_node( (*y) )->insert_teacher_forced( G->get_node( (*x) ) );
+			G->get_node( (*y) )->insert_teacher_forced_debug( G->get_node( (*x) ) );
 			if( G->get_node( (*y) )->get_sat() == true ){
 				sat_scho.insert( (*y) );
 				nsat_scho.erase( (*y) );

@@ -1,110 +1,9 @@
 #include "graph.hpp"
 #include <iostream>
-#include <fstream>
-#include <cstdio>
-#include <vector>
 using namespace std;
 
-Graph :: Graph(int){
-	
-	this->edge = 0;
-	this->sum_pay = 0;
-	FILE * fp = fopen("input.txt", "r+");
-	
-	int num, hab;
-	int prof, scho;
-	char tmp;
-	string oo;
-	fscanf(fp, "%d %d", &prof, &scho);
 
-	this->verts = prof + scho;
-	this->edge = prof * 5;
-	this->node.resize(1 + prof + scho);
 
-	vector< vector<int> > tmpp(prof + scho + 1);
-
-	for(int i = 0; i < prof + scho + 1; i++)		tmpp[i].resize(5);
-	
-
-	// Criando nohs dos professores
-	for(int i = 1; i < prof+1; i++){
-		fscanf(fp, "%d %d %d %d %d %d %d", &num, &hab, &tmpp[i][0], &tmpp[i][1], &tmpp[i][2], &tmpp[i][3], &tmpp[i][4]);
-		this->node[i] = new Nodes(num, hab);
-		for(int j = 0; j < 5; j++)	tmpp[i][j] += prof;
-	}
-
-	int scho_hab[50][2];
-	// Criando nohs das escolas
-	for(int i = 1; i < scho+1; i++){
-		fscanf(fp, "%d %d", &scho_hab[i][0], &scho_hab[i][1]);
-		this->node[i+prof] = new Nodes(scho_hab[i][0], scho_hab[i][1], ' ');
-	}
-	
-	for(int i = 1; i < prof+1; i++)
-		for(int j = 0; j < 5; j++)
-			this->node[i]->set_nxt_back( this->node[ tmpp[i][j] ] );
-	
-	fclose(fp); 
-}
-
-Nodes* Nodes :: insert_teacher2(Nodes* teach){	// Retorna o ponteiro removido, ou o candidato caso ele nao seja inserido
-												// ou NULL se eh o primeiro candidato
-	if(this->teacher2 != NULL){
-		if(this->teacher2->get_hab() != this->hab){	// Se o antigo nao eh o ideal, considera troca
-			if(teach->get_hab() > this->teacher2->get_hab()){	// Se professor que se ofereceu tem + habilidades, aceite-o
-				auto removed = teacher2;
-				teacher2 = teach;
-				return removed;
-			}
-			else
-				return teach;	// Professorr rejeitado
-		}
-		else
-			return teach;
-	}
-	else	// Primeiro a se candidatar; portanto, eh aceito de inicio
-		this->teacher2 = teach;
-	this->sat = true;	
-	return NULL;		// Colocou no teacher2 E eh o primeiro candidato
-}
-
-Nodes* Nodes :: insert_teacher(Nodes* teach){	// Retorna o ponteiro removido, ou o candidato caso ele nao seja inserido
-	if(this->sat == true)	return teach;
-	if(teach == NULL) throw NULL;				// ou NULL se eh o primeiro candidato
-	
-	if(this->teacher1 != NULL){		//   Tem candidato jah? Se nao, insere teach.
-		if(this->teacher1->get_hab() != this->hab){	// Se o antigo nao eh o ideal, considera troca
-			if(teach->get_hab() > this->teacher1->get_hab()){	// Se professor que se ofereceu tem + habilidades, aceite-o
-				auto removed = teacher1;
-				teacher1 = teach;
-				return removed;
-			}
-			else
-				return teach;	// Professorr rejeitado			
-		}
-		else
-			return insert_teacher2(teach);
-	}
-	else	// Primeiro a se candidatar; portanto, eh aceito de inicio
-		this->teacher1 = teach;
-	return NULL;		// Colocou no teacher1 E eh o primeiro candidato
-}
-Nodes* Nodes :: insert_teacher_forced(Nodes * trash){
-	if(this->teacher1 != NULL){
-		this->sat = true;
-		if(this->teacher2 != NULL){
-			auto ret = this->teacher2;
-			this->teacher2 = trash;
-			return ret;
-		}
-		else{
-			this->teacher2 = trash;
-		}
-	}
-	else
-		this->teacher1 = trash;
-	return NULL;
-}
 
 void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 
@@ -138,10 +37,10 @@ void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 
 			Nodes* antigo = school->insert_teacher( novo );
 
-			if(antigo != NULL){	// Se novo nao foi o primeiro candidato, tratar casos
+			if(antigo != NULL){	// Se novo nao pegar vala limpa, tratar casos
 				if(antigo  !=  novo){	// PROFESSOR NOVO FOI ACEITO.	Professor antigo deixou de ser saturado! 
 
-//					nsat_prof.insert(antigo->get_key()) ;	// Antigo professor passou a ser nao saturado.
+//					nsat_prof.insert(antigo->get_key()) ;	// Antigo professor passou a ser nao saturado... mas ainda tem opcaoes??
 					sat_prof.erase(antigo->get_key())	;	// Antigo contratado NAO ESTAH MAIS SATURADO. Portando, remover de sat_prof. .
 					
 					sat_prof.insert(novo->get_key())	;	// Atual professor virou saturado.
@@ -160,7 +59,7 @@ void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 				}				
 			}
 
-			else{	// Saturou o professor, pois ele FOI O PRIMEIRO CANDIDATO.
+			else{	// Saturou o professor, pois ele PEGOU UMA VAGA LIMPA.
 				sat_prof.insert( novo->get_key() );
 				nsat_prof.erase( novo->get_key() );
 				if( school->get_sat() ==  true ){	// Se escola foi saturada, colocar no conjunto de saturadas
