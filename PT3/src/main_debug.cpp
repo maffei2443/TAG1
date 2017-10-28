@@ -98,7 +98,7 @@ Nodes* Nodes :: insert_teacher(Nodes* teach){	// Retorna o ponteiro removido, ou
 				return removed;
 			}
 			else
-				return insert_teacher2(teach);	// Professorr rejeitado			
+				return insert_teacher2(teach);	// Professorr  (1) rejeitado. Tentar inserir na segunda posicao.
 		}
 		else
 			return insert_teacher2(teach);
