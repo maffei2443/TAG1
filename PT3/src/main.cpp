@@ -24,15 +24,13 @@ void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 	// over1, over2 e over3 sao apenas subconjuntos de rejected
 		// Iterar APENAS sobre os professores nsat, os quais tambem nao foram rejeitados
 
-	for(int i=1; nsat_prof.empty() == false;i++){
+	while(nsat_prof.empty() == false){
 		set<int> nxt_nsat;
 		for(auto x = nsat_prof.begin(); x != nsat_prof.end(); x++){
 
 			Nodes* next = G->get_node(*x);								
 			Nodes* scho = *(G->get_node(*x)->get_nxt());
 
-			cout << "next == " << next->get_key() << endl;
-			cout << "scho == " << scho->get_key() << endl;
 			if( next ==  NULL)	throw 666;// NAO DEVE OCORRER.				
 
 			next->remove_nxt_front();	// Jah esgotou uma possibilidade.
@@ -69,14 +67,8 @@ void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 			}
 			// Se mudou o conjunto
 		}
-		cout << "\n\n\nnsat_prof : " << nsat_prof.size() << endl;
-		cout << "nxt_nsat : " << nxt_nsat.size() << endl;
-		cout << "rejected : " << rejected.size() << endl;
 		nsat_prof = nxt_nsat;
-		cout << i << "ª passada\n";
-		getchar();
 	}
-	cout << "Rejeitados antes: " << rejected.size() << endl;
 /**/	auto y = nsat_scho.begin();
 
 		// Soh joga os professores pras escolas.
@@ -91,7 +83,6 @@ void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 			sat_prof.insert( (*x) );
 			rejected.erase( (*x) );
 		}
-	cout << "Rejeitados depois: " << rejected.size() << endl;
 }
 
 int main(){
@@ -100,8 +91,8 @@ int main(){
 
 
 	Nodes foo;
-	emparelhamento(G, 100, 50);
-	getchar();
+	emparelhamento(G, G->get_prof(), G->get_scho());
+
 	for(int i = 101; i < 151; i++){
 		Nodes* au = G->get_node(i);
 		cout << "\n" << "Escola: " << au->get_key() << endl;

@@ -50,7 +50,8 @@ Graph :: Graph(int){
 	char tmp;
 	string oo;
 	fscanf(fp, "%d %d", &prof, &scho);
-
+	this->prof = prof;
+	this->scho = scho;
 	this->verts = prof + scho;
 	this->edge = prof * 5;
 	this->node.resize(1 + prof + scho);

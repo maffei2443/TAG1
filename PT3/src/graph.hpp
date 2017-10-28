@@ -19,7 +19,10 @@ private:
 	int verts;
 	int edge;
 	int sum_pay;
+	int scho, prof;
 public:
+	inline int get_scho(){return scho;}
+	inline int get_prof(){return prof;}
 	inline int get_verts(){return verts;}
 	inline int get_edge(){return edge;}
 	inline Nodes* get_node(int key){return node.at(key);}
