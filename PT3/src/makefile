@@ -6,8 +6,8 @@ BI:	nodes.o graph.o bi.o
 TST:	nodes.o graph.o tst.o
 	g++ $(X)  nodes.o graph.o tst.o -o tst
 ######################################################
-MAIN:		nodes.o graph.o main_debug.o 
-	g++ $(X) nodes.o graph.o main_debug.o -o main_debug
+MAIN:		nodes.o graph.o main.o 
+	g++ $(X) nodes.o graph.o main.o -o main
 MAIN2:		nodes.o graph.o main_debug.o 
 	g++ $(X) nodes.o graph.o main_debug.o -o main_debug
 ######################################################
