@@ -308,7 +308,6 @@ void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 		nsat_prof = nxt_nsat;
 	}
 //########################################################################################################	
-
 		// Soh joga os professores pras escolas.
 		// Uma vez que professor conseguiu emprego, nao quer mais trocar.
 		int change = 1, again = 1;
@@ -317,7 +316,6 @@ void emparelhamento(Graph * G, const int& PROF, const int& SCHO){
 			for(auto x = nsat_scho.begin(); x != nsat_scho.end(); x++){
 				Nodes* scho = G->get_node(*x);
 				int req = scho->get_hab();
-				cout << "Here1 " << scho->get_key() << endl;
 				switch(req){
 					case 1:
 
